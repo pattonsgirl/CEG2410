@@ -19,9 +19,22 @@
 3. Create repo from my link
 4. Start using (commit review) & markdown
 
+# Regex in review
+- Given list of emails with extra stuff, need:
+  - one email per line
+  - only the emails
+  - sorted alphabetically
+- What would this look like as a script?
+
 # In-class exercise - build a PC
-- Each table choose one scenario
+- Each table chooses one scenario (all scenarios will be assigned)
   - web server
   - machine learning research server
   - data storage server
-- Determine
+- Determine system spec & parts list (shop online!)
+- Determine additional questions (ask me or will review when reviewing your build)
+- Determine primary recommended OS
+- Determine who should have what access (think files & software) and from where?
+- Provide a writeup in **markdown** in your GitHub repo
+  - This can just be one team member, does not need to be all members
+  - Note your team members names
