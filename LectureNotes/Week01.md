@@ -33,6 +33,7 @@
   - data storage server
 - Determine system spec & parts list (shop online!)
 - Determine additional questions (ask me or will review when reviewing your build)
+- Determine additional needs in scope... I'm going to leave this open ended to make you do the thinking for a bit
 - Determine primary recommended OS
 - Determine who should have what access (think files & software) and from where?
 - Provide a writeup in **markdown** in your GitHub repo
