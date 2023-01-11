@@ -29,7 +29,7 @@
 # In-class exercise - build a PC
 - Each table chooses one scenario (all scenarios will be assigned)
   - web server
-  - machine learning research server
+  - machine learning research server (using CUDA)
   - data storage server
 - Determine system spec & parts list (shop online!)
   - pre builts are alright, give me specs
