@@ -32,6 +32,7 @@
   - machine learning research server
   - data storage server
 - Determine system spec & parts list (shop online!)
+  - pre builts are alright, give me specs
 - Determine additional questions (ask me or will review when reviewing your build)
 - Determine additional needs in scope... I'm going to leave this open ended to make you do the thinking for a bit
 - Determine primary recommended OS
