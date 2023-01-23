@@ -1,6 +1,6 @@
 # Networking
 
-- IPv4 vs IPv6
+- [IPv4 vs IPv6](https://bluecatnetworks.com/blog/ipv4-vs-ipv6-whats-the-difference/)
 
 ## Machine to Network
 
