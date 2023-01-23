@@ -89,6 +89,8 @@ Focus on how just a TLS handshake works (certificate aside): [Cloudflare - What 
 
 [AWS has another all-in-one guide](https://aws.amazon.com/what-is/ssl-certificate/) but it includes some AWS specific terms.
 
+[HTTPS explained with carrier pigeons](https://baida.dev/articles/https-explained-with-carrier-pigeons)
+
 ## Further Info
 
 - [Globe view of cables](https://www.reddit.com/r/educationalgifs/comments/ujqljl/the_global_submarine_fiber_optic_cable_network/)
