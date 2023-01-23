@@ -39,6 +39,11 @@ In general, you need the following network information to be on a network (remem
 - DHCP address (if applicable)
 - lease time (if applicable)
 
+Commands:
+- Powershell: `ipconfig /all`
+- Ubuntu: `ip a`
+- Mac: ?
+
 You'll see Dynamic Host Control Protocol (DHCP) most commonly on private IPV4 networks or networks where there are specific sets of allowed devices.  [Check out this article for more details on DHCP](https://whatismyipaddress.com/dhcp).  On controlled networks, allowed MACs are collected, and only matching MACs will receive network information.  At school, or a library, or Starbucks, you might see disallowed MACs - MACs banned after generating worrisome network traffic.
 
 ## Connecting to a Domain / Hostname
@@ -53,7 +58,37 @@ Domain Name System (DNS) is the lookup system you rely on.  Instead of rememberi
 
 The other part of this conversation is the **protocol** - this will define a slew of things such as the port to connect to and how communication needs to be formatted for the application to create and assemble packets.
 
+[Check out this video deep dive on protocols - ~ 20 minutes](https://www.youtube.com/watch?v=d-zn-wv4Di8&t=4s&ab_channel=LiveOverflow)
+- This is really worth watching.
+
 Now, if we know who we are talking TO (the destination IP) and how to talk to them (protocol) and where the service is listening (the port), we just need to get there (well, our packets) and get a response.
+
+1. Check routing table for best match subnet & corresponding gateway
+    - Powershell: `route PRINT`
+    - Ubuntu: `ip route`, `route` (I find this one to be cleaner)
+    - Mac: ?
+2. Send packet to destination OR to next gateway.  Check route, repeat
+3. Packet may reach a **border** gateway.  Network Address Translation (NAT) is needed to communicate outside network.  The origin / FROM address of the packet is modified to the IP of the gateway.  Gateway maintains table to return packets to source.
+4. When the packet reaches its destination, more than you expect needs to come next...
+
+## Connecting to HTTPS domains
+
+Let's assume you packet has made it to its destination - a server.  Some things to note:
+- A server can do more than one function.  The program / service is listening over a port.
+- THe services on the server use protocols to define how to read and respond to your request
+- Modern websites often use a reverse proxy, commonly known as a load balancer.  You connect to the reverse proxy, which then determines which of a set of backend servers services your request.
+    - See CEG 3120 if curious
+
+Hypertext Transfer Protocol Secure (HTTPS) layers encryption over HTTP (see protocol video linked above for some neat visuals or view [Cloudflare's writeup](https://www.cloudflare.com/learning/ddos/glossary/hypertext-transfer-protocol-http/)).  The encryption protocol is Transport Layer Secure (TLS).  TLS is an update to Secure Socket Layer (SSL) - SSL is outdated, but you still see deprecated uses of it in terminology.
+
+Start here to get an understanding of HTTPS: [Cloudflare - What is HTTPS](https://www.cloudflare.com/learning/ssl/what-is-https/)
+
+Now look into TLS Certificates: [Steve's Internet Guide - SSL Certificates Explained](http://www.steves-internet-guide.com/ssl-certificates-explained/)
+
+Focus on how just a TLS handshake works (certificate aside): [Cloudflare - What happens in a TLS handshake](https://www.cloudflare.com/learning/ssl/what-happens-in-a-tls-handshake/)
+
+[AWS has another all-in-one guide](https://aws.amazon.com/what-is/ssl-certificate/) but it includes some AWS specific terms.
+
 
 ```mermaid
 flowchart LR
