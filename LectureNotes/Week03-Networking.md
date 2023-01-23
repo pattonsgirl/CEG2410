@@ -95,3 +95,5 @@ Focus on how just a TLS handshake works (certificate aside): [Cloudflare - What 
 
 - [Globe view of cables](https://www.reddit.com/r/educationalgifs/comments/ujqljl/the_global_submarine_fiber_optic_cable_network/)
 - [HSTS - HTTP Strict Transport Security](https://www.reddit.com/r/sysadmin/comments/uixjuq/hsts_http_strict_transport_security_what_it_is/)
+- Read case studies (post damage reports) when things go wrong
+    - [Facebook outage - October 2021](https://blog.cloudflare.com/october-2021-facebook-outage/)
