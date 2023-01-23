@@ -11,6 +11,10 @@
 
 ## Part 1 - HTTP Server
 
+- content service
+- site files
+- access
+
 ## Part 2 - Enable HTTPS 
 
 ## Part 3 - Firewall Fixes

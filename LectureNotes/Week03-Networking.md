@@ -89,8 +89,6 @@ Focus on how just a TLS handshake works (certificate aside): [Cloudflare - What 
 
 [AWS has another all-in-one guide](https://aws.amazon.com/what-is/ssl-certificate/) but it includes some AWS specific terms.
 
+## Further Info
 
-```mermaid
-flowchart LR
-    A{Is the destination within our subnet?}
-```
+[HSTS - HTTP Strict Transport Security](https://www.reddit.com/r/sysadmin/comments/uixjuq/hsts_http_strict_transport_security_what_it_is/)
