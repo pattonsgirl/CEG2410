@@ -38,7 +38,7 @@
 ### Who should have what access (think files & software) 
 - Read site content - software running site needs to be able to read pages
 - Write / edit site content - devs should have access
-- Update & add software packages - admins with sudo (super user) priviledges
+- Update & add software packages - admins with sudo (super user) privileges
 
 ### From where should the system be accessible (and by who?)
 - Anyone should be able to enter URL in browser and access
@@ -91,7 +91,7 @@
   - argument that if it's a quick project, renting cloud hardware is a good choice
 2. How large are the data sets (this helps determine RAM budget & data storage capacity)
 3. Are people sharing this system?
-  - job queques exist so that jobs can run as resources free up (SLURM)
+  - job queues exist so that jobs can run as resources free up (SLURM)
 
 ### Primary recommended OS & base software
 
@@ -111,4 +111,4 @@
   
 ### From where should the system be accessible (and by who?)
 
-- simliar to data storage server - should it be accessile off-prem, would be VPN be a good solution?
+- similar to data storage server - should it be accessible off-prem, would be VPN be a good solution?
