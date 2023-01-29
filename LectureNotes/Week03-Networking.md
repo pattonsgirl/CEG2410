@@ -50,7 +50,7 @@ You'll see Dynamic Host Control Protocol (DHCP) most commonly on private IPV4 ne
 
 ## Connecting to a Domain / Hostname
 
-First, [what is a domain name](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_domain_name) - it is a string of parts separated by dots read from **right** to **left**.  The "end" part (`.com`, `.edu`, `.io`, etc.) is the Top Level Domain (TLD) that tells users the general purpose of the service behind the domain name. The [ICANN / IANA maintained list of TLDs is here](https://www.icann.org/resources/pages/tlds-2012-02-25-en).
+First, [what is a domain name](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_domain_name) - it is a string of parts separated by dots read from **right** to **left**.  The "end" part (`.com`, `.edu`, `.io`, etc.) is the [Top Level Domain (TLD)](https://www.cloudflare.com/learning/dns/top-level-domain/) that tells users the general purpose of the service behind the domain name. The [ICANN / IANA maintained list of TLDs is here](https://www.icann.org/resources/pages/tlds-2012-02-25-en).
 
 The label before the TLD is the Secondary Level Domain (SLD).  For any domain, there can be additional subdomains.
 
@@ -133,10 +133,11 @@ Modify configuration files to use TLS:
 
 As a piece of another conversation, there are a variety of response codes you should be aware of.  200, 404, and 500 / 503 are ones I see around, but you can [checkout all of them](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status) and what they are meant to define.  These days you see these "hidden" by cutesy "Oops" pages with monkeys, but those are more like Easter eggs that hide things - like what is actually wrong and whose fault it is.
 
-## Further Info
+## Other fun digs
 
-- [Globe view of cables](https://www.reddit.com/r/educationalgifs/comments/ujqljl/the_global_submarine_fiber_optic_cable_network/)
+- [Globe view of cables](https://www.submarinecablemap.com/)
 - [HSTS - HTTP Strict Transport Security](https://www.reddit.com/r/sysadmin/comments/uixjuq/hsts_http_strict_transport_security_what_it_is/)
+- [What does `.io` mean?](https://www.hostinger.com/tutorials/what-does-io-mean)
 - [How Web Browsers Work](https://web.dev/howbrowserswork/)
     - This thing is a monster.  Way outside the scope of this class, but great for those who want to take on Chrome / Firefox / Opera and do their own thing
 - [Moving to HTTPS - migration guide](https://movingtohttps.com/)
