@@ -39,9 +39,7 @@
 
 ## Part 3 - Firewall Fixes
 
-We are using an instance hosted on AWS for this project.  The firewall rules for this instance have ALL ports open within the private network the instance is on, AND ALL ports from any source  (0.0.0.0/0).  Your task in this part is to fix the Security Groups associated with this instance.  
-
-Go to the Learner Lab page, make sure "Start Lab" turned things on, then click the AWS link.  Now go to EC2 -> Security Groups.  You'll see one labeled something like: `ceg2350-Lab1SecurityGroup`
+Use either `ufw` or `iptables` to generate to the following firewall rules.  Move carefully and understand chaining (before you lock yourself out... forever!)
 
 Create 2 rules for SSH:
 - allow SSH connections from your home
