@@ -3,11 +3,13 @@
 ## Objectives
 - set up a webserver to host content
 - enable and configure HTTPS
-- modify Security Groups for best instance firewall rules
+- enable and modify firewall rules for better security
 
 ## What you need
 - a website (nothing fancy, although it breaks up grading monotony)
-- an AWS instance (a VM will not be sufficient)
+- an AWS instance
+- course GitHub repository (for project documentation deliverables)
+    - looks like `https://github.com/WSU-kduncan/ceg2410-projects-YOURGITHUBUSERNAME`
 
 ## Part 1 - HTTP Server
 
@@ -24,6 +26,8 @@
     - in your documentation include:
         - a screenshot of your permission sets
         - a description of how you set up the permissions (especially the persistence)
+        - [Resource hint 1](https://linuxize.com/post/understanding-linux-file-permissions/)
+        - [Resource hint 2](https://linuxize.com/post/how-to-add-user-to-group-in-linux/)
 
 ## Part 2 - Enable HTTPS 
 
@@ -42,7 +46,7 @@
 Use either `ufw` or `iptables` to generate to the following firewall rules.  Move carefully and understand chaining (before you lock yourself out... forever!)
 
 Create 2 rules for SSH:
-- allow SSH connections from your home
+- allow SSH connections from your home (and any additional trusted sources)
 - allow SSH connections from campus (130.108.0.0/16)
 
 Create 2 rules for HTTP/ HTTPS
@@ -55,8 +59,12 @@ Your deliverable for this part is a brief explanation of the rules created AND a
 
 ## Part 4 - Research
 
-- Research a registrar you would use to claim a domain name
-- Research a CA you would use if creating a public certificate & the type of validation
+1. Domain name registration
+    - Select a registrar you would use to register a domain name
+    - Describe what steps would be needed to associate the domain name with your web server
+2. Certificate Authority Validation
+    - Select a CA you would use to validate your site & generate a certificate
+    - Describe what is needed for validation
 
 ## Part 5 - Resources Used
 
@@ -65,3 +73,12 @@ This does not need to be in it's own section, but you should document what resou
 
 or my favorite, give a bit of a title and what's inside
 - [xkcd - comic of the day](https://xkcd.com/)
+
+## Submission
+
+- In the Pilot Dropbox, paste the URL to the your Project 1 folder in your GitHub repo
+  - URL should look like: https://github.com/WSU-kduncan/ceg2410-projects-YOURGITHUBUSERNAME/tree/main/Project1
+
+## Rubric
+
+[Rubric](Rubric.md)
