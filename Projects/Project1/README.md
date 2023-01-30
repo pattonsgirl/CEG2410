@@ -51,7 +51,7 @@ Create 2 rules for HTTP/ HTTPS
 
 Remove any other rules that are too open.
 
-Your deliverable for this part is a brief explanation of the rules created AND a screenshot of your Security Group rules after modifications.
+Your deliverable for this part is a brief explanation of the rules created AND a screenshot of your rules.
 
 ## Part 4 - Research
 
