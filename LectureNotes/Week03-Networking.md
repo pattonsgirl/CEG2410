@@ -119,6 +119,7 @@ Get an understanding of HTTPS:
 What is TLS and how does it work:
 - [Mozilla - TLS](https://developer.mozilla.org/en-US/docs/Web/Security/Transport_Layer_Security)
 - [Cloudflare - What happens in a TLS handshake](https://www.cloudflare.com/learning/ssl/what-happens-in-a-tls-handshake/)
+- [SSL.com - SSL/TLS Handshake - good diagram](https://www.ssl.com/article/ssl-tls-handshake-overview/)
 
 Understanding TLS Certificates & **Certificate Authorities**: 
 - [Steve's Internet Guide - SSL Certificates Explained](http://www.steves-internet-guide.com/ssl-certificates-explained/)
@@ -126,6 +127,8 @@ Understanding TLS Certificates & **Certificate Authorities**:
     - Domain Validation (DV)
     - Organization Validation (OV)
     - Extended Validation (EV)
+    - [Which to choose](https://www.digicert.com/dc/blog/how-to-choose-the-right-type-of-tls-ssl-certificate/)
+- [Self-Signed vs CA Certificates](https://cheapsslsecurity.com/blog/self-signed-ssl-versus-trusted-ca-signed-ssl-certificate/)
 
 Modify configuration files to use TLS:
 - [Mozilla - SSL Configuration Generator](https://ssl-config.mozilla.org/#server=apache&version=2.4.41&config=modern&openssl=1.1.1k&guideline=5.6)
