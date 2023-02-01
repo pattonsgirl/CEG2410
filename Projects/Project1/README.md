@@ -31,7 +31,7 @@
 
 ## Part 2 - Enable HTTPS 
 
-1. Create a self-signed certificate for your server
+1. Create a self-signed TLS certificate for your server
 2. Enable HTTPS for your web content service
     - Redirect HTTP requests to HTTPS
     - Restart the web content service

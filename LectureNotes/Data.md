@@ -1,0 +1,1 @@
+Not all drives are built equally - https://www.tomshardware.com/news/backblaze-hdd-failure-rates-2022
