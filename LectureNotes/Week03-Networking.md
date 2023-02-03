@@ -67,6 +67,7 @@ Domain names are not "owned", but "leased" for one or more years.  **Registrars*
     - `CNAME` - forwards one domain or subdomain to another domain, does NOT provide an IP address
     - `MX` - directs mail to an email server
 - Once you get an IP address of the domain / hostname you are connecting to, you can address the packet to the correct destination.
+- [Samples of DNS entries](https://support.dnsimple.com/articles/common-dns-records/)
 
 For this course, you should understand an overview of how DNS works.  Some articles I recommend are below:
 - [Networld - What is DNS and how does it work](https://www.networkworld.com/article/3268449/what-is-dns-and-how-does-it-work.html)
