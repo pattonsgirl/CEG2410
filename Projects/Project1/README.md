@@ -29,6 +29,8 @@
         - [Resource hint 1](https://linuxize.com/post/understanding-linux-file-permissions/)
         - [Resource hint 2](https://linuxize.com/post/how-to-add-user-to-group-in-linux/)
 
+**NOTE: IF YOU DO NOT COMPLETE ENABLING HTTPS, INCLUDE SCREENSHOT OF SITE RUNNING WITH HTTP**
+
 ## Part 2 - Enable HTTPS 
 
 1. Create a self-signed TLS certificate for your server
@@ -40,8 +42,29 @@
     - Location of certificate files
     - Administrative commands (like how to restart the web content service)
     - How you can confirm HTTPS is enabled
+4. Include screenshot of site after HTTPS is enabled
 
-## Part 3 - Firewall Fixes
+Note: configuring your web browser to trust the cert is optional
+
+## Part 3 - Firewall Fixes (Easy Mode)
+
+We are using an instance hosted on AWS for this project.  The firewall rules for this instance have ALL ports open within the private network the instance is on, AND ALL ports from any source  (0.0.0.0/0).  Your task in this part is to fix the Security Groups associated with this instance.  
+
+Go to the Learner Lab page, make sure "Start Lab" turned things on, then click the AWS link.  Now go to EC2 -> Security Groups.  You'll see one labeled something like: `ceg2350-Lab1SecurityGroup`
+
+Create 2 rules for SSH:
+- allow SSH connections from your home (and any additional trusted sources)
+- allow SSH connections from campus (130.108.0.0/16)
+
+Create 2 rules for HTTP/ HTTPS
+- allow HTTP from any source
+- allow HTTPS from any source
+
+Remove any other rules that are too open.
+
+Your deliverable for this part is a brief explanation of the rules created AND a screenshot of your rules.
+
+## Firewall Fixes - HARD MODE - 10% Extra Credit
 
 Use either `ufw` or `iptables` to generate to the following firewall rules.  Move carefully and understand chaining (before you lock yourself out... forever!)
 
