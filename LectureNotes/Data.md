@@ -22,7 +22,7 @@
     - read/write speeds of the top NVMe SSDs on the market can exceed 3000 MB/s (3 GB/s), with some Gen 4 NVMe PCIe SSDs capable of 7500 MB/s
     - [CDW - different types of NVME drives](https://www.cdw.com/content/cdw/en/articles/hardware/ssd-types-m2-sata-nvme-u2.html)
 - Hybrids
-    - You can find SSD+HDD combo drives, and just released was a NVME+HDD drive
+    - You can find SSD+HDD combo drives, and just released was a [NVME+HDD drive](https://www.tomshardware.com/news/seagate-demonstrates-hdd-with-pcie-nvme-interface)
     - These are not as useful at the consumer level - these are now geared towards data centers
 
 ![GearMeUp - HDD, SSD, NVMe](https://d3d14bvuzxlv37.cloudfront.net/media/wysiwyg/hdd-ssd-m.2-nvme.jpg)
@@ -46,6 +46,9 @@ Within disk types, you have different companies, different disk tiers (read / wr
         - [Samsung - PCIe 3 vs PCIe 4](https://insights.samsung.com/2022/10/17/pcie-4-0-vs-pcie-3-0-whats-the-difference-2)
 
 Comparing interfaces: [ciphertex - interfaces](https://ciphertex.com/ssd-interfaces-sas-sata-nvme/)
+
+[Hostinger - what is NVME](https://www.hostinger.com/tutorials/what-is-nvme)
+[DiskPart - AHCI vs NVME](https://www.diskpart.com/clone/achi-vs-nvme-ssd-0310.html)
 
 ## Filesystems
 
