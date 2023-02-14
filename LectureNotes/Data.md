@@ -52,14 +52,61 @@ Comparing interfaces: [ciphertex - interfaces](https://ciphertex.com/ssd-interfa
 
 ## Filesystems
 
-Resources:
+A  file system  defines how files are  named,  stored, and  retrieved  from a storage device.
+
+It is a set of data structures, interfaces, abstractions, and APIs that work together to manage any type of file on any type of storage device, in a consistent manner.
+
+### Traditional
+
+Each OS, in addition to making filesystems optimized for their OS, has drivers to support different filesystems.  this is a quick listing of most common traditional filesystems and notes about them.
+
+- FAT / FAT32
+    - File Allocation Table
+- exFAT
+    - Extended File Allocation Table
+    - designed for high-capacity removable devices, such as external hard disks, USB drives, and memory cards
+    - read/write support is cross platform
+- NTFS
+    - New Technology File System
+    - default file system of the Window NT family (2000, XP, Vista, 7, 10, 11...)
+    - only read  the content of an NTFS-formatted storage device (like flash memory) on a Mac OS
+        - write if you install NTFS driver for Mac OS
+- ext / ext2 / ext3 / ext4
+    - Extended File System
+    - ext4 is the default for most Linux OSes
+    - read/write in Windows and Mac with additional drivers
+    - BtrFS & XFS are on the docket as alternatives, and possible "better" options than ext4
+- HFS / HFS+ / APFS
+    - Hierarchical File System (HFS),  HFS+, and recently  Apple File System (APFS)
+    - APFS has been standard since OS X High Sierra in 2017
+    - No Windows compatibility, Linux can add on a read-only driver
+
 - [freecodecamp - file systems architecture explained](https://www.freecodecamp.org/news/file-systems-architecture-explained/)
+    - THIS IS WORTH READING
+- [Wikipedia - Filesystem metadata](https://en.wikipedia.org/wiki/Comparison_of_file_systems#Metadata)
+    - what to note here is what metadata different filesystems carry - metadata can include permissions
+- [Wikipedia - Filesystems OS Support](https://en.wikipedia.org/wiki/Comparison_of_file_systems#OS_support)
+    - what filesystems are out of box compatible with which OSes (and recommended drivers to enable support)
+
+### Distributed
+
+- Lustre
+- GlusterFS
+
+### Object Stores
+
+- Ceph
 
 ## Data Redundancy
 
 ### RAIDS
 
 ## Mounts
+
+- NFS
+- SMB / CIFS
+
+[QuoByte - What is NFS?](https://www.quobyte.com/storage-explained/what-is-network-filesystem/)
 
 ## Interfaces
 
@@ -73,6 +120,12 @@ Resources:
 - 
 
 ## Data Servers
+
+- [Backblaze - NAS vs SAN](https://www.backblaze.com/blog/whats-the-diff-nas-vs-san/)
+
+Open Source NAS Options:
+- [openmediavault](https://www.openmediavault.org/)
+- [TrueNAS](https://www.truenas.com/)
 
 - requirements of open / closed file management software
 
