@@ -56,7 +56,7 @@ A  file system  defines how files are  named,  stored, and  retrieved  from a st
 
 It is a set of data structures, interfaces, abstractions, and APIs that work together to manage any type of file on any type of storage device, in a consistent manner.
 
-### Traditional
+### Traditional FS
 
 Each OS, in addition to making filesystems optimized for their OS, has drivers to support different filesystems.  this is a quick listing of most common traditional filesystems and notes about them.
 
@@ -88,14 +88,17 @@ Each OS, in addition to making filesystems optimized for their OS, has drivers t
 - [Wikipedia - Filesystems OS Support](https://en.wikipedia.org/wiki/Comparison_of_file_systems#OS_support)
     - what filesystems are out of box compatible with which OSes (and recommended drivers to enable support)
 
-### Distributed
+### Distributed FS & Object Stores
+
+In a distributed file system, the file system is distributed among multiple file servers or multiple locations.  Since this is outside my forte, I'm not going too much into these, but you should know it is a thing.
 
 - Lustre
 - GlusterFS
-
-### Object Stores
-
 - Ceph
+    - Note: Ceph is primarily an Object Store, with a FS overlay in early development
+
+- [Bizety - Big Data Storage Models](https://www.bizety.com/2019/04/09/big-data-storage-models-overview-lustre-glusterfs-and-ceph/)
+- [Geeksforgeeks - What is a Distributed File System](https://www.geeksforgeeks.org/what-is-dfsdistributed-file-system/)
 
 ## Data Redundancy
 
