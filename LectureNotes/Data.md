@@ -114,29 +114,25 @@ Now that you are aware there are so many options of types of filesystems, the ne
         - at the virtual layer, which FS is identified
         - the OS (or kernel, if we are getting granular), communicates with the device using the correct FS driver
 
-## Data Redundancy
+## RAIDS
 
-### RAIDS
+- RAID 0
+- RAID 1
+- RAID 10 (read as one-zero)
+- RAID 5
+- RAID 6
+
+### Hardware RAID
+
+### Software RAID
 
 ## Mounts
 
-- NFS
-- SMB / CIFS
+### Physically Attached Storage
 
-[QuoByte - What is NFS?](https://www.quobyte.com/storage-explained/what-is-network-filesystem/)
+### Network Hosted Storage
 
-## Interfaces
-
-## Rules of Backups
-
-## Restoring from backups
-
-## Cloud Storage
-
-- the cost of business
-- 
-
-## Data Servers
+#### Type of Network Storage
 
 - [Backblaze - NAS vs SAN](https://www.backblaze.com/blog/whats-the-diff-nas-vs-san/)
 
@@ -145,6 +141,30 @@ Open Source NAS Options:
 - [TrueNAS](https://www.truenas.com/)
 
 - requirements of open / closed file management software
+
+#### Protocols
+
+- NFS
+- SMB / CIFS
+
+[QuoByte - What is NFS?](https://www.quobyte.com/storage-explained/what-is-network-filesystem/)
+
+## Interfaces
+
+## Backups
+
+### Rules of Backups
+
+### Making Backups
+
+- `rsync`
+
+### Restoring from Backups
+
+## Cloud Storage
+
+- Storage Tiers (AWS perspective)
+- the cost of business
 
 ## Standards to Consider
 
