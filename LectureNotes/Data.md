@@ -100,6 +100,20 @@ In a distributed file system, the file system is distributed among multiple file
 - [Bizety - Big Data Storage Models](https://www.bizety.com/2019/04/09/big-data-storage-models-overview-lustre-glusterfs-and-ceph/)
 - [Geeksforgeeks - What is a Distributed File System](https://www.geeksforgeeks.org/what-is-dfsdistributed-file-system/)
 
+### Filesystem Architecture
+
+Now that you are aware there are so many options of types of filesystems, the next question is how they all get along.  Your interaction with a filesystem is generally separated into three layers:
+
+1. Physical
+    - interacting with the storage hardware via drivers
+2. Virtual
+    - view of various filesystems mounted on the same OS
+3. Logical
+    - your applications use the logical layer 
+        - they make API calls (OPEN, WRITE, READ)
+        - at the virtual layer, which FS is identified
+        - the OS (or kernel, if we are getting granular), communicates with the device using the correct FS driver
+
 ## Data Redundancy
 
 ### RAIDS
