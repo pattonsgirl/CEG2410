@@ -50,6 +50,30 @@ Comparing interfaces: [ciphertex - interfaces](https://ciphertex.com/ssd-interfa
 [Hostinger - what is NVME](https://www.hostinger.com/tutorials/what-is-nvme)
 [DiskPart - AHCI vs NVME](https://www.diskpart.com/clone/achi-vs-nvme-ssd-0310.html)
 
+### Sizes of Data Pools
+
+I cannot simply state disks, as we don't have the tech to develop singular disks to some of these size scales.  Examples for real world equivalents to wrap your head around [the scale of sizes](https://www.geeksforgeeks.org/understanding-file-sizes-bytes-kb-mb-gb-tb-pb-eb-zb-yb/)
+
+- bit
+    - 1 or 0
+- byte
+    - 8 bits
+- Kilo-byte - KB
+    - 1000 B = 1 KB
+- Mega-byte - MB
+- Giga-byte - GB
+    - 1000 MB = 1 GB
+- Terra-byte - TB
+    - 1000 GB = 1 TB
+- Peta-byte - PB
+    - 1000 TB = 1 PB
+- Exa-byte - EB
+    - 1000 PB = 1 EB
+- Zetta-byte - ZB
+    - 1000 EB = 1 ZB
+- Yotta-byte - YB
+    - 1000 ZB = 1 YB
+
 ## Filesystems
 
 A  file system  defines how files are  named,  stored, and  retrieved  from a storage device.
@@ -116,15 +140,75 @@ Now that you are aware there are so many options of types of filesystems, the ne
 
 ## RAIDS
 
-- RAID 0
-- RAID 1
-- RAID 10 (read as one-zero)
-- RAID 5
-- RAID 6
+RAID = Redundant Array of Independent Disks 
 
-### Hardware RAID
+RAID is not a backup solution. Rather, RAID creates a single usable data disk, where several physical disks are combined into an array for better speed and fault tolerance.
 
-### Software RAID
+Investigating RAID types:
+- How does it work?
+- How many disks at minimum are required build the array?
+- What are the speed benefits of implementing the array?
+- How many disks failures can be tolerated before data is lost?
+
+Resources:
+- [Prepressure - RAID Types pros and cons and visuals](https://www.prepressure.com/library/technology/raid)
+- [IBM - RAID types](https://cloud.ibm.com/docs/bare-metal?topic=bare-metal-bm-raid-levels)
+
+### RAID 0
+- stripes blocks of data across disks
+- minimum of two disks to implement
+    - if one disk is smaller than the other, the max space per disk is that of the smaller disk
+    - total storage is x time number of disks, where the smallest disk sets the maximum storage across all disks
+- can send read / write instructions to blocks per disk, I/O performance boost
+- no fault tolerance
+    
+![RAID 0 - Striping](https://www.prepressure.com/images/raid-level-0-striping.svg)
+
+### RAID 1
+- mirrors data - data is written to both (or all) disks
+- minimum of two disks to implement
+    - no improvements to total storage, same as smallest single disk in RAID
+- read speed is x times number of disks, write speed is comparable to having a single disk
+- if failure, controllers uses non-failed drive
+
+![RAID 1 - Mirroring](https://www.prepressure.com/images/raid-level-1-mirroring.svg)
+
+### RAID 10 (read as one-zero)
+- striped & mirrored
+    - RAID 1 set on pairs of drives (mirroring), then RAID 0 is set across sets of pairs (striping)
+- minimum of 4 disks, need to work in pairs / sets
+- storage capacity take hit due to mirroring, but faster rebuild time than restoring data blocks from parity
+
+![RAID 10 - Mirror & Stripe](https://www.prepressure.com/images/raid-level-1-and-0-striping-mirroring.svg)
+
+### RAID 5
+- data is striped across drives, and on alternate drives a parity checksum of the data block is written
+    - using parity, can recalculate the data from a block if it is lost
+- minimum of three disks, max of 16
+- fast read speeds, write speed slower due to parity calculation
+- can tolerate 1 disk failure and rebuild lost data from parity stored on other drives
+
+![RAID 5 - String with parity](https://www.prepressure.com/images/raid-level-5-striping-with-parity.svg)
+
+### RAID 6
+- data striped across drive, with double parity stored across drives
+- minimum of four disks
+- fast read speeds, write slower due to parity calculation
+- can tolerate two disk failure
+
+![RAID 6 - Striping with double parity](https://www.prepressure.com/images/raid-level-6-striping-with-dual-parity.svg)
+
+### Hardware vs Software RAID
+
+Hardware RAIDS offer standalone devices that you plug disks into.  This hardware controller then handles instructions to manage the RAID.
+
+Software RAIDs do not require an additional device - drives are connected directly to the motherboard.  But software RAIDS are managed by the OS, thus sharing workload with other processes.  This is more crucial for computing intensive RAIDS, like 5 and 6
+
+- [TechTarget - Differences in Hardware and Software RAIDs](https://www.techtarget.com/searchstorage/tip/Key-differences-in-software-RAID-vs-hardware-RAID)
+
+### RAID vs LVM
+
+https://www.linuxtoday.com/blog/raid-vs-lvm/
 
 ## Mounts
 
