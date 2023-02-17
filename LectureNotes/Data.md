@@ -25,7 +25,7 @@
     - You can find SSD+HDD combo drives, and just released was a [NVME+HDD drive](https://www.tomshardware.com/news/seagate-demonstrates-hdd-with-pcie-nvme-interface)
     - These are not as useful at the consumer level - these are now geared towards data centers
 
-![GearMeUp - HDD, SSD, NVMe](https://d3d14bvuzxlv37.cloudfront.net/media/wysiwyg/hdd-ssd-m.2-nvme.jpg)
+![GearMeUp - HDD, SSD, NVMe](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQU6Re2XPIDpdMSw-wi66pgo8GmVQzUBx720A&usqp=CAU)
 
 Within disk types, you have different companies, different disk tiers (read / write capabilities and speeds), warranty expectations, and disk class (consumer vs enterprise).
 
