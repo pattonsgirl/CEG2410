@@ -206,34 +206,71 @@ Software RAIDs do not require an additional device - drives are connected direct
 
 - [TechTarget - Differences in Hardware and Software RAIDs](https://www.techtarget.com/searchstorage/tip/Key-differences-in-software-RAID-vs-hardware-RAID)
 
+#### Managing RAIDs with `mdadm`
+
+- [Digital Ocean - How to create RAID arrays with `mdadm`](https://www.digitalocean.com/community/tutorials/how-to-create-raid-arrays-with-mdadm-on-ubuntu-22-04)
+- [Jeff Geerling - Create  RAID array in Linux with `mdadm`](https://www.jeffgeerling.com/blog/2021/htgwa-create-raid-array-linux-mdadm)
+
 ### RAID vs LVM
 
-https://www.linuxtoday.com/blog/raid-vs-lvm/
+What if you don't need redundancy or parity, but do want to span multiple disks? 
+
+LVM = Logical Volume Manager
+
+- [Digital Ocean - Using LVM to manage storage devices](https://www.digitalocean.com/community/tutorials/how-to-use-lvm-to-manage-storage-devices-on-ubuntu-18-04)
+
+Pros:
+- resizable (to resize a RAID, you need to rebuild)
+- data can be rearranged to disks for hot-swapping (not all RAIDs support hot-swap)
+- can stripe data across disks (get the advantage of RAID 0)
+- latest versions support mirroring
+
+- [Linux Today - RAID-0 `mdadm` Striping vs LVM Striping](https://www.linuxtoday.com/blog/raid-vs-lvm/)
+- [Computing for Geeks - RAID vs LVM vs ZFS](https://computingforgeeks.com/raid-vs-lvm-vs-zfs-comparison/)
 
 ## Mounts
 
+Before you talk about mounting: 
+
+1. Have an unused volume
+    - new disk added to system, created partition table, made partition(s)
+    - RAID array
+    - LVM
+2. Find volume id
+3. Create a filesystem on the volume
+4. Now you can `mount`...
+
 ### Physically Attached Storage
 
-### Network Hosted Storage
+- [Linuxize - `mount` a filesystem](https://linuxize.com/post/how-to-mount-and-unmount-file-systems-in-linux/)
 
-#### Type of Network Storage
+### Network Storage
+
+NAS devices deliver shared storage as network mounted volumes and use protocols like NFS and SMB/CIFS, while SAN-connected disks appear to the user as local drives.
 
 - [Backblaze - NAS vs SAN](https://www.backblaze.com/blog/whats-the-diff-nas-vs-san/)
+
+#### NAS - Network Attached Storage
+
+Protocols:
+- NFS
+    - Network File Share
+    - [QuoByte - What is NFS?](https://www.quobyte.com/storage-explained/what-is-network-filesystem/)
+- SMB / CIFS
+    - CIFS (Common Internet File System) and SMB (Server Message Block) are both Windows file-sharing protocols used in storage systems
+    - [UpGuard - SMB vs CIFS](https://www.upguard.com/blog/cifs-vs-smb)
+
+Mounting a NAS:
+- [Linuxize - `mount` an NFS Share](https://linuxize.com/post/how-to-mount-an-nfs-share-in-linux/)
 
 Open Source NAS Options:
 - [openmediavault](https://www.openmediavault.org/)
 - [TrueNAS](https://www.truenas.com/)
 
-- requirements of open / closed file management software
+#### SAN - Storage Area Networks
 
-#### Protocols
-
-- NFS
-- SMB / CIFS
-
-[QuoByte - What is NFS?](https://www.quobyte.com/storage-explained/what-is-network-filesystem/)
-
-## Interfaces
+SAN Options:
+- [Reddit - Discussion of SAN options](https://www.reddit.com/r/homelab/comments/3divxm/any_good_open_source_san_software/)
 
 ## Backups
 
