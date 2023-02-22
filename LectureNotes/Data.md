@@ -274,19 +274,86 @@ SAN Options:
 
 ## Backups
 
+Reasons for backups:
+- accidental deletions
+- hardware failure 
+    - RAID helps with hardware failure recovery, but is not a backup solution
+- natural disasters 
+- malware attacks
+
 ### Rules of Backups
+
+3-2-1-1 rule:
+
+- Keep at least three (3) copies of your data.
+    - primary production data and two backup copies
+- Store two (2) backup copies on different storage media.
+    - including internal or external hard drives, NAS, tape and others
+- Store one (1) copy offsite.
+    - store one or more backup copies in a remote location, for example, in another city, state, country or even continent
+    - physical location or cloud counts
+- Create one (1) immutable or air-gapped backup copy.
+    - Immutable backups are backup files stored using the write-once-read-many (WORM) model
+        - no modification or deletions
+    - air-gapped backups store data offline on detachable disks, NAS or tape and disconnecting them from the production site
+
+Resources:
+- [Nakivo - 3 2 1 Backup Rule](https://www.nakivo.com/blog/3-2-1-backup-rule-efficient-data-protection-strategy)
 
 ### Making Backups
 
-- `rsync`
+1. Identify what needs backed up
+2. Identify what strategies work for the OS you are working with
+3. Plan to test your backups
 
-### Restoring from Backups
+- [Backup and Restore in Windows](https://support.microsoft.com/en-us/windows/backup-and-restore-in-windows-352091d2-bb9d-3ea3-ed18-52ef2b88cbef)
+    - Note: this is managed on the individual system
+- [Backup Mac with TimeMachine / iCloud](https://support.apple.com/mac-backup)
+- [`rsync` for backup and restore](https://jumpcloud.com/blog/how-to-backup-linux-system-rsync)
+- clone the whole partition or disk
+    - [`dd`](https://linuxhint.com/clone-disk-using-dd-linux/)
+    - [Clonezilla](https://success.trendmicro.com/dcx/s/solution/1105066-full-disk-backup-and-restoration-by-clonezilla?language=en_US)
+    - [DRBL - for many systems](https://medium.com/@vijaventure/disk-cloning-with-drbl-clonezilla-for-multiple-laptops-3-261b0e58124a)
+    - [Fog](https://docs.fogproject.org/en/latest/getting_started/capture_an_image.html)
+    - [Macrium - Windows only?](https://en.wikipedia.org/wiki/Macrium_Reflect)
+    - and many more...
+
+Resources:
+- [Cloudian - data backup in-depth](https://cloudian.com/guides/data-backup/data-backup-in-depth/)
+
+### Using / Testing Backups
+
+If backups are not tested, then you do not have backups.
+
+Resources:
+- [Carbonite - recovery testing](https://www.carbonite.com/blog/article/2021/01/backup-and-disaster-recovery-testing-how-to-make-sure-you-can-recover-when-it-matters)
+- [Technology Advice - database recovery and testing](https://technologyadvice.com/blog/information-technology/how-to-test-database-backup/)
+    - what applies to a database closely ties in with just data testing
 
 ## Cloud Storage
 
-- Storage Tiers (AWS perspective)
-- the cost of business
+An option for an offsite backup. If you google for cloud storage, you'll find a million and one people willing to take your money.  
+
+1. Know your data
+2. Know the pricing tiers of the solution provider
+3. Know the types of data storage offered & rules (price) for access
 
 ## Standards to Consider
 
-- HIPPA, NIST, FERPA
+Before you look at standards too deeply:
+1. Know your data
+2. Create a compliance plan
+3. Regularly assess your data
+
+Standards to be aware of and what they apply to:
+- HIPPA = Health Insurance Portability and Accountability Act
+    - requires healthcare providers to ensure digital health information is confidential, secure, and available when being stored or transmitted
+    - mandates healthcare providers to make reasonable efforts to protect against threats, security breaches, and improper use of health data
+- FISMA = Federal Information Security Management Act of 2002
+    - requires that all federal agencies, their subcontractors, and their service providers, alongside any organizations that operate IT systems for a federal agency categorize data they store by how negatively impactful it would be if hacked, breached, or compromised
+    - must conduct regular risk assessments to reduce the risk of data compromise to an ‘acceptable level’ through proper data controls
+- NIST = National Institute of Standards and Technology Special Publication 800-53
+    - framework that provides a standard for government agencies to follow in order to become compliant with FISMA
+
+Resources:
+- [immuta - guide to common data security compliance laws](https://www.immuta.com/blog/the-complete-guide-to-data-security-compliance-laws-and-regulations/)
