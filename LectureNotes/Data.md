@@ -151,6 +151,7 @@ Investigating RAID types:
 - How many disks failures can be tolerated before data is lost?
 
 Resources:
+- [Quora - What's the relationship between file system, partitions, and RAID in Linux?](https://www.quora.com/Whats-the-relationship-between-file-system-partitions-and-RAID-in-Linux)
 - [Prepressure - RAID Types pros and cons and visuals](https://www.prepressure.com/library/technology/raid)
 - [IBM - RAID types](https://cloud.ibm.com/docs/bare-metal?topic=bare-metal-bm-raid-levels)
 
@@ -225,6 +226,7 @@ Pros:
 - can stripe data across disks (get the advantage of RAID 0)
 - latest versions support mirroring
 
+- [Ubuntu Wiki - LVM](https://wiki.ubuntu.com/Lvm)
 - [Linux Today - RAID-0 `mdadm` Striping vs LVM Striping](https://www.linuxtoday.com/blog/raid-vs-lvm/)
 - [Computing for Geeks - RAID vs LVM vs ZFS](https://computingforgeeks.com/raid-vs-lvm-vs-zfs-comparison/)
 

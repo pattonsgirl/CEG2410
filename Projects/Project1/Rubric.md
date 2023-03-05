@@ -32,5 +32,5 @@
 
 ## Extra Credit Only ( / 1.8)
 
-1. Screenshot of Security Group rules per requirements
+1. Screenshot of ufw/iptables rules per requirements
 2. Explanation of rules
