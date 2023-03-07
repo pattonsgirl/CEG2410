@@ -123,6 +123,7 @@ In a distributed file system, the file system is distributed among multiple file
 
 - [Bizety - Big Data Storage Models](https://www.bizety.com/2019/04/09/big-data-storage-models-overview-lustre-glusterfs-and-ceph/)
 - [Geeksforgeeks - What is a Distributed File System](https://www.geeksforgeeks.org/what-is-dfsdistributed-file-system/)
+- [AWS - RAID configuration](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/raid-config.html)
 
 ### Filesystem Architecture
 
