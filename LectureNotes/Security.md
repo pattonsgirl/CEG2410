@@ -1,3 +1,5 @@
+# Security & Authentication
+
 - Passwords
     - What about a password manager?
     - https://blog.lastpass.com/2022/12/notice-of-recent-security-incident/
