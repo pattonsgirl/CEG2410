@@ -1,13 +1,4 @@
-# Security & Authentication
+# Security
 
-- Passwords
-    - What about a password manager?
-    - https://blog.lastpass.com/2022/12/notice-of-recent-security-incident/
-- PAT (Personal Access Tokens)
-- CAC (Common Access Card)
-    - https://www.cac.mil/Common-Access-Card/CAC-Security/
-- 2FA
-- SSH
-- Yubikeys
-- Bioinformatics
+## TODO: Encryption
 
