@@ -68,8 +68,23 @@ Operates over USB or NFC.
 - [Yubikeys](https://www.yubico.com/store/)
 - Google [Titan Security Key](https://store.google.com/us/product/titan_security_key?hl=en-US)
 
-When signing in, you have a finite time to press the button to send the code to the authentication app.
+How do yubikeys work ([summary from Auth0](https://auth0.com/blog/amp/what-is-a-yubikey-and-how-to-set-it-up-with-auth0/))
+- Register your Yubikey
+    - First, you must authenticate using another method, like your email and password.
+    - When you plug in your Yubikey and signal that you want to register a security key, the server you want to authenticate with sends a challenge and an AppID to the Yubikey.
+    - When the Yubikey receives this information, you'll be prompted by the browser to tap the Yubikey to confirm the request.
+    - Your Yubikey will generate a nonce and hash it together with the AppID and the secret key to create a private and public key.
+    - The nonce and public key are sent back to the server to be stored so they can be used later when the user wants to authenticate.
+- Authenticating with your Yubikey
+    - The server remembers you had registered a Yubikey, so it generates a new challenge to send back along with the AppID and nonce created when you first registered your Yubikey.
+    - The browser prompts you to tap the Yubikey, and the Yubikey will use the information received in step 1 to re-create the same key pair created when you registered your Yubikey.
+    - If everything goes well, your Yubikey encrypts the challenge sent by the server with the private key and sends the challenge back.
+    - The server decrypts the challenge using the public key it already has, and if the challenge matches the one the server sent, it means the user authentication was successful.
 
 [Zapier - What is a Yubikey & how to set one up](https://zapier.com/blog/what-is-a-yubikey/)
+
+How do organizations manage YubiKeys?
+- [Rippling - Yubikey management](https://www.rippling.com/blog/introducing-rippling-yubikey-ordering)
+- [Yubi Enterprise Delivery](https://www.yubico.com/products/yubienterprise-delivery/)
 
 
