@@ -10,12 +10,17 @@ Use Server Manager to set system as Domain Controller:
 - [Set up Domain Controller in PowerShell](https://social.technet.microsoft.com/wiki/contents/articles/52765.windows-server-2019-step-by-step-setup-active-directory-environment-using-powershell.aspx)
 
 Organizational Units (OU):
+- [IT Bros - AD OUs Ultimate Guide](https://theitbros.com/active-directory-organizational-unit-ou/)
 
 Groups:
+- [IT Bros - AD Groups](https://theitbros.com/active-directory-groups/)
+- [IT Bros - Check Group Membership](https://theitbros.com/check-active-directory-group-membership/)
+- [IT Bros - Privileged Groups in AD](https://theitbros.com/managing-privileged-groups-in-active-directory/)
 
 Users & Computers:
 
 Group Policy Objects (GPO):
+- [IT Bros - Add User to RDP Group](https://theitbros.com/add-user-to-remote-desktop-group/)
 
 ## PowerShell + AD
 
