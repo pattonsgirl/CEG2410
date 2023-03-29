@@ -18,6 +18,10 @@ Groups:
 - [IT Bros - Privileged Groups in AD](https://theitbros.com/managing-privileged-groups-in-active-directory/)
 
 Users & Computers:
+- [Active Directory Pro - How to Create New AD User Account](https://activedirectorypro.com/how-to-create-a-new-active-directory-user-account/)
+- [Active Directory Pro - Add Users to AD Groups](https://activedirectorypro.com/add-users-to-active-directory-groups/)
+- [Adam the Automater - Add Computer to Domain](https://adamtheautomator.com/add-computer-to-domain/)
+- [Windows OS Hub - Restrict Workstation Logon to Set of AD Users](https://woshub.com/restrict-workstation-logon-ad-users/)
 
 Group Policy Objects (GPO):
 - [IT Bros - Add User to RDP Group](https://theitbros.com/add-user-to-remote-desktop-group/)
