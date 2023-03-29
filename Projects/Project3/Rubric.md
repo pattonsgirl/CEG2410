@@ -28,9 +28,6 @@ Total: / 29
 
 - Steps to join a new Windows Server instance to the domain
 - Screenshot proof of success
-- Extra Credit: Join Ubuntu Server to domain
-  - How
-  - Proof
 
 ### Creating Groups ( / 7)
 
