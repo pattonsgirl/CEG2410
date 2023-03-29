@@ -117,6 +117,6 @@ In the Pilot Dropbox, paste the URL to your submission
   - URL should look like: https://github.com/WSU-kduncan/ceg2410-YOURGITHUBUSERNAME/blob/main/Windows
 
 Contents should include:
-    - `README.md`
-    - csv file(s) (for EC)
-    - PowerShell script(s) (for EC)
+- `README.md`
+- csv file(s) (for EC)
+- PowerShell script(s) (for EC)
