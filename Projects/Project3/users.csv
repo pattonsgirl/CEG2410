@@ -1,0 +1,24 @@
+FirstName,LastName,SamAccountName,OU1,OU2
+Sam,Adams,sadams,domain Users,Engineers
+Bob,Baker,bbaker,domain Users,Engineers
+John,Clark,jclark,domain Users,Engineers
+Jim,Davis,jdavis,domain Users,Developers
+Sue,Evans,sevans,domain Users,Developers
+Mabel,Frank,mfrank,domain Users,Developers
+Kylie,Ghosh,kghosh,domain Users,Developers
+Sammy,Hills,shills,domain Users,HR
+Steve,Irwin,sirwin,domain Users,HR
+Jessy,Jones,jjones,domain Users,Finance
+Kevin,Klein,kklein,domain Users,Finance
+Max,Lopez,mlopez,domain Users,Finance
+Sarah,Mason,smason,domain Users,Developers
+Frank,Nalty,fnalty,domain Users,Developers
+Izzie,Ochoa,iochoa,domain Users,Developers
+Kelly,Patel,kpatel,domain Users,Engineers
+Liz,Quinn,lquinn,domain Users,Engineers
+Owen,Reily,oreily,domain Users,Engineers
+Taylor,Trott,ttrott,domain Users,Engineers
+James,Usman,jusman,domain Users,Engineers
+Elsie,Smith,esmith,domain Users,Engineers
+Waldo,Valdo,wvaldo,domain Users,Developers
+Griffin,White,gwhite,domain Users,Developers
