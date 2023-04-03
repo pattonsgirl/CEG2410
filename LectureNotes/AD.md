@@ -14,6 +14,7 @@ Organizational Units (OU):
 
 Groups:
 - [IT Bros - AD Groups](https://theitbros.com/active-directory-groups/)
+- [Microsoft - Understand Security Groups](https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/manage/understand-security-groups)
 - [IT Bros - Check Group Membership](https://theitbros.com/check-active-directory-group-membership/)
 - [IT Bros - Privileged Groups in AD](https://theitbros.com/managing-privileged-groups-in-active-directory/)
 
