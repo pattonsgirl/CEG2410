@@ -26,7 +26,8 @@ Users & Computers:
 - [Active Directory Pro - Add Users to AD Groups](https://activedirectorypro.com/add-users-to-active-directory-groups/)
 - [Adam the Automater - Add Computer to Domain](https://adamtheautomator.com/add-computer-to-domain/)
 - [Microsoft - Join a Computer to a Domain](https://learn.microsoft.com/en-us/windows-server/identity/ad-fs/deployment/join-a-computer-to-a-domain)
-- [Microsoft - Troubleshoot Errors Joining Computer to Domain](https://learn.microsoft.com/en-us/troubleshoot/windows-server/identity/troubleshoot-errors-join-computer-to-domain)
+    - [Microsoft - Troubleshoot Errors Joining Computer to Domain](https://learn.microsoft.com/en-us/troubleshoot/windows-server/identity/troubleshoot-errors-join-computer-to-domain)
+    - [TechNews Today - Remove Computer from Domain](https://www.technewstoday.com/remove-computer-from-domain/)
 - [Windows OS Hub - Restrict Workstation Logon to Set of AD Users](https://woshub.com/restrict-workstation-logon-ad-users/)
 
 Group Policy Objects (GPO):  
