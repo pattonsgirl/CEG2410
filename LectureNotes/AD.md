@@ -22,6 +22,7 @@
 - [Microsoft - Join a Computer to a Domain](https://learn.microsoft.com/en-us/windows-server/identity/ad-fs/deployment/join-a-computer-to-a-domain)
     - [Microsoft - Troubleshoot Errors Joining Computer to Domain](https://learn.microsoft.com/en-us/troubleshoot/windows-server/identity/troubleshoot-errors-join-computer-to-domain)
     - [TechNews Today - Remove Computer from Domain](https://www.technewstoday.com/remove-computer-from-domain/)
+    - [Digital Citizen - WORKGROUP vs Network Domain](https://www.digitalcitizen.life/workgroup-windows/)
 - [Windows OS Hub - Restrict Workstation Logon to Set of AD Users](https://woshub.com/restrict-workstation-logon-ad-users/)
 
 ### Groups:
