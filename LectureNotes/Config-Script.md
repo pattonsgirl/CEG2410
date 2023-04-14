@@ -17,7 +17,7 @@ Write a script (choice of bash, python, or Powershell) that does the following:
         - [Base 16 color schemes - available schemes](https://github.com/chriskempson/base16-vim/tree/master/colors)
     - Other `vim` plugins - download plugin and enable it:
         - [RedHat - Top 5 `vim` plugins](https://www.redhat.com/sysadmin/five-vim-plugins)
-3. (Bonus) Make a function for package installs and a function for your `vim` customizations, and a driver function that calls both.
+3. Make a function for package installs and a function for your `vim` customizations, and a driver function that calls both.
     - [Linuxize - `bash` functions](https://linuxize.com/post/bash-functions/)
     - [OpenSource - Import functions and variables into Bash with the source command](https://opensource.com/article/20/6/bash-source-command)
 4. (Bonus) Copies an `authorized_keys` file to `~/.ssh/`
