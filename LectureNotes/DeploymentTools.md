@@ -1,5 +1,0 @@
-# Deployment Tools
-
-## Ansible
-
-## FOG
