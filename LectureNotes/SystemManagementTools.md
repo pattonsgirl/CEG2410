@@ -81,8 +81,25 @@ ansible all -i inventory -m ping
 
 Playbooks are YAML files containing a list of ordered tasks that should be executed on a remote server to complete a task or reach a certain goal, such as to set up a LEMP environment. Ansible playbooks allow you to fully automate server setup and application deployment, using an accessible syntax and an extensive library of built-in resources.
 
+- https://www.digitalocean.com/community/tutorial_series/how-to-write-ansible-playbooks
 
+Hello world playbook
+```
+# set one group, one host, or all groups in inventory
+- hosts: linuxservers
+  tasks:
+    - name: Print message
+      debug:
+        msg: Hello Ansible World
+```
+- At the beginning of each play, Ansible executes by default an additional task that gathers information — referred to as facts — about the remote nodes
+- This playbook defines one task, named `Print message`
+- Each node will print message `Hello Ansible World`
 
+Run playbook
+```
+ ansible-playbook -i inventory.ini hello-world.yml
+```
 
 ### Ansible + Windows
 
