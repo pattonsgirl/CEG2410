@@ -9,6 +9,7 @@ Write a script (choice of bash, python, or Powershell) that does the following:
 1. Installs packages: git, vim, python3, plus one of choice
     - [Ask Ubuntu - How do I write a shell script to install a list of applications?](https://askubuntu.com/questions/519/how-do-i-write-a-shell-script-to-install-a-list-of-applications)
     - [Reddit - What are some must have Linux sysadmin CLI tools?](https://www.reddit.com/r/sysadmin/comments/fia8de/what_are_some_must_have_linux_sysadmin_cli_tools/)
+    - [Check for `root` / `sudo`](https://askubuntu.com/questions/519/how-do-i-write-a-shell-script-to-install-a-list-of-applications)
 2. Customizes vim: add color scheme, change default colorization, add functionality with plugin of choice
     - If you choose to install a `vim` plugin manager, add comments to link to how to install it
     - Colorization - download color scheme and enable it: 
@@ -23,7 +24,7 @@ Write a script (choice of bash, python, or Powershell) that does the following:
 4. (Bonus) Copies an `authorized_keys` file to `~/.ssh/`
     - [SSH - Authorized Keys File in SSH](https://www.ssh.com/academy/ssh/authorized-keys-file)
     - Hint: I recommend adding an `authorized_keys` file to your repository, then copying it to the correct location
-        - Safety hint - maybe think about **appending** it to the existing one? [How to Combine Text Files Using the “cat” Command in Linux](https://www.howtogeek.com/278599/how-to-combine-text-files-using-the-cat-command-in-linux/)
+        - Safety hint - maybe think about **appending** it to the existing one? [How to Combine Text Files Using the `cat` Command in Linux](https://www.howtogeek.com/278599/how-to-combine-text-files-using-the-cat-command-in-linux/)
 
 ## Submission:
 
