@@ -135,6 +135,11 @@ Playbook to view gathered facts
 ### Ansible + Windows
 
 - https://docs.ansible.com/ansible/latest/os_guide/windows_usage.html
+- [Set up SSH on Windows](https://docs.ansible.com/ansible/latest/os_guide/windows_setup.html#windows-ssh-setup)
+
+#### Windows Web Server using Ansible
+
+- [Install IIS Web server on Windows 2019 via Ansible](https://tungle.ca/?p=1274)
 
 ### Ansible Demos
 
