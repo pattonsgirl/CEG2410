@@ -45,7 +45,7 @@ The simplest inventory is a single file with a list of hosts and groups. The def
 - https://www.digitalocean.com/community/tutorials/how-to-set-up-ansible-inventories
 
 Sample inventory (wish it was hostnames)
-```
+```ini
 [windowsservers]
 #domain controller
 52.205.171.21
@@ -60,20 +60,20 @@ Sample inventory (wish it was hostnames)
 ```
 
 [Inventory variables](https://docs.ansible.com/ansible/latest/inventory_guide/intro_inventory.html#connecting-to-hosts-behavioral-inventory-parameters) (needed to specify default user & private key for `ssh`) & how to specify [variables for a group](https://www.cyberciti.biz/faq/define-ssh-key-per-host-using-ansible_ssh_private_key_file/) \ [group variables](https://docs.ansible.com/ansible/latest/inventory_guide/intro_inventory.html#assigning-a-variable-to-many-machines-group-variables)
-```
+```ini
 [linuxservers:vars]
 ansible_ssh_user=ubuntu
 ansible_ssh_private_key_file=/home/kduncan/keys/ceg2410.pem
 ```
 
 Check ansible can read inventory (no format errors)
-```
+```bash
 ansible-inventory -i inventory.ini --list
 ansible-inventory -i inventory.ini --graph
 ```
 
 Check ansible can connect to managed nodes
-```
+```bash
 ansible all -i inventory -m ping
 ```
 
@@ -84,7 +84,7 @@ Playbooks are YAML files containing a list of ordered tasks that should be execu
 - https://www.digitalocean.com/community/tutorial_series/how-to-write-ansible-playbooks
 
 Hello world playbook
-```
+```yml
 # set one group, one host, or all groups in inventory
 - hosts: linuxservers
   tasks:
@@ -97,10 +97,45 @@ Hello world playbook
 - Each node will print message `Hello Ansible World`
 
 Run playbook
-```
+```bash
  ansible-playbook -i inventory.ini hello-world.yml
 ```
 
+Playbook to view gathered facts
+```yml
+- hosts: all
+  tasks:
+  - debug:
+      var: ansible_facts["all_ipv6_addresses"]|type_debug
+  - debug:
+      var: ansible_facts["memory_mb"]|type_debug
+  - debug:
+      var: ansible_facts["machine"]|type_debug
+```
+
+#### Privilege escalation in playbook
+
+- [Using `become` to use `sudo`](https://www.digitalocean.com/community/tutorial_series/how-to-write-ansible-playbooks#understanding-privilege-escalation-in-ansible-playbooks)
+
+#### Playbook for adding `group` / `user`
+
+- https://adamtheautomator.com/ansible-create-user/
+- https://www.linuxsysadmins.com/ansible-playbook-to-create-users-and-groups/
+
+#### Playbook for installing software packages
+
+- [How To Install and Manage System Packages in Ansible Playbooks](https://www.digitalocean.com/community/tutorials/how-to-install-and-manage-system-packages-in-ansible-playbooks)
+- [All ansible `apt-module` options](https://docs.ansible.com/ansible/latest/collections/ansible/builtin/apt_module.html) [and examples](https://docs.ansible.com/ansible/latest/collections/ansible/builtin/apt_module.html#examples)
+
+#### Playbook to configure a webserver
+
+- [How To Deploy a Static HTML Website with Ansible on Ubuntu 20.04 (Nginx)](https://www.digitalocean.com/community/tutorials/how-to-deploy-a-static-html-website-with-ansible-on-ubuntu-20-04-nginx)
+- [Ansible/Nginx Playbook](https://charlesreid1.com/wiki/Ansible/Nginx_Playbook)
+
 ### Ansible + Windows
 
-https://docs.ansible.com/ansible/latest/os_guide/windows_usage.html
+- https://docs.ansible.com/ansible/latest/os_guide/windows_usage.html
+
+### Ansible Demos
+
+- [RedHat Repo Collection of Demos](https://github.com/ansible/product-demos)
