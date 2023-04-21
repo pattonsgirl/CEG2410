@@ -136,6 +136,7 @@ Playbook to view gathered facts
 
 - https://docs.ansible.com/ansible/latest/os_guide/windows_usage.html
 - [Set up SSH on Windows](https://docs.ansible.com/ansible/latest/os_guide/windows_setup.html#windows-ssh-setup)
+    - [Microsoft Docs](https://learn.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse?tabs=gui)
 
 #### Windows Web Server using Ansible
 
