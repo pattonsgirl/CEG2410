@@ -16,6 +16,7 @@
     - rules about data (HIPA, FERPA, etc.)
 4.	Web servers & DNS
     - [TMI on DIY web servers](https://iximiuz.com/en/posts/writing-web-server-in-python-sockets/)
+    - downloading & pre-scnaning of sites before delivery
 5. Firewalls
     - [Guide to iptables](https://iximiuz.com/en/posts/writing-web-server-in-python-sockets/)
 6.	Users
