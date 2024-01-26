@@ -11,14 +11,14 @@ Model:
 Online documentation link:
 
 ## Specs
-Motherboard
-RAM
-CPU
-GPU
-Hard disk
-Power supply
+- Motherboard
+- RAM
+- CPU
+- GPU
+- Hard disk
+- Power supply
 
 ## Connections
-Hard Disk connector type
-Video cable type(s) supported
-Motherboard input types supported (like mouse / keyboard)
+- Hard Disk connector type
+- Video cable type(s) supported
+- Motherboard input types supported (like mouse / keyboard)
