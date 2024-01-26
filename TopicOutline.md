@@ -1,22 +1,30 @@
 1.	Course essentials & skill review
     - GitHub account & workflow & markdown
     - build an IT business plan
-    - install Powershell & WSL2
-    - command line memory jog
-        - navigation
-        - permissions
+    - IP & Subnets live quiz
+        - https://ipcisco.com/subnetting-quiz-1-n485hju/
+        - posted questions to menti
+    
 2.	Virtual & cloud networking
     - [Computer Networking 101 from a pro](https://iximiuz.com/en/posts/computer-networking-101/)
     - complete along: [build a virtual network](https://labs.iximiuz.com/tutorials/container-networking-from-scratch)
         - [VLAN sample is too much](https://iximiuz.com/en/posts/networking-lab-simple-vlan/)
     - setup VPC through instance
+    - command line memory jog
+        - navigation
+        - permissions
 3.	Disks & data
     - add disks to instance
     - get physical systems to take apart
+    - S3 & cloud storage
     - rules about data (HIPA, FERPA, etc.)
 4.	Web servers & DNS
     - [TMI on DIY web servers](https://iximiuz.com/en/posts/writing-web-server-in-python-sockets/)
-    - downloading & pre-scnaning of sites before delivery
+    - Host on S3 
+        - https://docs.aws.amazon.com/AmazonS3/latest/userguide/HostingWebsiteOnS3Setup.html
+        - https://cloudiofy.com/aws-s3-website-hosting/ 
+    - Hosting options for dynamic sites: https://aws.amazon.com/websites/
+    - downloading & pre-scanning of sites before delivery
 5. Firewalls
     - [Guide to iptables](https://iximiuz.com/en/posts/writing-web-server-in-python-sockets/)
 6.	Users
