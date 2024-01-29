@@ -14,8 +14,9 @@
         - navigation
         - permissions
 3.	Disks & data
+    - get physical systems to take apart + PC Tear Down companion report
     - add disks to instance
-    - get physical systems to take apart
+    - review types of RAIDs
     - S3 & cloud storage
     - rules about data (HIPA, FERPA, etc.)
 4.	Web servers & DNS
