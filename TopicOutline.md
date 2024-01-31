@@ -18,7 +18,12 @@
     - add disks to instance
     - review types of RAIDs
     - S3 & cloud storage
+        - share a file on S3 https://gist.github.com/pjkelly/be2cd3881e766620a411
+        - discussion of bucket policies 
+            - https://docs.aws.amazon.com/AmazonS3/latest/userguide/using-iam-policies.html 
+            - https://docs.aws.amazon.com/AmazonS3/latest/userguide/example-walkthroughs-managing-access.html 
     - rules about data (HIPA, FERPA, etc.)
+        - quiz generated from online banks: https://www.easyllama.com/blog/hipaa-quiz/
 4.	Web servers & DNS
     - [TMI on DIY web servers](https://iximiuz.com/en/posts/writing-web-server-in-python-sockets/)
     - Host on S3 

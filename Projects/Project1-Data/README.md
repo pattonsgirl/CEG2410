@@ -86,6 +86,9 @@ Connect to your share via a client system.  I'll leave what the client is a litt
 
 ## Resources
 
+### AWS
+- [DevOpsCube - How to Attach and Mount an EBS volume to EC2 Linux Instance](https://devopscube.com/mount-ebs-volume-ec2-instance/)
+
 ### NFS
 
 - [Ubuntu Server Docs - NFS](https://ubuntu.com/server/docs/service-nfs)
