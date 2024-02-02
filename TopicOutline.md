@@ -24,20 +24,33 @@
             - https://docs.aws.amazon.com/AmazonS3/latest/userguide/example-walkthroughs-managing-access.html 
     - rules about data (HIPA, FERPA, etc.)
         - quiz generated from online banks: https://www.easyllama.com/blog/hipaa-quiz/
-4.	Web servers & DNS
+4. Firewalls
+    - [Guide to iptables](https://iximiuz.com/en/posts/writing-web-server-in-python-sockets/)
+    - firewall appliances - pfsense
+    - Cloud - network ACL versus Security Groups
+5.	Web servers & DNS
     - [TMI on DIY web servers](https://iximiuz.com/en/posts/writing-web-server-in-python-sockets/)
     - Host on S3 
         - https://docs.aws.amazon.com/AmazonS3/latest/userguide/HostingWebsiteOnS3Setup.html
         - https://cloudiofy.com/aws-s3-website-hosting/ 
     - Hosting options for dynamic sites: https://aws.amazon.com/websites/
     - downloading & pre-scanning of sites before delivery
-5. Firewalls
-    - [Guide to iptables](https://iximiuz.com/en/posts/writing-web-server-in-python-sockets/)
 6.	Users
-7.	Azure AD
-8.	Scripting
-9.	Backup strategies
+    - BYOE - customizing environment - skel, https://devblogs.microsoft.com/oldnewthing/20131121-00/?p=2603
+    - vim customizations, useful aliases, message of the day, public key porting
+    - dotfiles
+7.	Azure AD == Azure Entra ID
+8.	Backup & recovery strategies
+    - backup location rules
+    - rsync, Windows Backup, Apple Time Machine
+9.	Scripting
+    - apt, homebrew, choclately
+    - do x in bash, Powershell, and python
 10.	Cloning & deployment
+    - make bootable USB (rufus, USB Image Writer)
+    - dd, clonezilla
+    - ghost & fog
+    - https://www.comparitech.com/net-admin/os-imaging-deployment-software/ 
 11.	Automation with Ansible
 12. Risk & NIST
 
