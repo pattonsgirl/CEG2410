@@ -30,6 +30,8 @@ When wondering "How much should I write?"  This document should be explanatory e
 
 ### Documentation Requirements:
 - Choice of RAID configuration & justification
+    - justification should hit points of read / write speeds & disk recovery in case of hard failure
+    - Warning: RAID 0 & RAID 1 have nearly no justification outside of consumer (non-enterprise / business) use
 - How to configure, mount, and automatically mount RAID
 - Method to recover RAID in case of failure
 - Screenshot with RAID status & proof of mount
