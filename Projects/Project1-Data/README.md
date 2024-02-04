@@ -88,8 +88,20 @@ Connect to your share via a client system.  I'll leave what the client is a litt
 
 ## Resources
 
-### AWS
+### AWS & Partitioning a Disk
 - [DevOpsCube - How to Attach and Mount an EBS volume to EC2 Linux Instance](https://devopscube.com/mount-ebs-volume-ec2-instance/)
+    - Note: partitioning is not necessary since the software controls the RAID.  The `fstab`section is useful, and if you've never done any of this before its a good walk through before you RAID.
+- [RedHat - Format and label the partition](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/6/html/storage_administration_guide/s3-disk-storage-parted-create-part-mkfs)
+
+### RAID
+- [DigitalOcean - RAID Terminology and Concepts](https://www.digitalocean.com/community/tutorials/an-introduction-to-raid-terminology-and-concepts)
+- [DigitalOcean - Create RAIDs with mdadm](https://www.digitalocean.com/community/tutorials/how-to-create-raid-arrays-with-mdadm-on-ubuntu-22-04)
+- [DigitalOcean - Managing RAID arrays](https://www.digitalocean.com/community/tutorials/how-to-create-raid-arrays-with-mdadm-on-ubuntu-22-04)
+
+### Filesystems & `fstab`
+- [OSTechnix - What is Fstab in Linux](https://ostechnix.com/what-is-fstab-in-linux-introduction-to-linux-etc-fstab-file/)
+    - Note: It may be wise to label the filesystem
+    - It is also wise to not require it be mounted on boot, otherwise your instance may get hung and then you can't access it.
 
 ### NFS
 
