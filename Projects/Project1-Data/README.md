@@ -103,6 +103,12 @@ Connect to your share via a client system.  I'll leave what the client is a litt
     - Note: It may be wise to label the filesystem
     - It is also wise to not require it be mounted on boot, otherwise your instance may get hung and then you can't access it.
 
+### Samba / SMB
+
+- [Ubuntu Docs - Install & Configure Samba](https://ubuntu.com/tutorials/install-and-configure-samba)
+- [Digital Ocean  (little dated) - How To Set Up a Samba Share For A Small Organization on Ubuntu 16.04](https://www.digitalocean.com/community/tutorials/how-to-set-up-a-samba-share-for-a-small-organization-on-ubuntu-16-04)
+- [Linux Babe - Install and Configure Samba Server on Ubuntu 22.04/20.04 for File Sharing](https://www.linuxbabe.com/ubuntu/install-samba-server-file-share)
+
 ### NFS
 
 - [Ubuntu Server Docs - NFS](https://ubuntu.com/server/docs/service-nfs)
