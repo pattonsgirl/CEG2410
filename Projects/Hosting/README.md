@@ -1,33 +1,43 @@
-# Project 1 - DIY HTTPS Server
+# Project 2 - DIY HTTPS Server
 
 ## Objectives
 - set up a webserver to host content
 - enable and configure HTTPS
-- enable and modify firewall rules for better security
+- understand the role of DNS at various levels
+- modify firewall rules (Security Groups)
 
 ## What you need
 - a website (nothing fancy, although it breaks up grading monotony)
+    - if you don't have one to play with, you can play with [`site.tar.gz`](site.tar.gz) by extracting it to your website folder
 - an AWS instance
 - course GitHub repository (for project documentation deliverables)
-    - looks like `https://github.com/WSU-kduncan/ceg2410-projects-YOURGITHUBUSERNAME`
+    - looks like `https://github.com/WSU-kduncan/ceg2410s24-YOURGITHUBUSERNAME`
+- a list of resources used either as you go in long (so in context with parts you are working on) or listed in a section at the end of your project.
 
 ## Part 1 - HTTP Server
 
-1. Install either **Apache HTTP Server** OR **Nginx** to your instance.  Document the following:
-    - What port is the service running on?
-    - What directory does it serve content from by default?
-    - What is the name of the primary configuration file for the service?
-2. Host your content via the web server.  
+1. Install either **Apache HTTP Server** OR **Nginx** to your instance.
+2. Host your site content via the web service.  
     - Describe two ways (at least) that you can confirm the webserver is serving your site's content
 3. Set appropriate access.  Ensure the following:
     - the content server can read the site files
     - members of a group named `devs` are allowed to edit and create new files
-        - this should persist for new content created within the site folder - new things created should also be modifiable by members of `dev`
-    - in your documentation include:
-        - a screenshot of your permission sets
-        - a description of how you set up the permissions (especially the persistence)
-        - [Resource hint 1](https://linuxize.com/post/understanding-linux-file-permissions/)
-        - [Resource hint 2](https://linuxize.com/post/how-to-add-user-to-group-in-linux/)
+        - the permission set should persist for new content created within the site folder, as in `devs` should always have read & write access 
+    - For example: `jane`, `bob`, and `ubuntu` are all in group `devs`.  If `jane` makes a new file in the website folder, `form.html`, `jane` may be the owner, but `devs` should always and automatically have read write access.
+    - **Resources**
+        - [Linuxize - Understanding Linux File Permissions](https://linuxize.com/post/understanding-linux-file-permissions/)
+        - [Linuxize - How to add user to group in Linux](https://linuxize.com/post/how-to-add-user-to-group-in-linux/)
+
+### Documentation Requirements
+- Service Basics
+    - Service name & installation
+    - Default port & site directory
+- Site administration
+    - Configuration files, including what they configure, their location and any notes about why location matters
+        - service configuration
+        - site configuration
+    - Configuration of permissions for website files
+        - **include screenshot** of folder & file permissions
 
 **NOTE: IF YOU DO NOT COMPLETE ENABLING HTTPS, INCLUDE SCREENSHOT OF SITE RUNNING WITH HTTP**
 
@@ -37,20 +47,20 @@
 2. Enable HTTPS for your web content service
     - Redirect HTTP requests to HTTPS
     - Restart the web content service
-3. Document:
-    - Configuration file changes
-    - Location of certificate files
-    - Administrative commands (like how to restart the web content service)
+
+### Documentation Requirements
+- Creating & location of self-signed certificate files
+- Service configuration file changes
+- Service administrative commands 
+    - How to restart the web content service
     - How you can confirm HTTPS is enabled
 4. Include screenshot of site after HTTPS is enabled
 
 Note: configuring your web browser to trust the cert is optional
 
-## Part 3 - Firewall Fixes (Easy Mode)
+## Part 3 - Firewall Fixes
 
-We are using an instance hosted on AWS for this project.  The firewall rules for this instance have ALL ports open within the private network the instance is on, AND ALL ports from any source  (0.0.0.0/0).  Your task in this part is to fix the Security Groups associated with this instance.  
-
-Go to the Learner Lab page, make sure "Start Lab" turned things on, then click the AWS link.  Now go to EC2 -> Security Groups.  You'll see one labeled something like: `ceg2350-Lab1SecurityGroup`
+Make a minimum change of the following in your instance's Security Group rules.
 
 Create 2 rules for SSH:
 - allow SSH connections from your home (and any additional trusted sources)
@@ -60,34 +70,24 @@ Create 2 rules for HTTP/ HTTPS
 - allow HTTP from any source
 - allow HTTPS from any source
 
-Remove any other rules that are too open.
+### Documentation Requirements
+- Explain updates to Security Group in terms of protocols, ports, and sources
+- **Screenshot** of your rules.
 
-Your deliverable for this part is a brief explanation of the rules created AND a screenshot of your rules.
+## Part 4 - DNS
 
-## Firewall Fixes - HARD MODE - 10% Extra Credit
-
-Use either `ufw` or `iptables` to generate to the following firewall rules.  Move carefully and understand chaining (before you lock yourself out... forever!)
-
-Create 2 rules for SSH:
-- allow SSH connections from your home (and any additional trusted sources)
-- allow SSH connections from campus (130.108.0.0/16)
-
-Create 2 rules for HTTP/ HTTPS
-- allow HTTP from any source
-- allow HTTPS from any source
-
-Remove any other rules that are too open.
-
-Your deliverable for this part is a brief explanation of the rules created AND a screenshot of your rules.
-
-## Part 4 - Research
+## Part 5 - Research
 
 1. Domain name registration
     - Select a registrar you would use to register a domain name
-    - Describe what steps would be needed to associate the domain name with your web server
 2. Certificate Authority Validation
     - Select a CA you would use to validate your site & generate a certificate
-    - Describe what is needed for validation
+
+### Documentation Requirements
+- Note what registrar you would choose
+- Describe what steps would be needed to associate the domain name with your web server
+- Note what certificate authority you would choose
+- Describe what you would need to provide (such as documentation of your legitimacy) to generate a certificate
 
 ## Part 5 - Resources Used
 
