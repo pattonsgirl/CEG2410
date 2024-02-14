@@ -14,6 +14,8 @@
     - looks like `https://github.com/WSU-kduncan/ceg2410s24-YOURGITHUBUSERNAME`
 - a list of resources used either as you go in long (so in context with parts you are working on) or listed in a section at the end of your project.
 
+Your project documentation will be in your course repository in a file named `Hosting.md`.
+
 ## Part 1 - HTTP Server
 
 1. Install either **Apache HTTP Server** OR **Nginx** to your instance.
