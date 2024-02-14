@@ -76,6 +76,20 @@ Create 2 rules for HTTP/ HTTPS
 
 ## Part 4 - DNS
 
+Craft DNS records to allow both "your-domain.com" and "www.your-domain.com" to resolve to your instance's public IP address.
+
+Notice: the "hands-on" portion of this requires the instructor to set up a DNS server.  She's working on it.  Confirming your record entries worked will be an in-class assignment.
+
+### Documentation Requirements
+
+- choose a domain name for your website.  For the purpose of not causing headaches, please do not choose something in use or inappropriate.  
+    - No actual bank names, no pilot, no google and must be appropriate.
+- write an A record that points to "your-domain.com" to your instance's EIP (public IPv4 address)
+- explain the purpose and fields in A type records
+- write a CNAME record that points to "www.your-domain.com" to "your-domain.com"
+- explain the purpose and fields in CNAME type records
+
+
 ## Part 5 - Research
 
 1. Domain name registration
@@ -89,7 +103,7 @@ Create 2 rules for HTTP/ HTTPS
 - Note what certificate authority you would choose
 - Describe what you would need to provide (such as documentation of your legitimacy) to generate a certificate
 
-## Part 5 - Resources Used
+## Part 6 - Resources Used
 
 This does not need to be in it's own section, but you should document what resources you used.  This does not need to be fancy.  You can [link in line to xkcd](https://xkcd.com/), or just list links
 - https://xkcd.com/
