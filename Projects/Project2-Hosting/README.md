@@ -113,6 +113,23 @@ This does not need to be in it's own section, but you should document what resou
 or my favorite, give a bit of a title and what's inside
 - [xkcd - comic of the day](https://xkcd.com/)
 
+## Recommended Resources
+
+- [Digital Ocean - Apache vs Nginx: Practical Considerations](https://www.digitalocean.com/community/tutorials/apache-vs-nginx-practical-considerations)
+
+### Apache Basics
+- [Ubuntu tutorials - Install and Configure Apache](https://ubuntu.com/tutorials/install-and-configure-apache)
+- [Digital Ocean - How To Install the Apache Web Server on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-install-the-apache-web-server-on-ubuntu-20-04)
+
+### Nginx Basics
+- [Ubuntu tutorials - Install and configure Nginx](https://ubuntu.com/tutorials/install-and-configure-nginx)
+- [Digital Ocean - How To Install Nginx on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-ubuntu-20-04)
+
+### DNS
+- [CloudFlare - DNS A Record](https://www.cloudflare.com/learning/dns/dns-records/dns-a-record/)
+- [CloudFlare - DNS CNAME Record](https://www.cloudflare.com/learning/dns/dns-records/dns-cname-record/)
+- [AWS Docs - How do I assign a static DNS server to the EC2 instance that persists during reboot?](https://repost.aws/knowledge-center/ec2-static-dns-ubuntu-debian)
+
 ## Submission
 
 - In the Pilot Dropbox, paste the URL to the your Project 1 folder in your GitHub repo

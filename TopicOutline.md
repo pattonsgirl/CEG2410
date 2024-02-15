@@ -22,6 +22,7 @@
         - discussion of bucket policies 
             - https://docs.aws.amazon.com/AmazonS3/latest/userguide/using-iam-policies.html 
             - https://docs.aws.amazon.com/AmazonS3/latest/userguide/example-walkthroughs-managing-access.html 
+        - create AWS S3 Bucket - https://cloudacademy.com/lab/create-your-first-amazon-s3-bucket/
     - rules about data (HIPA, FERPA, etc.)
         - quiz generated from online banks: https://www.easyllama.com/blog/hipaa-quiz/
 4. Firewalls
@@ -33,6 +34,7 @@
     - Host on S3 
         - https://docs.aws.amazon.com/AmazonS3/latest/userguide/HostingWebsiteOnS3Setup.html
         - https://cloudiofy.com/aws-s3-website-hosting/ 
+        - https://aws.amazon.com/getting-started/hands-on/get-a-domain/ 
     - Hosting options for dynamic sites: https://aws.amazon.com/websites/
     - downloading & pre-scanning of sites before delivery
 6.	Users
@@ -53,6 +55,8 @@
     - https://www.comparitech.com/net-admin/os-imaging-deployment-software/ 
 11.	Automation with Ansible
 12. Risk & NIST
+
+
 
 
 
