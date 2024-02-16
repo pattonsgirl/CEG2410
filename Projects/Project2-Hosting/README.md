@@ -52,11 +52,11 @@ Your project documentation will be in your course repository in a file named `Ho
 
 ### Documentation Requirements
 - Creating & location of self-signed certificate files
-- Service configuration file changes
+- Service configuration file changes & description of reason / why
 - Service administrative commands 
     - How to restart the web content service
     - How you can confirm HTTPS is enabled
-4. Include screenshot of site after HTTPS is enabled
+- Include screenshot of site after HTTPS is enabled
 
 Note: configuring your web browser to trust the cert is optional
 
@@ -100,9 +100,9 @@ Notice: the "hands-on" portion of this requires the instructor to set up a DNS s
     - Select a CA you would use to validate your site & generate a certificate
 
 ### Documentation Requirements
-- Note what registrar you would choose
+- Note what registrar you would choose & why
 - Describe what steps would be needed to associate the domain name with your web server
-- Note what certificate authority you would choose
+- Note what certificate authority you would choose & why
 - Describe what you would need to provide (such as documentation of your legitimacy) to generate a certificate
 
 ## Part 6 - Resources Used

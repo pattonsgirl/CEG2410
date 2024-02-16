@@ -1,36 +1,46 @@
-# Project 1 Rubric
+# Project 2 Rubric
 
-## HTTP Server ( / 10)
+## Project Score:  / 23
 
-1. How to install web content service
-2. Documenting defaults:
-    - What port is the service running on?
-    - What directory does it serve content from by default?
-    - What is the name of the primary configuration file for the service?
-3. Describe two ways (at least) that you can confirm the webserver is serving your site's content
-5. Permissions documentation includes:
-    - a screenshot of your permission sets
-        - the web content server can serve (read) the site content
-        - the group devs can edit files
-        - new files automatically belong to the dev group
-    - a description of how you set up the permissions (especially the persistence)
-6. IF HTTPS WAS NOT COMPLETED, INCLUDE SCREENSHOT OF SITE RUNNING
+## Part 1 - HTTP Server ( / 6)
 
-## Enabling HTTPS ( / 6)
+- Service Basics
+    - Service name & installation
+    - Default port & site directory
+- Site administration
+    - Configuration files, including what they configure, their location and any notes about why location matters
+        - service configuration
+        - site configuration
+    - Configuration of permissions for website files
+    - **Screenshot** of folder & file permissions
 
-1. Method used to create a self-signed TLS cert
-2. Location of certificate files
-3. Web content service configuration file changes
-4. Any administrative commands (like how to restart the web content service)
-5. How you can confirm HTTPS is enabled
-6. Screenshot of site running over HTTPS
+## Part 2 - Enabling HTTPS ( / 5)
 
-## Firewalls (easy mode) ( / 2)
+- Creating & location of self-signed certificate files
+- Service configuration file changed & description of reason / why
+- Service administrative commands 
+    - How to restart the web content service
+    - How you can confirm HTTPS is enabled
+- **Screenshot** of site using HTTPS
+    - Note: if you can't get HTTPS, include screenshot of HTTP
 
-1. Screenshot of Security Group rules per requirements
-2. Explanation of rules
+## Part 3 - Firewalls Fixes ( / 2)
 
-## Extra Credit Only ( / 1.8)
+- Explain updates to Security Group in terms of protocols, ports, and sources
+- **Screenshot** of your rules.
 
-1. Screenshot of ufw/iptables rules per requirements
-2. Explanation of rules
+## Part 4 - DNS ( / 5)
+- domain name for your website
+- write an A record that points to "your-domain.com" to your instance's EIP (public IPv4 address)
+- explain the purpose and fields in A type records
+- write a CNAME record that points to "www.your-domain.com" to "your-domain.com"
+- explain the purpose and fields in CNAME type records
+
+## Part 5 - Research ( / 4)
+- Note what domain registrar you would choose & why
+- Describe what steps would be needed to associate the domain name with your web server
+- Note what certificate authority you would choose & why
+- Describe what you would need to provide (such as documentation of your legitimacy) to generate a certificate
+
+## Part 6 - Resources ( / 1)
+- Resources used linked and documented in this section or within context of taskings above
