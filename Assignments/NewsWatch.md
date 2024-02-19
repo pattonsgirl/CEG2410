@@ -4,7 +4,7 @@ Each of you during this semester are going to post a technical article of intere
 
 ## Post Rules
 
-One person per post day.  Post days are Monday and Friday.  Article should include background information needed for understanding or you will need to include additional articles.
+One person per post day.  Post days are Monday, Wednesday, and Friday.  Article should include background information needed for understanding or you will need to include additional articles.
 
 Article topics:
 - something new (to you or to the field)
