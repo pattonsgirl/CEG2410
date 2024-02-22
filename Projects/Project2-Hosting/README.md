@@ -125,6 +125,10 @@ or my favorite, give a bit of a title and what's inside
 - [Ubuntu tutorials - Install and configure Nginx](https://ubuntu.com/tutorials/install-and-configure-nginx)
 - [Digital Ocean - How To Install Nginx on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-ubuntu-20-04)
 
+### Certificates & HTTPS
+- [How To Create a Self-Signed SSL Certificate for Apache in Ubuntu 22.04](https://www.digitalocean.com/community/tutorials/how-to-create-a-self-signed-ssl-certificate-for-apache-in-ubuntu-22-04)
+- [How To Create a Self-Signed SSL Certificate for Nginx in Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-create-a-self-signed-ssl-certificate-for-nginx-in-ubuntu-20-04-1)
+
 ### DNS
 - [CloudFlare - DNS A Record](https://www.cloudflare.com/learning/dns/dns-records/dns-a-record/)
 - [CloudFlare - DNS CNAME Record](https://www.cloudflare.com/learning/dns/dns-records/dns-cname-record/)
