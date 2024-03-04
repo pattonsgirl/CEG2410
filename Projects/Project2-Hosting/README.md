@@ -132,6 +132,7 @@ or my favorite, give a bit of a title and what's inside
 ### DNS
 - [CloudFlare - DNS A Record](https://www.cloudflare.com/learning/dns/dns-records/dns-a-record/)
 - [CloudFlare - DNS CNAME Record](https://www.cloudflare.com/learning/dns/dns-records/dns-cname-record/)
+- [RedHat - Zone File Resource Records](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/4/html/reference_guide/s3-bind-zone-rr)
 - [AWS Docs - How do I assign a static DNS server to the EC2 instance that persists during reboot?](https://repost.aws/knowledge-center/ec2-static-dns-ubuntu-debian)
 
 ## Submission

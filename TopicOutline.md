@@ -31,6 +31,11 @@
     - Cloud - network ACL versus Security Groups
 5.	Web servers & DNS
     - [TMI on DIY web servers](https://iximiuz.com/en/posts/writing-web-server-in-python-sockets/)
+    - DNS & BIND9
+        - https://www.cherryservers.com/blog/how-to-install-and-configure-a-private-bind-dns-server-on-ubuntu-22-04
+        - https://www.digitalocean.com/community/tutorials/how-to-configure-bind-as-a-private-network-dns-server-on-ubuntu-20-04
+        - https://www.redhat.com/sysadmin/dns-configuration-introduction
+        - https://arstechnica.com/information-technology/2024/02/doing-dns-and-dhcp-for-your-lan-the-old-way-the-way-that-works/
     - Host on S3 
         - https://docs.aws.amazon.com/AmazonS3/latest/userguide/HostingWebsiteOnS3Setup.html
         - https://cloudiofy.com/aws-s3-website-hosting/ 
