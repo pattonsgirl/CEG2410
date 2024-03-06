@@ -50,6 +50,7 @@
 8.	Backup & recovery strategies
     - backup location rules
     - rsync, Windows Backup, Apple Time Machine
+    - Bucket policies moved to here
 9.	Scripting
     - apt, homebrew, choclately
     - do x in bash, Powershell, and python
