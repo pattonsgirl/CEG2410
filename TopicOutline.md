@@ -46,7 +46,8 @@
     - BYOE - customizing environment - skel, https://devblogs.microsoft.com/oldnewthing/20131121-00/?p=2603
     - vim customizations, useful aliases, message of the day, public key porting
     - dotfiles
-7.	Azure AD == Azure Entra ID
+7.	Identity & Access Management
+    - Azure AD == Azure Entra ID
 8.	Backup & recovery strategies
     - backup location rules
     - rsync, Windows Backup, Apple Time Machine
