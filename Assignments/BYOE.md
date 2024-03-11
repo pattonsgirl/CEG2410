@@ -14,6 +14,12 @@ Build a dotfile repository that includes a script to complete the following task
 - symbolically links an `authorized_keys` file in your repository to `~/.ssh/config` in your user's home directory
 - `vim` plugins to change default color scheme and for one of: file explorer OR to utilize git OR autocomplete
 
+You are allowed to beg, borrow, steal, and use ChatGPT for this collection of taskings - however all information in files must be accurate to you and you must CITE WHAT YOU REFERENCED.  Especially if you are reusing a snippet that "belongs" to someone else.
+
+Some sample dotfile repositories:
+- [Awesome Dotfiles Collection](https://github.com/webpro/awesome-dotfiles)
+- [Matt Kijowski's Dotfiles Repo](https://github.com/mkijowski/dotfiles/tree/master)
+
 ## Create a dotfiles repo
 
 1. On your GitHub account, create a repository (public) named dotfiles
