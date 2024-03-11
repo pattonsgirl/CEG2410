@@ -85,7 +85,7 @@ Matt Kijwoski says "Remember me? Sync your GPG key rings."
 
 ## vim customizations
 
-Do the below tasks on your system, adding command to your script to complete the tasks automatically when the script is run.
+Do the below tasks on your system, adding commands to your script to complete the tasks automatically when the script is run.
 
 1. Install [Vundle](https://github.com/VundleVim/Vundle.vim)
 2. Pick and [install](https://www.linode.com/docs/guides/vim-color-schemes/#how-to-change-vim-color-schemes) a [color scheme for vim](https://github.com/rafi/awesome-vim-colorschemes)
@@ -94,6 +94,8 @@ Do the below tasks on your system, adding command to your script to complete the
 
 ## Submission
 
-TBD
-
+1. Demonstration
+     - either during class session OR via a recording, prove that your script works on a fresh instance with user account
+2. Deliverable
+     - To Dropbox in Pilot, submit link to your dotfiles repository
 
