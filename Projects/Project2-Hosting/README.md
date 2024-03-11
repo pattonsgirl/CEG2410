@@ -116,6 +116,7 @@ or my favorite, give a bit of a title and what's inside
 ## Recommended Resources
 
 - [Digital Ocean - Apache vs Nginx: Practical Considerations](https://www.digitalocean.com/community/tutorials/apache-vs-nginx-practical-considerations)
+- [Red Switches - Apache vs Nginx](https://www.redswitches.com/blog/apache-vs-nginx/)
 
 ### Apache Basics
 - [Ubuntu tutorials - Install and Configure Apache](https://ubuntu.com/tutorials/install-and-configure-apache)
@@ -126,8 +127,9 @@ or my favorite, give a bit of a title and what's inside
 - [Digital Ocean - How To Install Nginx on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-ubuntu-20-04)
 
 ### Certificates & HTTPS
-- [How To Create a Self-Signed SSL Certificate for Apache in Ubuntu 22.04](https://www.digitalocean.com/community/tutorials/how-to-create-a-self-signed-ssl-certificate-for-apache-in-ubuntu-22-04)
-- [How To Create a Self-Signed SSL Certificate for Nginx in Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-create-a-self-signed-ssl-certificate-for-nginx-in-ubuntu-20-04-1)
+- [Digital Ocean - How To Create a Self-Signed SSL Certificate for Apache in Ubuntu 22.04](https://www.digitalocean.com/community/tutorials/how-to-create-a-self-signed-ssl-certificate-for-apache-in-ubuntu-22-04)
+- [Digital Ocean - How To Create a Self-Signed SSL Certificate for Nginx in Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-create-a-self-signed-ssl-certificate-for-nginx-in-ubuntu-20-04-1)
+- [Rose Hosting - How To Enable HTTPS Protocol with Apache 2 on Ubuntu 20.04](https://www.rosehosting.com/blog/how-to-enable-https-protocol-with-apache-2-on-ubuntu-20-04/)
 
 ### DNS
 - [CloudFlare - DNS A Record](https://www.cloudflare.com/learning/dns/dns-records/dns-a-record/)
