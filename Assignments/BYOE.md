@@ -2,6 +2,8 @@
 
 At about the 5th time you setup a new server, you start thinking hard about ways you could script a default configuration.  
 
+An actually worth the title [The Ultimate Guide to Mastering Dotfiles](https://www.daytona.io/dotfiles/ultimate-guide-to-dotfiles)
+
 Your tasking: 
 
 Build a dotfile repository that includes a script to complete the following tasks when executed:
@@ -73,6 +75,8 @@ If anything requires an additional packages, add it to your script's package ins
 2. Copy the `~/.ssh/authorized_keys` file to your repo, have script symbolically link it to `~/.ssh/authorized_keys`
 3. Create an `~/.ssh/config` file with an entry to `fry.cs.wright.edu`  Symbolically link it to `~/.ssh/config`
 
+Matt Kijwoski says "Remember me? Sync your GPG key rings."
+
 ## vim customizations
 
 Do the below tasks on your system, adding command to your script to complete the tasks automatically when the script is run.
@@ -84,8 +88,6 @@ Do the below tasks on your system, adding command to your script to complete the
 
 ## Submission
 
-Give an instructor demo that your script and dotfiles repository work.  The demo can be completed in class OR by recording a video and uploading it to Pilot.
-
-Sign on to a fresh instance, clone your repo, run your installation script.
+TBD
 
 
