@@ -81,7 +81,7 @@ If anything requires an additional packages, add it to your script's package ins
 2. Copy the `~/.ssh/authorized_keys` file to your repo, have script symbolically link it to `~/.ssh/authorized_keys`
 3. Create an `~/.ssh/config` file with an entry to `fry.cs.wright.edu`  Symbolically link it to `~/.ssh/config`
 
-Matt Kijwoski says "Remember me? Sync your GPG key rings."
+Matt Kijowski says "Remember me? Sync your GPG key rings."
 
 ## vim customizations
 
