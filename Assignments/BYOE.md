@@ -33,9 +33,12 @@ Identify package names in the package installer you have.  Assuming you are you 
      - [find humor in typos](https://github.com/nvbn/thefuck)
 - [AWS Command Line Interface](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
 
+In your script:
+
 1. Check if running as `root`
 2. Check for `apt` package manager
 3. Install things above
+4. Determine how to run remainder of taskings as non-root so that the right ownership is applied
 
 ## git configuration
 
@@ -46,7 +49,6 @@ Configure git to:
 - set core editor to `vim`, `nano` or `emacs`
 - default exclude commonly ignorable files / folders (`gitignore`) OR create a default commit message template
 - set [`git` autocorrect](https://andycarter.dev/blog/auto-correct-git-commands)
-
 
 1. Copy your `.gitconfig` to your git repository
 2. Add to your script to create symbolic link to `~/.gitconfig`
@@ -60,26 +62,30 @@ Add to your `.bashrc` file:
      - [70 more aliases](https://davidjguru.github.io/blog/linux-70-commands-aliases-for-everyday-life)
 - Grab something cool from [The Ultimate B.A. .bashrc file](https://gist.github.com/zachbrowne/8bc414c9f30192067831fafebd14255c)
 
-If anything requires an additional package, add it to your package installs
+If anything requires an additional packages, add it to your script's package installs
 
 1. Copy your `.bashrc` to your git repository
 2. Add to your script to create symbolic link to `~/.bashrc`
 
 ## ssh public keys - authorized keys
 
-
-1. If `~/.ssh` folder does not exist, create it
-2. Copy the `authorized_keys` file to your repo, have script symbolically link it to `~/.ssh/authorized_keys`
-3. Create an `config` file with an entry to `fry.cs.wright.edu`  Symbolically link it to `~/.ssh/config`
+1. In your script, check if `~/.ssh` folder exists.  If not, create it.
+2. Copy the `~/.ssh/authorized_keys` file to your repo, have script symbolically link it to `~/.ssh/authorized_keys`
+3. Create an `~/.ssh/config` file with an entry to `fry.cs.wright.edu`  Symbolically link it to `~/.ssh/config`
 
 ## vim customizations
+
+Do the below tasks on your system, adding command to your script to complete the tasks automatically when the script is run.
 
 1. Install [Vundle](https://github.com/VundleVim/Vundle.vim)
 2. Pick and [install](https://www.linode.com/docs/guides/vim-color-schemes/#how-to-change-vim-color-schemes) a [color scheme for vim](https://github.com/rafi/awesome-vim-colorschemes)
 3. Pick and install a vim [improvement plugin](https://vimawesome.com/)
      - see [Red Hat's opinions](https://www.redhat.com/sysadmin/five-vim-plugins)
 
-## Confirm it worked
+## Submission
 
-1. Sign on to a fresh instance, clone your repo, run your installation script
+Give an instructor demo that your script and dotfiles repository work.  The demo can be completed in class OR by recording a video and uploading it to Pilot.
+
+Sign on to a fresh instance, clone your repo, run your installation script.
+
 
