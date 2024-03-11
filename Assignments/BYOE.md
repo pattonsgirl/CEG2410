@@ -6,7 +6,6 @@ Your tasking:
 
 Build a dotfile repository that includes a script to complete the following tasks when executed:
 
-- creates you if you don't exist
 - installs packages
 - symbolically links a `gitconfig` file in your repository to `~/.gitconfig` in your user's home directory
 - symbolically links an `bashrc` (AND OR `bash_profile`) file in your repository to `~/.bashrc` in your user's home directory
@@ -21,13 +20,6 @@ Build a dotfile repository that includes a script to complete the following task
 3. In your repository, create a script to set things up.
      - `configure.sh`, `install.sh`, `runthis.sh`...
 4. In the instructions below, you'll be adding to the utility of this script
-
-## Create you
-
-First thing when you get on a new system is making yourself an account to put all these lovely you oriented things.  You are welcome to do this differently, but [check out Kijowksi's strategy](https://github.com/mkijowski/dotfiles/blob/master/install.sh)
-
-1. Have your script check if a home directory exists for your user name.
-2. If it doesn't, make one.
 
 ## Package installs
 
