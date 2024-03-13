@@ -33,9 +33,11 @@ Some sample dotfile repositories:
 
 Identify package names in the package installer you have.  Assuming you are you Ubuntu Linux, you have `apt`
 
-- `bind-tools`
+- `dnsutils` (to get `dig`) 
 - `nmap`
 - `anaconda` OR `miniconda`
+     - the one time install instructions (recommended to install it on your machine first, then add lines to script) - https://docs.anaconda.com/free/anaconda/install/linux/
+     - silent mode install instructions (to avoid license prompting, etc) - https://docs.anaconda.com/free/anaconda/install/silent-mode/
 - pick something fun:
      - [command line games](https://itsfoss.com/best-command-line-games-linux/)
      - [find humor in typos](https://github.com/nvbn/thefuck)
