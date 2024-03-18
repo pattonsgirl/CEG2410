@@ -104,8 +104,8 @@ Don't forget to **cite** where you grabbed things:
 
 ## Submission
 
-1. Demonstration
-     - either during class session OR via a recording, prove that your script works on a fresh instance with user account
+1. Peer Review
+     - Swap repositories with a classmate.  Add some constructive issues that would improve their dotfiles collection. 
 2. Deliverable
      - To Dropbox in Pilot, submit link to your dotfiles repository
 
