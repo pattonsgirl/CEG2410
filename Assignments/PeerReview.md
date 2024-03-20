@@ -2,6 +2,8 @@
 
 Your task is to review a classmates dotfiles collection.  You will provide feedback by generating Issues in their repository.
 
+You are to generate a minimum of **3** (**THREE**) unique Issues for the dotfiles repository you are reviewing.
+
 ## Types of Issues
 
 1. Missing features.
