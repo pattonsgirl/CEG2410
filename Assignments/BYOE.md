@@ -93,9 +93,14 @@ Do the below tasks on your system, adding commands to your script to complete th
 
 1. Install [Vundle](https://github.com/VundleVim/Vundle.vim)
 2. Pick and [install](https://www.linode.com/docs/guides/vim-color-schemes/#how-to-change-vim-color-schemes) a [color scheme for vim](https://github.com/rafi/awesome-vim-colorschemes)
-3. Pick and install a vim [improvement plugin](https://vimawesome.com/)
+    - my favs:
+         - [jellybeans](https://vimawesome.com/plugin/jellybeans-vim)    
+4. Pick and install a vim [improvement plugin](https://vimawesome.com/)
      - see [Red Hat's opinions](https://www.redhat.com/sysadmin/five-vim-plugins)
-     - 
+     - my favs:
+            - [YouCompleteMe](https://vimawesome.com/plugin/youcompleteme)
+            - [fugitive](https://vimawesome.com/plugin/fugitive-vim)
+   
 ## Kidnapping Collections
 Don't forget to **cite** where you grabbed things:
 - [My "does the things" collection](https://github.com/pattonsgirl/dotfiles/tree/main)
