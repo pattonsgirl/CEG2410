@@ -57,7 +57,7 @@ Know what can be configured in `git config` - https://git-scm.com/book/sv/v2/Cus
 Configure git to:
 - set name & email
 - set core editor to `vim`, `nano` or `emacs`
-- default exclude commonly ignorable files / folders (`gitignore`) OR create a default commit message template
+- (allowed to skip) default exclude commonly ignorable files / folders (`gitignore`) OR create a default commit message template
 - set [`git` autocorrect](https://andycarter.dev/blog/auto-correct-git-commands)
 
 1. Copy your `.gitconfig` to your git repository
@@ -104,8 +104,6 @@ Don't forget to **cite** where you grabbed things:
 
 ## Submission
 
-1. Peer Review
-     - Swap repositories with a classmate.  Add some constructive issues that would improve their dotfiles collection. 
-2. Deliverable
+1. Deliverable
      - To Dropbox in Pilot, submit link to your dotfiles repository
 
