@@ -1,5 +1,8 @@
 ## Setup & Basic Tour
 
+### Domains, Trees, and Forests
+- [Video](https://www.youtube.com/watch?v=7xOUsirYLYU&ab_channel=JohnChristopher)
+
 ### Install AD DS with PowerShell: 
 - [How to Install AD DS](https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/deploy/install-active-directory-domain-services--level-100-)
 
