@@ -20,8 +20,7 @@
 - [Group Policy Central - Active Directory Structure Guidelines](https://www.grouppolicy.biz/2010/07/best-practice-active-directory-structure-guidelines-part-1/)
 - [Microsoft - Design Considerations for Organizational Unit Structure and Use of Group Policy Objects](https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2003/cc785903(v=ws.10)?redirectedfrom=MSDN)
 - [Group Policy Central - Group Policy Design Guidelines](https://www.grouppolicy.biz/2010/07/best-practice-group-policy-design-guidelines-part-2/)
-- [Discussion on when to create a Group Vs OU](https://social.technet.microsoft.com/Forums/ie/en-US/c4f7ea2c-635e-4b95-91da-7ca0275b8642/ad-group-verses-ou-and-subous-why-would-you-choose-one-over-the-other?forum=winserverDS)
-
+- [Active Directory Organizational Units – Best Practices for OUs!](https://www.tenfold-security.com/en/organizational-unit/)
 
 ### Organizational Units (OU):
 - [IT Bros - AD OUs Ultimate Guide](https://theitbros.com/active-directory-organizational-unit-ou/)
