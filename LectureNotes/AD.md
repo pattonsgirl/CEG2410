@@ -46,6 +46,9 @@
 - [IT Bros - Privileged Groups in AD](https://theitbros.com/managing-privileged-groups-in-active-directory/)
 - [IT Bros - How to add user to Remote Desktop Group?](https://theitbros.com/add-user-to-remote-desktop-group/)
 
+#### Users, Computers, Groups, OUs Tutorial Videos
+- [Video - How to Create OU, Users and Groups on Active Directory 2019](https://www.youtube.com/watch?v=cETbT22TWEE&ab_channel=MSFTWebCast)
+
 ### Group Policy Objects (GPO):  
 Computer-related policies specify:
 - system behavior
