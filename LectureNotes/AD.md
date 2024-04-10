@@ -78,6 +78,10 @@ Troubleshooting:
 - [HOW TO RESOLVE GROUP POLICY ERROR CODES 8007071A AND 800706BA](https://cloudcomputing.help/kb/how-to-resolve-group-policy-error-codes-8007071a-and-800706ba/)
 - [How to use GPUpdate /Force Command to update your Group Policies](https://lazyadmin.nl/it/gpupdate-force-command/)
 
+### GPO Videos
+[Andy Malone - Windows Server 2019 Group Policy Explained](https://www.youtube.com/watch?v=BqAfgquDcj0&ab_channel=AndyMaloneMVP)
+    - Is good, sometimes misinterprets what a GPO policy does by definition (just read the descriptions!)
+
 ## Kerberos
 
 - https://www.fortinet.com/resources/cyberglossary/kerberos-authentication
