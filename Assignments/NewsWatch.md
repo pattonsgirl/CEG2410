@@ -23,6 +23,6 @@ I recommend keeping an eye on:
 
 ## Post Submission
 
-Post article (and any supporting articles) to our course Discord channel.  If your Discord username is not your real name, email me to claim completion of this assignment.
+Post article, a brief summary (and any supporting articles) to our course Discord channel.  If your Discord username is not your real name, email me to claim completion of this assignment.
 
 If someone has already posted an article on a given day, save yours for next round.  
