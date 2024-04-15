@@ -18,6 +18,11 @@ In the network connection settings, select at minimum "Use the following DNS ser
 For me, this looks like:  
 ![My DNS address settings](images/DNS-Settings.JPG)
 
+For credentials, use the Domain Admin account, for me this was:  
+Username: KAYLEIGH/Administrator  
+    - all caps required  
+Password: same as Administrator account you've been using to connect
+
 3. DNS - Phase 2
 
 Add your domain name as a DNS suffix name.  In the menu where you changed your IP settings to the DNS addresses above, click "Advanced", then go to "DNS" tab.  Add a DNS suffix of your domain name.
