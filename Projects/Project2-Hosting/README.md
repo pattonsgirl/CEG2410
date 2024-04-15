@@ -139,8 +139,8 @@ or my favorite, give a bit of a title and what's inside
 
 ## Submission
 
-- In the Pilot Dropbox, paste the URL to the your Project 1 folder in your GitHub repo
-  - URL should look like: https://github.com/WSU-kduncan/ceg2410-projects-YOURGITHUBUSERNAME/tree/main/Project1
+- In the Pilot Dropbox, paste the URL to the your Project 2 folder in your GitHub repo
+  - URL should look like: https://github.com/WSU-kduncan/ceg2410-projects-YOURGITHUBUSERNAME/tree/main/Project2
 
 ## Rubric
 

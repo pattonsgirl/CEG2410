@@ -4,6 +4,8 @@ This project is a detailed revisit to the IT plan assignment that you did week 1
 
 This project may be completed in substitution of your final exam.
 
+In your course repository (`ceg2410s24-yourGitHubUsername`), create a document named `FINAL-ITPlan.md`.  Use it to outline the information outlined below.
+
 ## Network Administration
 
 1. Determine the client organization's domain name.
@@ -11,7 +13,7 @@ This project may be completed in substitution of your final exam.
 2. Determine the number of subnets appropriate for the client organization.   You may use a private subnet block of your choice.
     - [Reminder of valid private subnet blocks](https://en.wikipedia.org/wiki/Private_network)
     - For each subnet within your private subnet block, determine:
-        - Reason for subnet
+        - Reason for subnet (device expectations)
         - Subnet range
         - Ports that need to allow inbound access
     - If you are going to use the cloud for resources described below, you need to additionally write the same report for your VPC network
@@ -53,17 +55,32 @@ You can use whatever tools you would like, here are some recommended tools that 
 
 2. Determine the software stack for the client organization's website.
 
-Make sure your network administration and company hardware plans accurately reflect your needs from this portion.
+Make sure your network administration and company hardware plans accurately reflects your needs from this portion.
 
 ## Company / Internal Data
 
-1. Determine the types of data that your client organization will be working with.  "Data" should consider employee records, client information, code bases / projects.  For each category of data, identify the primary compliance principles that apply.
+1. Determine the types of data that your client organization will be working with.  "Data" should consider employee records, files on employee devices, client information, code bases / projects.  For each category of data, identify the primary compliance principles that apply.
 
-2. Determine how the storage for the different categories of data will be handled.
+2. Determine how the storage for the different categories of data will be handled.  You may self host with one or more servers or cloud host, but with either identify and justify what you are using
 
 3. Based on your Identity & Access Management plan, determine which groups will have access to which data categories.  Your notes here should be reflected in the description for your Groups in the IAM section.
 
-Make sure your network administration and company hardware plans accurately reflect your needs from this portion.
+Make sure your network administration and company hardware plans accurately reflects your needs from this portion.
 
 ## Backup Plan
 
+1. For each type of data and systems (including employee devices), identify the items below.  I will allow a "no-backups needed" justification if you can prove your data plan handles it.
+    - Backup schedule
+    - What to backup (just data, or entire system setup)
+    - Estimated time to restore from backup
+
+2. Identify the backup locations for each type category above.  This should be thoughtful to the different types of data and where your data plan says it will live exist.  For non-essential data, you need at least one backup location.  For essential data, the rule of thumb is 3-2-1:
+    - 3 - You create three copies of your data — the original data on your primary device and at least two copies.
+    - 2 - You use two different storage devices — here, it’s up to you to choose the two storage media carriers — your PC, external hard drive, a USB flash drive, DVD, NAS or cloud storage devices such as GitHub or OneDrive.
+    - 1 - You keep one of the backup copies off-site — by keeping copies of your data in a remote location, you prevent data loss due to a local disaster or a site-specific failure scenario.
+    - [Source](https://www.acronis.com/en-us/blog/posts/backup-rule/)
+
+## Submission
+
+- In the Pilot Dropbox, paste the URL to the your Final Project documentation in your GitHub repo
+  - URL should look like: https://github.com/WSU-kduncan/ceg2410s24-YOURGITHUBUSERNAME/tree/main/FINAL-ITPlan.md
