@@ -35,6 +35,7 @@
     - [Microsoft - Troubleshoot Errors Joining Computer to Domain](https://learn.microsoft.com/en-us/troubleshoot/windows-server/identity/troubleshoot-errors-join-computer-to-domain)
     - [TechNews Today - Remove Computer from Domain](https://www.technewstoday.com/remove-computer-from-domain/)
     - [Digital Citizen - WORKGROUP vs Network Domain](https://www.digitalcitizen.life/workgroup-windows/)
+    - [Magic Reddit Guide of hints](https://www.reddit.com/r/aws/comments/6z03h1/cant_join_ec2_windows_instance_to_active/)
 - [Windows OS Hub - Restrict Workstation Logon to Set of AD Users](https://woshub.com/restrict-workstation-logon-ad-users/)
 - [How to use the "Managed By" attribute](https://itworldjd.wordpress.com/2022/09/28/ad-usage-of-managed-by-attribute/)
 
