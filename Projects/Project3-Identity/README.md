@@ -52,6 +52,8 @@ Create the following Organizational Units - Provide screenshot proof:
   - `HR` - can log on to Secure computers, managed by hr_finance_admins group
   - `Engineers` - can log on to Workstations, managed by dev_eng_admins
   - `Developers` - can log on to Workstations, managed by dev_eng_admins
+ 
+![my OU structure](OUs.JPG)
 
 **Extra Credit (5%)** Provide a scripted solution that generates the OUs in your domain. There is a sample `.csv` and `.ps1` script in this folder
 
