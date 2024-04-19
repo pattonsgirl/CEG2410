@@ -77,6 +77,7 @@ Make sure your network administration and company hardware plans accurately refl
 1. For each type of data and systems (including employee devices), identify the items below.  I will allow a "no-backups needed" justification if you can prove your data plan handles it.
     - Backup schedule
     - What to backup (just data, or entire system setup)
+    - Time to keep backups
     - Estimated time to restore from backup
 
 2. Identify the backup locations for each type category above.  This should be thoughtful to the different types of data and where your data plan says it will live exist.  For non-essential data, you need at least one backup location.  For essential data, the rule of thumb is 3-2-1:

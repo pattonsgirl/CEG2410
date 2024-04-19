@@ -43,8 +43,9 @@ Score: / 100
 
 ## Backup Plan (10 points)
 - Propose, for each data category, a recommendation of
-    - backup schedule
+    - Backup schedule
     - Elements included in the backup
+    - Time to keep backups
     - Estimated time to restore from backup
 - Following the rule of three where applicable, identify backup recommendations for each data category
 - Plan is reflected in needs in the Networking & Hardware plans above 
