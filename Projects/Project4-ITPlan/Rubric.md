@@ -33,14 +33,21 @@ Score: / 100
 - Recommend Group Policy settings for each OU, and recommend how the different groups would be utilized for control over OUs or access permissions to resources.
 
 ## External Facing Website (10 points)
-Addresses security concerns and proposes measures for improving security.
-Discusses compliance requirements relevant to the organization.
+- Proposes hosting the external website in the cloud or on-premise, and sufficiently justifies the decision to the client organization (reflects costs by providing estimates, hardware maintenance, and uptime).
+- Recommends a software stack for the website based on common languages & features used on sites by peers.
 
 ## Internal Data Management (10 points)
-Identifies potential IT risks and their impact on the organization.
-Proposes risk mitigation strategies and contingency plans.
+- Lists differing data categories that the company will be working with and compliance rules that will need to be considered.
+- Proposes data storage strategies for each data category identified, and notes where the data categories will be stored.  There should be thoughtful justification on needs to segregate data - different servers versus access control.
+- Reflects on the IAM Management plan 
 
 ## Backup Plan (10 points)
+- Propose, for each data category, a recommendation of
+    - backup schedule
+    - Elements included in the backup
+    - Estimated time to restore from backup
+- Following the rule of three where applicable, identify backup recommendations for each data category
+- Plan is reflected in needs in the Networking & Hardware plans above 
 
 # Criteria: Organization and Clarity (15 points)
 

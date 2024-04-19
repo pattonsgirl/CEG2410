@@ -83,6 +83,7 @@ Make sure your network administration and company hardware plans accurately refl
     - 3 - You create three copies of your data — the original data on your primary device and at least two copies.
     - 2 - You use two different storage devices — here, it’s up to you to choose the two storage media carriers — your PC, external hard drive, a USB flash drive, DVD, NAS or cloud storage devices such as GitHub or OneDrive.
     - 1 - You keep one of the backup copies off-site — by keeping copies of your data in a remote location, you prevent data loss due to a local disaster or a site-specific failure scenario.
+        - If this adds another server / resource to the fix, it should be reflected in your overall plan
     - [Source](https://www.acronis.com/en-us/blog/posts/backup-rule/)
 
 ## Submission
