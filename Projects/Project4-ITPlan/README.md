@@ -8,25 +8,26 @@ In your course repository (`ceg2410s24-yourGitHubUsername`), create a document n
 
 ## Network Administration
 
-1. Determine the client organization's domain name.
+1. Determine the client organization's domain name.  This name should be available, and you should note the fee associated with ownership.
 
 2. Determine the number of subnets appropriate for the client organization.   You may use a private subnet block of your choice.
     - [Reminder of valid private subnet blocks](https://en.wikipedia.org/wiki/Private_network)
     - For each subnet within your private subnet block, determine:
         - Reason for subnet (device expectations)
-        - Subnet range
-        - Ports that need to allow inbound access
+        - Subnet range, and therefore number of devices supported on the subnet
+        - Inbound & outbound firewall rules
     - If you are going to use the cloud for resources described below, you need to additionally write the same report for your VPC network
 
 3. Determine the starting set up networking equipment between routers, switches, access points, and firewalls.  I am looking less for brand recognition, and more for a generic shopping list of devices needed to support the client organization's networking setup.
 
 4. Determine how many public IPv4 addresses you will need between the client organization location & cloud services.  List what resources need a public IPv4 address.
+    - Hint: don't forget private networks use NAT and a border router to communicate external to, and receive communication back from, resources external to the subnet.
 
 5. Determine a short list of **external DNS** record needs.  I am seeking the domain / sub-domain name and to what publicly addressable servers they need to tie to.
 
 6. Determine a short list of **internal DNS** record needs.  I am seeking the domain / sub-domain name and to what internally addressable servers they need to tie to.
 
-## Company Hardware
+## Hardware Recommendations
 
 1. Determine a set of specifications for employee devices working at the client organization.  I am looking for specifications & justifications of those specifications.  You may have different sets of specifications for different employee roles.
 
@@ -49,7 +50,7 @@ You can use whatever tools you would like, here are some recommended tools that 
 - [Mermaid - new markdown feature](https://github.blog/2022-02-14-include-diagrams-markdown-files-mermaid/)
 - PowerPoint and OneNote are still good choices
 
-## External Facing Website
+## External Facing Website Management
 
 1. Determine if the client organization's external website will be hosted internally or in the cloud.  Provide justification for your decision - this should reflect points we have discussed in class such as cost & hardware maintenance.
 
@@ -57,7 +58,7 @@ You can use whatever tools you would like, here are some recommended tools that 
 
 Make sure your network administration and company hardware plans accurately reflects your needs from this portion.
 
-## Company / Internal Data
+## Company / Internal Data Management
 
 1. Determine the types of data that your client organization will be working with.  "Data" should consider employee records, files on employee devices, client information, code bases / projects.  For each category of data, identify the primary compliance principles that apply.
 
