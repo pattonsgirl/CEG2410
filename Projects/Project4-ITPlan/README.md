@@ -29,9 +29,10 @@ In your course repository (`ceg2410s24-yourGitHubUsername`), create a document n
 
 ## Hardware Recommendations
 
-1. Determine a set of specifications for employee devices working at the client organization.  I am looking for specifications & justifications of those specifications.  You may have different sets of specifications for different employee roles.
+1. Determine a set of specifications for employee or client (noted for those focusing on an education orientation where you may have students) devices working at the client organization.  I am looking for specifications & justifications of those specifications.  You may have different sets of specifications for different employee roles.
+    - For example, HR staff don't need a gaming PC - or would you like to justify why they do?
 
-2. Determine sets of specifications for servers within the client organization.  Again, this should focus on specifications & justifications for those specifications.  This does include cloud hosted servers.
+2. Determine sets of specifications for servers within the client organization.  These should consider expected growth.  Again, this should focus on specifications & justifications for those specifications.  This does include cloud hosted servers.
 
 ## Identity & Access Management
 
@@ -39,14 +40,17 @@ Assume you are going to host an Active Directory environment for your client org
 
 Provide for your client organization a logical diagram of Organizational Units & Groups.  Since diagrams should not be wordy, include a description of intent for each OU and Group.  
 
-Recommend one or two Group Policy Objects that would apply to each OU.  If a Group Policy is going to be used repeatedly, give it it's own bullet point and description, and refer to it by name for the OU(s) it applies to.
+Recommend one or two Group Policy Objects that would apply to each OU.  
+    - If a Group Policy is going to be used repeatedly, give it it's own bullet point and description, and refer to it by name for the OU(s) it applies to.
+
+Recommend how different groups would be utilized for control over OUs or access permissions to resources.
 
 ### Resources
 
 You can use whatever tools you would like, here are some recommended tools that people use for building clean diagrams
 
 - [Lucid Charts](https://www.lucidchart.com/pages/)
-- [Textographo](https://textografo.com/)
+- [`Textographo`](https://textografo.com/)
 - [Mermaid - new markdown feature](https://github.blog/2022-02-14-include-diagrams-markdown-files-mermaid/)
 - PowerPoint and OneNote are still good choices
 

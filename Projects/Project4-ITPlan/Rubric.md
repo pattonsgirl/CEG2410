@@ -2,11 +2,12 @@
 
 Score: / 100
 
-# Criteria: Content (75 points)
+# Criteria: Core Content (75 points)
 
 ## Introduction (5 points)
 - Provides a clear overview of the IT plan's purpose and scope.
 - States the goals and objectives of the IT plan.
+
 ## Network Administration (15 points)
 - Proposes an available domain name and associated fee of ownership
 - Presents subnet blocks for different network resources at the client's location.  Addresses:
@@ -20,19 +21,25 @@ Score: / 100
 - Proposes a list of initial external DNS records.  For each record need, write the record domain / subdomain and what publicly addressable resource it would tie to.
 - Proposes a list of initial internal DNS records.  For each record need, write the record domain / subdomain and what internally addressable resource it would tie to.
 - Reflects decisions made in subsections that follow.
+
 ## Hardware Recommendations (15 points)
-Demonstrates understanding of how IT aligns with the organization's business goals.
-Describes how IT improvements can contribute to achieving these goals.
+- Proposes for each employee (and client group, depending) a minimum set of hardware requirements for devices.  A reflection is shown on the day to day taskings expected of an employee in that role. The specifications should be paired with an explanation of anticipated usage so that the client organization can see why these specs should be sufficient.
+- Proposes for each server or server group a minimum set of hardware requirements.  The specifications should be paired with an explanation of anticipated usage so that the client organization can see why these specs should be sufficient.
+- Reflects decisions made in subsections that follow.
+
 ## Identity & Access Management (10 points)
-Proposes a clear IT strategy that addresses current challenges.
-Outlines steps for implementing the IT strategy.
-Considers scalability, flexibility, and cost-effectiveness.
+- Proposes an Active Directory structure for the client organization to review.  It is required that there is a visual diagram of OU and groups within their AD domain.  If a legend is required it should be included in the diagram or detailed near the diagram.
+- For the AD organizational structure, a description of intent behind the OUs and groups is provided to the client organization.
+- Recommend Group Policy settings for each OU, and recommend how the different groups would be utilized for control over OUs or access permissions to resources.
+
 ## External Facing Website (10 points)
 Addresses security concerns and proposes measures for improving security.
 Discusses compliance requirements relevant to the organization.
+
 ## Internal Data Management (10 points)
 Identifies potential IT risks and their impact on the organization.
 Proposes risk mitigation strategies and contingency plans.
+
 ## Backup Plan (10 points)
 
 # Criteria: Organization and Clarity (15 points)
