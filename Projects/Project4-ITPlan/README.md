@@ -90,3 +90,7 @@ Make sure your network administration and company hardware plans accurately refl
 
 - In the Pilot Dropbox, paste the URL to the your Final Project documentation in your GitHub repo
   - URL should look like: https://github.com/WSU-kduncan/ceg2410s24-YOURGITHUBUSERNAME/tree/main/FINAL-ITPlan.md
+
+## Rubric
+
+[Rubric.md](Rubric.md)
