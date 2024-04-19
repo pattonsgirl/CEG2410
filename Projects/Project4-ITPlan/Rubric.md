@@ -1,4 +1,4 @@
-# Project 4: IT Plan Rubric
+# Final Project: IT Plan Rubric
 
 Score: / 100
 
