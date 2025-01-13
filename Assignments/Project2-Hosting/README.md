@@ -4,7 +4,7 @@
 - set up a webserver to host content
 - enable and configure HTTPS
 - understand the role of DNS at various levels
-- modify firewall rules (Security Groups)
+- modify firewall rules on the server and via Security Groups
 
 ## What you need
 - a website (nothing fancy, although it breaks up grading monotony)
