@@ -8,7 +8,6 @@
 
 ## What you need
 
-hello
 - a website (nothing fancy, although it breaks up grading monotony)
     - if you don't have one to play with, you can play with [`site.tar.gz`](site.tar.gz) by extracting it to your website folder
 - an AWS instance
@@ -16,9 +15,7 @@ hello
     - looks like `https://github.com/WSU-kduncan/ceg2410s24-YOURGITHUBUSERNAME`
 - a list of resources used either as you go in long (so in context with parts you are working on) or listed in a section at the end of your project.
 
-
-
-Your project documentation will be in your course repository in a file named `Hosting.md`.
+Your project documentation will be in your course repository in a folder named `WebHosting`.
 
 ## Part 1 - HTTP Server
 
