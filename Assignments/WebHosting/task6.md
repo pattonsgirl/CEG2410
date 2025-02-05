@@ -12,8 +12,10 @@ You may use your own content or ask ChatGPT or another generative AI to create c
 
 Test your index.html by visiting the site URL.  Test the error page by requesting a file / resource that does not exist in your bucket.
 
-https://docs.aws.amazon.com/AmazonS3/latest/userguide/HostingWebsiteOnS3Setup.html
+On March 9th, 2024, I left my future self a note - "AWS has a default page. Be specific if you want non-default index.html"
+
+[Tutorial: Configuring a static website on Amazon S3](https://docs.aws.amazon.com/AmazonS3/latest/userguide/HostingWebsiteOnS3Setup.html)
 
 ## Submission
 
-Post the link to your site hosted in S3 to the Dropbox on Pilot.
+Post the URL link to your site hosted in S3 to the Dropbox on Pilot.
