@@ -1,4 +1,4 @@
-## Network Diagram Report
+## AWS Network Diagram Report
 
 Create a diagram detailing how the AWS instance can be connected to and achieves connectivity with the outside world.
 
