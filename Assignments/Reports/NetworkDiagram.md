@@ -2,7 +2,7 @@
 
 Create a diagram detailing how the AWS instance can be connected to and achieves connectivity with the outside world.
 
-Use lucidchart, excalidraw, or draw.io
+Use lucidchart, excalidraw, canva, or draw.io
 
 Put your diagram, and any supporting descriptive text you would like to add, in your course GitHub repository in a file named `network-diagram-report.md`
 
