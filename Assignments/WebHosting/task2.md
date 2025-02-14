@@ -19,7 +19,7 @@ Create a folder in your course GitHub repository called `Web-Hosting`.  Create a
 - Controlling apache as a service
 - How the root document directory is defined
 - Steps to add your web content to defined root document directory
-- At least three ways to tell that your server is serving content via apache
+- At least two ways to tell that your server is serving content via apache
 - Screenshot of browser connecting to server over configured port with the site & public IP in the URL bar
 
 ## Submission
