@@ -14,7 +14,8 @@ Create a folder in your course GitHub repository called `Web-Hosting`.  Create a
 - Firewall acknowledgments to allow access to server over configured port
 - Create a self-signed certificate with OpenSSL.  Document how this task was complete and details on the location of associated files
 - Configure apache to utilize your certificate.  Document the process such so that future you can replace the certificates as required
-- Provide at least three ways to tell that your server is serving content over HTTPS
+- Redirect HTTP request to utilize HTTPS instead
+- Provide at least two ways to tell that your server is serving content over HTTPS
 - Screenshot(s) to validate site is utilizing HTTPS
     - focus on proving via browser tools that HTTPS is enabled
 
