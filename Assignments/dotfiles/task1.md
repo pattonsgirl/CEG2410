@@ -16,9 +16,9 @@
 3. Install your choice of a vim [improvement plugin](https://vimawesome.com/)
      - see [Red Hat's opinions](https://www.redhat.com/sysadmin/five-vim-plugins)
      - my favs:
-            - [YouCompleteMe](https://vimawesome.com/plugin/youcompleteme)
-                - This plugin with make you feel torn about the benefits of autocomplete.  Make sure you also know how to disable it
-            - [fugitive](https://vimawesome.com/plugin/fugitive-vim)
+         - [YouCompleteMe](https://vimawesome.com/plugin/youcompleteme)
+               - This plugin with make you feel torn about the benefits of autocomplete.  Make sure you also know how to disable it
+          - [fugitive](https://vimawesome.com/plugin/fugitive-vim)
 4. Copy your `.vimrc` file to your `dotfiles` repository in `vim-config`
 5. Write a script that
     - copies the `.vimrc` file from your repository to your user's home directory
