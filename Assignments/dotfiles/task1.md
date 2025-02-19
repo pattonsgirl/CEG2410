@@ -9,21 +9,33 @@
 ### Customize `vim`
 
 1. In your `dotfiles` repository, create a folder named `vim-config`
-1. Install [Vundle](https://github.com/VundleVim/Vundle.vim)
-2. [Install](https://www.linode.com/docs/guides/vim-color-schemes/#how-to-change-vim-color-schemes) [your choice of a color scheme for vim](https://github.com/rafi/awesome-vim-colorschemes)
+2. Install [Vundle](https://github.com/VundleVim/Vundle.vim)
+```
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+```
+3. Add to your `.vimrc` file instructions to use Vundle and refer to plugins (next steps)
+4. Add  [your choice of a color scheme for vim via Vundle](https://vimawesome.com/?q=colorscheme)
     - my fav:
          - [jellybeans](https://vimawesome.com/plugin/jellybeans-vim)    
-3. Install your choice of a vim [improvement plugin](https://vimawesome.com/)
+5. Add your choice of a vim [improvement plugin via Vundle](https://vimawesome.com/) (can be anything - just not a colorscheme)
      - see [Red Hat's opinions](https://www.redhat.com/sysadmin/five-vim-plugins)
      - my favs:
-         - [YouCompleteMe](https://vimawesome.com/plugin/youcompleteme)
-               - This plugin with make you feel torn about the benefits of autocomplete.  Make sure you also know how to disable it
+          - [indent-guides](https://vimawesome.com/plugin/indent-guides)
           - [fugitive](https://vimawesome.com/plugin/fugitive-vim)
-4. Copy your `.vimrc` file to your `dotfiles` repository in `vim-config`
-5. Write a script that
-    - copies the `.vimrc` file from your repository to your user's home directory
+          - [youcompleteme](https://vimawesome.com/plugin/youcompleteme)
+               - may throw errors depending on `vim` version
+6. At the end of the `.vimrc` set your colorscheme.  Example: `colorscheme jellybeans`
+7. Install your Vundle plugins in your `.vimrc`
+```
+vim +PluginInstall +qall
+```
+8. Copy your `.vimrc` file to your `dotfiles` repository in the folder `vim-config`
+9. Write a script that in your `dotfiles` repository that:
+    - copies the `.vimrc` file from your repository folder to your user's home directory
+        - we are assuming your repository is already cloned
     - installs `Vundle` if `~/.vim/bundle/Vundle.vim` does not exist
-6. Add / copy the script to your `dotfiles` repository in `vim-config`
+    - installs your `vim` setup per your `.vimrc` contents
+10. Test that your script works.  Leave in comments or in a separate `README.md` in your `vim-config` folder notes on citations
 
 ## Submission
 
