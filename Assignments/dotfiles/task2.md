@@ -1,4 +1,4 @@
-## Task 2 - DRAFT (NOT FINALIZED)
+## Task 2
 
 In your `dotfiles` repository, create a folder named `homefiles`
 
@@ -13,9 +13,14 @@ In your `dotfiles` repository, create a folder named `homefiles`
 2. Verify your added aliases / bash additions work - install additional packages if required
 3. Copy your `.bashrc` file to your `dotfiles` repository in `homefiles`
 4. Write a script that:
-    - outputs as text to the user OR installs additional packages needed for your `.bashrc` files
+    - **Optional**, pick one:
+        - [if needed] outputs to user packages that need to be installed for your `.bashrc` file
+        - [if needed] checks if being run as sudo, installs additional packages needed for your `.bashrc` file
     - symbolically links the `.bashrc` file in your `dotfiles` repository to your user's home directory
+    - reminds the user to reload their environment (with `source` or by logging out and back on)
 5. Add / copy the script to your `dotfiles` repository in `homefiles`
+
+A recovery `.bashrc` file is [here](bashrc) if you need it.  While testing, maybe name yours `new_bashrc` and try loading it into your shell (`source new_bashrc`) to check for errors because having it be your only `.bashrc`
 
 ## Submission
 
