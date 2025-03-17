@@ -1,5 +1,7 @@
 # Filesystem Research
 
+Create a research report (named `fs-research.md`) in your GitHub repo.  If you are in class working as a group, only one submission is needed as long as a group member wrote your name on the report.  Submit your report to the Dropbox on Pilot
+
 Picking among:
 - ZFS
 - BeeFS
