@@ -42,7 +42,7 @@ A recovery `.bashrc` file is [here](bashrc) if you need it.  While testing, mayb
 
 If you are making changes locally (your host system using `bash` or you have WSL2 + Ubuntu) and you break something, causing `bash` to no longer keep a shell open - you can still edit the files via your file explorer.
 
-If you are making changes on your AWS instance and you break comsthing causing `bash` to no longer keep a shell open, you should still be able to `sftp`.  You can then `get` the broken files, remove the likely culprits, then `put` the fixed files in the user profile.
+If you are making changes on your AWS instance and you break something causing `bash` to no longer keep a shell open, you should still be able to `sftp`.  You can then `get` the broken files, remove the likely culprits, then `put` the fixed files in the user profile.
 
 ## Submission
 
