@@ -9,3 +9,5 @@ Individually, make a file in your course repo named `personal-backup.md`.  *Thou
 3. Describe what you are *currently* doing for backups.
 
 4. Describe your backup *resolution* (plan to implement) to meet 3-2-1 backup "rule" standards.
+
+Submit the link to your report to theDropbox on GitHub.
