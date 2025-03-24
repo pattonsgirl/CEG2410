@@ -14,5 +14,5 @@ Don't forget to cite sources used.  Sufficient citation examples:
 - [Digital Ocean - How To Install Nginx on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-ubuntu-20-04)
     - used to outline configuration basics and locations of key configuration files
 - ChatGPT
-    - Prompt: "Explain the nginx default configuration file
+    - Prompt: "Explain the nginx default configuration file"
     - used to understand the structure of the configuration file
