@@ -22,7 +22,7 @@ For this task, you are going to do every admin's favorite thing - install softwa
         - ex. `sudo apt install apache2` will prompt me `y` / `n` before proceeding; `sudo apt install -y apache2` will assume "yes" as answer to all prompts and run non-interactively
     - prompts the user that install is complete and a command to run to try it
 3. Add / copy the script to your `dotfiles` repository in `sys-installs`
-4. Add a README.md file to the homefiles folder with a description about what these files do and citations
+4. Add a README.md file to the `sys-installs` folder with a description about what these file do and citations
     - if you used generative AI, you need to cite which was used and what the prompt was
     - markdown syntax for links is [link descriptor](URL_HERE) - provide a little description of what was used in the article / video
 
