@@ -7,6 +7,9 @@ This report will be centered around your implementation of self-hosting one of t
 As stated in class, I am lazily breaking these up into three general categories.
 
 Self-hosted System Management Applications:
+> [!WARNING]
+> For options that are OSes, you'll have to check first to see if an AMI is available to install to the instance.
+
 - [Unraid](https://unraid.net/) - operating system for self-hosted servers and network-attached storage
 - [TrueNAS](https://www.truenas.com/truenas-community-edition/) - The platform harnesses the power of the legendary ZFS file system to easily scale unified storage with the reliability and performance demanded by virtualization, backup, and many other data-intensive workloads.
 - [Proxmox](https://www.proxmox.com/en/products/proxmox-virtual-environment/overview) - complete, open-source server management platform for enterprise virtualization. It tightly integrates the KVM hypervisor and Linux Containers (LXC), software-defined storage and networking functionality, on a single platform. With the integrated web-based user interface you can manage VMs and containers, high availability for clusters, or the integrated disaster recovery tools with ease.
