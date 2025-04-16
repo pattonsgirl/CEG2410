@@ -29,6 +29,25 @@ Self-hosted Game Servers:
 - Enshrouded
 - Valheim
 
+## Host your Software in an EC2 Instance
+
+After making your software selection, your next task is to work on deploying it to an EC2 instance.  
+1. Determine a suitable instance type (specs) to run your software
+2. Determine which OS is best to install and run your software to
+3. Install your software
+4. Make network security adjustments appropriate to the needs of your server, your software, and user access
+5. Determine an access plan from the following perspectives:
+    - server administration
+    - users wanting to access the software
+6. Demonstrate proper configuration by utilizing features provided by the software
+    - Given the scope of allowed software, I am keeping this vague, so here are some examples:
+        - Grafana - dashboard a server you manage
+        - mealie - prove a user can sign in, save a recipe, and another can view it
+        - Minecraft - prove players (with permission) can sign in and play
+7. Create a backup policy appropriate to the system / software
+    - Things to consider:
+        - is there a file or set of files that could be backed up to an S3 bucket?
+        - is the software so engrained that a backup needs to be an AMI image? (see Promox)
 
 Documentation:
  - Install instruction
@@ -40,4 +59,5 @@ Documentation:
  - Show use of features
  - Backup policy / configuration
     - Disaster recovery 
+- Common Troubleshooting
 
