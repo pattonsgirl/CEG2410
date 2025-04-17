@@ -42,6 +42,7 @@ After making your software selection, your next task is to work on deploying it 
 5. Determine an access plan from the following perspectives:
     - server administration
     - users wanting to access the software
+    - systems connecting to the software
 6. Demonstrate proper configuration by utilizing features provided by the software
     - Given the scope of allowed software, I am keeping this vague, so here are some examples:
         - Grafana - dashboard a server you manage
@@ -50,8 +51,9 @@ After making your software selection, your next task is to work on deploying it 
 7. Create a backup policy appropriate to the system / software
     - Things to consider:
         - is there a file or set of files that could be backed up to an S3 bucket?
-        - is the software so engrained that a backup needs to be an AMI image? (see Promox)
+        - is the software so engrained that a backup needs to be an AMI image? (such as Promox)
 
+## Documenting your Implementation
 Documentation:
  - Install instruction
  - AWS VPC 
@@ -63,4 +65,12 @@ Documentation:
  - Backup policy / configuration
     - Disaster recovery 
 - Common Troubleshooting
+
+## Submission
+
+Submit link to documentation to the Dropbox on Pilot.
+
+## Documentation Rubric
+
+## Show and Tell Rubric
 
