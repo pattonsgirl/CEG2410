@@ -2,6 +2,8 @@
 
 This report will be centered around your implementation of self-hosting one of the below services.  This is not a group project - you must implement networking, hosting and management yourself in addition to writing up the companion report.  That said, you may partner with others who picked the same software to host to help with troubleshooting / advice.  As with all work in this course, cite sources - be them classmates, web resources, or generative AI to note what helped during your implementation.
 
+This Report will exist in your `ceg2410-GHUsername` repository in GitHub named `Self-Hosted.md`
+
 ## Choose a Software to Host
 
 As stated in class, I am lazily breaking these up into three general categories.
@@ -54,17 +56,41 @@ After making your software selection, your next task is to work on deploying it 
         - is the software so engrained that a backup needs to be an AMI image? (such as Promox)
 
 ## Documenting your Implementation
-Documentation:
- - Install instruction
- - AWS VPC 
- - Instance requirements
- - Cost Estimates
- - Security - NACLs and Security Groups
- - Managing Server Access
- - Show use of features
- - Backup policy / configuration
-    - Disaster recovery 
-- Common Troubleshooting
+
+Your documentation should address / include a minimum of the following elements:
+
+1. Project description:
+    - What software will be set up through this document
+    - What the software is
+    - What this document will cover in terms of self-hosting this software
+1. AWS VPC setup:
+    - VPC block (and explanation / justification)
+    - Subnet block (and explanation / justification)
+    - Route table rules (and explanation / justification)
+    - Network ACL rules (and explanation / justification)
+    - Security Group rules (and explanation / justification)
+2. AWS instance setup:
+    - instance type (and explanation / justification)
+    - AMI (and explanation / justification)
+    - volume size (and explanation / justification)
+3. Cost estimates:
+    - projected cost according to dashboard (screenshot)
+    - cost of instance type
+    - cost of EIP (note, EIP charges only apply when instance is not in use)
+    - cost of AMI
+4. Installation instructions:
+    - point to documentation to use as reference 
+    - summarize your installation process
+    - **screenshot** of software operating on instance
+5. Security:
+    - how server access is being restricted depending on service 
+        - controlling remote server administration vs using the application
+    - this should reflect your Security Groups & management access your software allows
+    - **screenshots** demonstrating different user type access rights
+6. Software features: 
+7. Backup policy / disaster recovery: 
+8. Common troubleshooting:
+
 
 ## Submission
 
