@@ -63,40 +63,113 @@ Your documentation should address / include a minimum of the following elements:
     - What software will be set up through this document
     - What the software is
     - What this document will cover in terms of self-hosting this software
-1. AWS VPC setup:
+2. AWS VPC setup:
     - VPC block (and explanation / justification)
     - Subnet block (and explanation / justification)
     - Route table rules (and explanation / justification)
     - Network ACL rules (and explanation / justification)
     - Security Group rules (and explanation / justification)
-2. AWS instance setup:
+3. AWS instance setup:
     - instance type (and explanation / justification)
     - AMI (and explanation / justification)
     - volume size (and explanation / justification)
-3. Cost estimates:
+4. Cost estimates:
+    - summary of cost estimates
     - projected cost according to dashboard (screenshot)
     - cost of instance type
     - cost of EIP (note, EIP charges only apply when instance is not in use)
     - cost of AMI
-4. Installation instructions:
+5. Installation instructions:
     - point to documentation to use as reference 
     - summarize your installation process
     - **screenshot** of software operating on instance
-5. Security:
+6. Security:
     - how server access is being restricted depending on service 
         - controlling remote server administration vs using the application
-    - this should reflect your Security Groups & management access your software allows
+    - this should reflect your Security Groups / Network ACLs / system level firewalls & management access your software allows
     - **screenshots** demonstrating different user type access rights
-6. Software features: 
-7. Backup policy / disaster recovery: 
-8. Common troubleshooting:
+7. Software features: 
+    - description of demonstrated features
+    - **screenshots** of features in action
+8. Backup policy / disaster recovery: 
+    - **Thoughtful** analysis of what good backups will consist of
+    - Amount of data to be backed up (estimation)
+    - Backup strategy showing a reflection of the 3-2-1 rule
+    - Estimated recovery time
+    - Estimated time to recovery in case of failure
+9. Common troubleshooting:
+    - one or two things that you typically need to troubleshoot when self-hosting this application
+        - can be from a system design perspective (computation resources, networking configurations)
+        - can be when installing / configuring the software
 
 
 ## Submission
 
-Submit link to documentation to the Dropbox on Pilot.
+Submit link to documentation in your `ceg2410-GHUsername` repository to the Dropbox on Pilot.
 
 ## Documentation Rubric
 
-## Show and Tell Rubric
+### Total points: / 33
+
+1. Project description - / 3
+    - [ ] What software will be set up through this document
+    - [ ] What the software is
+    - [ ] What this document will cover in terms of self-hosting this software
+2. AWS VPC setup - / 5
+    - [ ] VPC block
+        - [ ] explanation / justification
+    - [ ] Subnet block
+        - [ ] explanation / justification
+    - [ ] Route table rules
+        - [ ] explanation / justification
+    - [ ] Network ACL rules
+        - [ ] explanation / justification
+    - [ ] Security Group rules
+        - [ ] explanation / justification
+3. AWS instance setup - / 3
+    - [ ] instance type
+        - [ ] explanation / justification
+    - [ ] AMI
+        - [ ] explanation / justification
+    - [ ] volume size
+        - [ ] explanation / justification
+4. Cost estimates - / 5
+    - [ ] summary of cost estimates
+    - [ ] projected cost according to dashboard (screenshot)
+    - [ ] cost of instance type
+    - [ ] cost of EIP
+    - [ ] cost of AMI
+5. Installation instructions - / 3
+    - [ ] point to documentation to use as reference 
+    - [ ] summarize your installation process
+    - [ ] **screenshot** of software operating on instance
+6. Security - / 5
+    - how server access is being restricted depending on service 
+        - [ ] controlling remote server administration
+        - [ ] using the application
+    - [ ] reflects your Security Groups / Network ACLs / system level firewalls
+    - [ ] reflects user management access your software allows
+    - [ ] **screenshots** demonstrating different user type access rights
+7. Software features - / 2
+    - [ ] description of demonstrated features
+    - [ ] **screenshots** of features in action
+8. Backup policy / disaster recovery - / 5
+    - [ ] **Thoughtful** analysis of what good backups will consist of based on software selection
+    - [ ] Amount of data to be backed up (estimation)
+    - [ ] Backup strategy showing a reflection of the 3-2-1 rule
+    - [ ] Estimated recovery time
+    - [ ] Estimated time to recovery in case of failure
+9. Common troubleshooting - / 2
+    - [ ] one or two things that you typically need to troubleshoot when self-hosting this application
+    - [ ] is worth noting as something to troubleshoot
+
+## "Presentation" Rubric
+
+### Total points: / 5
+
+- [ ] Showed up
+- [ ] Live demonstrated working self-hosted application
+- [ ] TBA 
+- [ ] TBA
+- [ ] TBA
 
