@@ -10,6 +10,8 @@ This is broken out into categories because it was going to be a BINGO game.  The
 
 When filling out the document with interviews, `Last name` refers to the last name of the student you are interviewing.
 
+Try to find 3 other softwares (someone who did your same one is allowed)
+
 At the end of the exam period, submit the link to this document in your GitHub repository to the Dropbox on Pilot.
 
 ---
