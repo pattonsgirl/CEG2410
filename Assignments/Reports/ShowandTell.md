@@ -1,5 +1,7 @@
 In YOUR `ceg2410-youGHUsername` repository, create a report named `final.md`.
 
+Copy the markdown of the show and tell section into your `final.md` file.  [Link to raw file](https://raw.githubusercontent.com/pattonsgirl/CEG2410/refs/heads/main/Assignments/Reports/ShowandTell.md)
+
 Your final will be to pair out with classmates and discuss your projects.  This will be done 3-5 times, depending on timing.
 
 You will complete this document by interviewing a classmate about their project.  There are fill in the blanks because I'm not sure what people ended up on.  Replace blanks with names.
