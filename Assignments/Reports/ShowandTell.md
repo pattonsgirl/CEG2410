@@ -21,9 +21,8 @@ Nested bullets should be in form: `* Last name`
 
 * Gaming
 * Cooking
-* ---
-* ---
-* ---
+
+---
 
 #### 🖥️ **Host OS**
 
@@ -34,7 +33,6 @@ Nested bullets should be in form: `* Last name - OS version`
 * Debian
 * Ubuntu
 * RedHat
-* _____
 
 ---
 
@@ -53,7 +51,6 @@ Nested bullets should be in form: `* Last name - software version`
 * GitLab
 * ownCloud
 * Minecraft
-* _____
 
 ---
 
@@ -65,7 +62,6 @@ Nested bullets should be in form: `* Last name - describe what was done to demo`
 * Made Account
 * Joined server
 * Viewed Dashboard
-* _____
 
 #### 💥 **Live Troubleshooting**
 
@@ -99,6 +95,5 @@ Nested bullets should be in form: `* Last name - describe how software has this 
 * Insecure configurations
 * Users have destructive permissions to software assets
 * Outdated versions of software or dependencies
-* _____
 
 ---
