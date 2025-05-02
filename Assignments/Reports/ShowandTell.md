@@ -4,7 +4,7 @@ Copy the markdown of the show and tell section into your `final.md` file.  [Link
 
 Your final will be to pair out with classmates and discuss your projects.  This will be done 3-5 times, depending on timing.
 
-You will complete this document by interviewing a classmate about their project.  There are fill in the blanks because I'm not sure what people ended up on.  Replace blanks with names.
+You will complete this document by interviewing a classmate about their project.  
 
 This is broken out into categories because it was going to be a BINGO game.  Therefore each category already has options to consider and see if the apply to your classmate's project.
 
