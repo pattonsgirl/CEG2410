@@ -19,9 +19,9 @@ Nested bullets should be in form: `* Last name`
 
 * Gaming
 * Cooking
-* ____
-* ____
-* ____
+* ---
+* ---
+* ---
 
 #### 🖥️ **Host OS**
 
