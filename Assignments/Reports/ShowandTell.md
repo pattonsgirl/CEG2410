@@ -101,3 +101,13 @@ Nested bullets should be in form: `* Last name - describe how software has this 
 * Outdated versions of software or dependencies
 
 ---
+
+## Rubric
+
+### Total points: / 5
+
+- [ ] Showed up
+- [ ] Live demonstrated working self-hosted application
+- [ ] Interview 1 
+- [ ] Interview 2
+- [ ] Interview 3
