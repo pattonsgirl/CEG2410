@@ -162,4 +162,9 @@ Submit link to documentation in your `ceg2410-GHUsername` repository to the Drop
 9. Common troubleshooting - / 2
     - [ ] one or two things that you typically need to troubleshoot when self-hosting this application
     - [ ] is worth noting as something to troubleshoot
+10. Deductions:
+    - [ ] Lack of source cited: -10% = 3.33 pts
+    - [ ] Poor markdown formatting / organization: 10% = 3.33 pts
+    - [ ] Does not differentiate research of how things should be versus what is actually working: 10% = 3.33 pts
+
 
