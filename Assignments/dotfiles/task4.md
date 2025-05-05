@@ -19,3 +19,11 @@ In your `dotfiles` repository, make sure there is a file named `README.md` in th
 ## Submission
 
 At each task due date, submit your repository link to the folder corresponding to the task number to Dropbox in Pilot.
+
+## Rubric
+
+- [ ] Github Issue made against feedback / improvement made
+- [ ] README file in `dotfiles` repo
+- [ ] Summarizes repo contents
+- [ ] Summarizes how to use / points to other areas of documentation
+- [ ] Notes for future improvement in README or Issues
