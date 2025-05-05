@@ -108,6 +108,6 @@ Nested bullets should be in form: `* Last name - describe how software has this 
 
 - [ ] Showed up
 - [ ] Live demonstrated working self-hosted application
-- [ ] Interview 1 
-- [ ] Interview 2
-- [ ] Interview 3
+- [ ] Interviews x 3
+- [ ] Good descriptors in host OS, software version, and how software was demo'ed
+- [ ] Good descriptors in Security / vulnerabilities
