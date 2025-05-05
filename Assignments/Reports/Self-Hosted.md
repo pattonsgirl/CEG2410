@@ -163,13 +163,3 @@ Submit link to documentation in your `ceg2410-GHUsername` repository to the Drop
     - [ ] one or two things that you typically need to troubleshoot when self-hosting this application
     - [ ] is worth noting as something to troubleshoot
 
-## "Presentation" Rubric
-
-### Total points: / 5
-
-- [ ] Showed up
-- [ ] Live demonstrated working self-hosted application
-- [ ] TBA 
-- [ ] TBA
-- [ ] TBA
-
