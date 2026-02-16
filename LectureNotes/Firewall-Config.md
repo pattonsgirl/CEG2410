@@ -23,14 +23,14 @@ Intent: Customers "bring in devices" and connect to the customer subnet.  Will n
 1. Finish setting up the customer network
     - Customer devices will share a public IP and exist on a private subnet
     - Set up a NAT Gateway device on a subnet that contains a route table with a route to the internet gateway & associate an EIP with the NAT Gateway.
-    > ![WARNING]
+    > [!WARNING]
     > Delete when not in use! Money pit - does not turn off when lab environment is off
     - Setup a route table for the customer subnet that send outbound traffic to the NAT Gateway for Address Translation
 
 2. Firewall configuration
 
 Customer devices will not be running essential services for access external to the network 
-> ![WARNING]
+> [!WARNING]
 > We are hamstrung here because our only access to the customer device is with SSH...
 
 Customer devices **may** request any sites except competitor sites
