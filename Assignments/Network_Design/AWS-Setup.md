@@ -64,7 +64,7 @@ Score / 32
   - customer
     - [ ] notes when a NACL is needed for network communications
     - [ ] only allows the server or server subnet to make ssh requests to client instance
-    - [ ] otherwise only allows customer devices to make outgoing requests - no other traffic should be allowed in unless the client instance intiated it 
+    - [ ] otherwise only allows customer devices to make outgoing requests - no other traffic should be allowed in unless the client instance initiated it 
 - Instance with system level firewall rules (iptables / ufw / nftables)
   - [ ] describe the rules
   - [ ] inbound or outbound chain present (something would be blocked)
