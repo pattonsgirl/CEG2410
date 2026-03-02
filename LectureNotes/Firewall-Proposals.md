@@ -59,7 +59,7 @@ TODO:
 
 ---
 
-Rubric:
+## Rubric:
 
 Score / 24
 
