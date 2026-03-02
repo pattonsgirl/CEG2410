@@ -40,3 +40,23 @@ vim +PluginInstall +qall
 ## Submission
 
 At each task due date, submit your repository link to the folder corresponding to the task number to Dropbox in Pilot.
+
+## Rubric
+
+Score / 11
+
+- [ ] personal *public* dotfiles repository created with a `vim-config` folder created
+- `vim` configuration script:
+     - [ ] copies `.vimrc` file from repo folder to current user's home directory
+     - [ ] installs `Vundle`
+     - [ ] installs `Vundle` only if `~/.vim/bundle/Vundle.vim` does not exist
+     - [ ] installs your `vim` setup per the contents of `.vimrc` in the user's home directory
+- `vimrc` file:
+     - [ ] chooses one color scheme from Vundle
+     - [ ] chooses one plugin that is not a colorscheme
+     - [ ] sets the colorscheme
+- `README.md` meets one of the following bars
+     - [ ] 3 pts - good citations with explanation of how the source benefited understanding / creation
+     - [ ] 2 pts - some citations, but lacks the story of how they assisted
+     - [ ] 1 pt - just says AI was used, nothing else
+     - [ ] 0 pt - no citations / no README file
