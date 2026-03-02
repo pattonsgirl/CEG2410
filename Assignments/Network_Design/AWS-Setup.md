@@ -31,6 +31,8 @@ Submit URL to `aws-setup.md` to Dropbox in Pilot
 
 ### Rubric
 
+Score / 25
+
 - VPC
   - [ ] configuration - notes on VPC size and intent
   - [ ] screenshot
@@ -42,8 +44,25 @@ Submit URL to `aws-setup.md` to Dropbox in Pilot
   - [ ] configuration
   - [ ] which route tables have which rules and go with which subnet and why
   - [ ] screenshot(s)
-- NACL configuration(s) - description of rules, which subnet(s) they are designed for; screenshot(s)
-- Security Group configuration(s) - description of rules, which resources they are designed for; screenshot(s)
-- Instance with system level firewall rules - describe the rules; screenshot(s) of rules in place and chaining active
-- Instances on different subnets; proof backed by experimental descriptions and screenshots that the network configuration and firewall behavior is working as configured
-- Propose a build for the advertising devices (TV menus) subnet; include notes on route tables, NACLs, SGs, and system level firewalls
+- NACL
+  - [ ] configuration(s)
+  - [ ] description of rules
+  - [ ] which subnet(s) they are designed for
+  - [ ] screenshot(s)
+- Security Group
+  - [ ] configuration(s)
+  - [ ] description of rules
+  - [ ] which resources they are designed for
+  - [ ] screenshot(s)
+- Instance with system level firewall rules (iptables / ufw / nftables)
+  - [ ] describe the rules
+  - [ ] inbound or outbound chain present (something would be blocked)
+  - [ ] screenshot(s) of rules
+- Instances on different subnets (expecting one server and one customer device)
+  - [ ] proof that instances are on different subnets with NACL / SGs designed for each 
+  - [ ] proof backed by experimental descriptions and screenshots that the network configuration and firewall behavior is working as configured
+- Propose a build for the advertising devices (TV menus) subnet. Notes on:
+  - [ ] route tables
+  - [ ] NACLs
+  - [ ] SGs
+  - [ ] system level firewalls
