@@ -31,7 +31,7 @@ Submit URL to `aws-setup.md` to Dropbox in Pilot
 
 ### Rubric
 
-Score / 25
+Score / 32
 
 - VPC
   - [ ] configuration - notes on VPC size and intent
@@ -42,7 +42,9 @@ Score / 25
   - [ ] screenshot(s)
 - Route tables
   - [ ] configuration
-  - [ ] which route tables have which rules and go with which subnet and why
+  - which route tables have which rules and go with which subnet and why
+    - [ ] Internet Gateway for server subnet
+    - [ ] NAT Gateway for customer subnet
   - [ ] screenshot(s)
 - NACL
   - [ ] configuration(s)
@@ -54,6 +56,15 @@ Score / 25
   - [ ] description of rules
   - [ ] which resources they are designed for
   - [ ] screenshot(s)
+- Firewall config
+  - server
+    - [ ] only allows trusted IPs to SSH to server instance
+    - [ ] allows any IP to connect to server instance for HTTP / HTTPS
+    - [ ] highlights how connections are allowed back to the server if the server instance is the client (updates, downloads, etc from external sources)
+  - customer
+    - [ ] notes when a NACL is needed for network communications
+    - [ ] only allows the server or server subnet to make ssh requests to client instance
+    - [ ] otherwise only allows customer devices to make outgoing requests - no other traffic should be allowed in unless the client instance intiated it 
 - Instance with system level firewall rules (iptables / ufw / nftables)
   - [ ] describe the rules
   - [ ] inbound or outbound chain present (something would be blocked)
