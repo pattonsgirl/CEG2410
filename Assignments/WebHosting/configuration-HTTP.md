@@ -1,6 +1,6 @@
 ## Task 2 - Web Service Configuration
 
-Install and configure an the Apache HTTP package & service on your AWS instance.
+Install and configure an the Apache HTTP Server OR NGINX HTTP package & service on your AWS instance.
 
 You may - and are encouraged to - bring your own site just to make grading more fun. 
 
@@ -21,6 +21,8 @@ Create a folder in your course GitHub repository called `Web-Hosting`.  Create a
 - Steps to add your web content to defined root document directory
 - At least two ways to tell that your server is serving content via apache
 - Screenshot of browser connecting to server over configured port with the site & public IP in the URL bar
+
+## TODO: add name requirements & multi-site setup
 
 ## Submission
 
