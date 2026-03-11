@@ -1,19 +1,39 @@
-## Task 2 - Web Service Configuration
+## HTTP Web Service Configuration
 
 Install and configure an the Apache HTTP Server OR NGINX HTTP package & service on your AWS instance.
 
-You may - and are encouraged to - bring your own site just to make grading more fun. 
+### To begin: 
 
-Your site must contain a minimum of:
-- an `index.html` file
-- `.css` file(s) and / or image file(s) referred to by your `.html` file(s)
-- a `404.html` page
+Copy content of *one* of your sites to the *default* directory the default site configuration file points to. 
 
-You may use generative AI to create these, but you must cite the generative AI used and the prompt fed to it.
+Make sure when you access your website - via `curl` or in a browser using your server's public IP address - that it show your content.
 
-## Documentation
+### What to set up:
 
-Create a folder in your course GitHub repository called `Web-Hosting`.  Create a file named `service.md` and insert the following details.
+Two web content directories with respective contents:
+- one for your main, publicly accessible site
+- one for the menu, the site only your tv menus should access
+- permissions are optional at the moment; another check-in assignment will address those expectations
+
+Two configuration files in `sites-available`.  Create, enable, and test these *one at a time*
+- one for your main site
+    - configure the server name to use `lastname.wsukduncan.com` - the DNS record added for you 3/11/2026
+        - **IMPORTANT** if your server's public IP has changed, you'll need to message the instructor with the new public IP
+    - point root / document root to the respective web contents
+    - enable the site, test that `lastname.wsukduncan.com` shows your main, publicy accessible site
+- one for your tv menu
+    - configure the server name to use `something-menu.com`
+    - [Optional] change the port to not port 80
+        - TODO - think about why this would be benificial if the end goal is only screens in the building should access this site...
+    - point root / document root to the respective web contents
+    - enable the site, test that `something-menu.com` shows your menu
+        - you'll need to configure `/etc/hosts` with an entry for `something-menu.com`
+        - you should be able to `curl` to the server's private or localhost ip - `curl something-menu.com`
+        - you *can* configure `something-menu.com` to work from your personal system - edit `/etc/hosts` 
+
+## Documentation Requirements
+
+Create a folder in your course GitHub repository called `web`.  Create a file named `http-service.md` and create a writeup that includes the following details.
 
 - Firewall acknowledgments to allow access to server over configured port
 - Controlling apache as a service
