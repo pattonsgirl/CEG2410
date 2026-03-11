@@ -37,18 +37,20 @@ Create a folder in your course GitHub repository called `web`.  Create a file na
 
 1. Title document with what service you are configuring
 
-2. Service configurations:
+2. Description of what you are setting up in this document / guide.
+
+3. Service configurations:
     - Key pieces of a server block / virtual host file 
         - explain key configuration lines - listening ports; name; web content directory
     - Why and how to enable or disable a site configuration file
     - When and how to restart the service
 
-3. Name configurations
+4. Name configurations
     - explain how and why the names work - `lastname.wsukduncan.com` and `something-menu.com`
 
-4. Screenshots to show your service is serving your main site versus your menu site based on your requests
+5. Screenshots to show your service is serving your main site versus your menu site based on your requests
 
-5. How to access and what system logs show that your service is successfully serving content based on the different requests.
+6. How to access and what system logs show that your service is successfully serving content based on the different requests.
 
 ## Submission
 
