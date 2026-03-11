@@ -35,15 +35,21 @@ Two configuration files in `sites-available`.  Create, enable, and test these *o
 
 Create a folder in your course GitHub repository called `web`.  Create a file named `http-service.md` and create a writeup that includes the following details.
 
-- Firewall acknowledgments to allow access to server over configured port
-- Controlling apache as a service
-- How the root document directory is defined
-- Steps to add your web content to defined root document directory
-- At least two ways to tell that your server is serving content via apache
-- Screenshot of browser connecting to server over configured port with the site & public IP in the URL bar
+1. Title document with what service you are configuring
 
-## TODO: add name requirements & multi-site setup
+2. Service configurations:
+    - Key pieces of a server block / virtual host file 
+        - explain key configuration lines - listening ports; name; web content directory
+    - Why and how to enable or disable a site configuration file
+    - When and how to restart the service
+
+3. Name configurations
+    - explain how and why the names work - `lastname.wsukduncan.com` and `something-menu.com`
+
+4. Screenshots to show your service is serving your main site versus your menu site based on your requests
+
+5. How to access and what system logs show that your service is successfully serving content based on the different requests.
 
 ## Submission
 
-Submit a link in Pilot to your course GitHub repository with your service configuration documentation.
+Submit a link in Pilot to your course GitHub repository with your `http-service.md` documentation.
