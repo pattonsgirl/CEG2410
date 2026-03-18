@@ -1,4 +1,4 @@
-## Task 1 - Firewall Configuration
+## Firewall Configuration
 
 Apply the following changes to your AWS network security settings (i.e. Network ACL and / or Security Group)
 
