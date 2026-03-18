@@ -23,7 +23,7 @@
    - You'll need this for Connecting to the AWS Instance in the sections below, after completing the remainder of these steps
 8. Click **AWS** which should have a green dot next to it located on the left
    - This will take you to your AWS Console for your account. Now the fun begins.
-9. Download [CEG2410-CoffeeShop-CF.yml](https://raw.githubusercontent.com/WSU-mkijowski/ceg3900-compcyber/refs/heads/aws-academy-%26-cf-template/AWSAcademy/CEG3900-CF.yml)
+9. Download [CEG2410-CoffeeShop-CF.yml](https://raw.githubusercontent.com/pattonsgirl/CEG2410/refs/heads/main/AWS/CEG2410-CoffeeShop-CF.yml)
 10. In a new tab, enter the following URL in the browser (or click link to open): <a href="https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/new" target="_blank">https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/new</a>
    - Upload the CF template file, then select Next
    - On the second menu, under Parameters, under Key Name, select `vockey`
@@ -37,7 +37,7 @@
     Here you should see additional resources have been created (not everything says 0 anymore)
 11. Click on [Running Instances](https://console.aws.amazon.com/ec2/v2/home?region=us-east-1#Instances:sort=instanceState)
 12. Our instance should now be created (or almost ready).  Select the checkbox next to the instance name "CEG 2350" to see all details about this instance.
-13. Your instance will be assigned a unique Public IP address. The IP address will change every time the instance is turned on. This IP address is what we will use to SSH to the instance.
+13. Your server device instance will be assigned a unique Public IP address. This IP address is what we will use to SSH to the instance.
 
 **You are now ready to make an SSH connection to your AWS server.**
 
@@ -106,7 +106,7 @@ Every 4 hours, instances (virtual machines) on AWS will automatically power down
    - The light next to **AWS** should now be **green**
 7. Click **AWS** which should have a green dot next to it located on the left to sign into the AWS console
 8. Go to [Running Instances](https://console.aws.amazon.com/ec2/v2/home?region=us-east-1#Instances:sort=instanceState) to check your instance's public IP in your instance details
-9. `ssh` to your instance with your instance's new public IP and your `ssh` private key
+9. `ssh` to your server instance with the public IP and your `ssh` private key
 
 ## Building a New Instance
 
