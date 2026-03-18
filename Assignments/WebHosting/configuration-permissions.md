@@ -1,4 +1,4 @@
-## Task 3 - Permissions Configuration
+## Permissions Configuration
 
 Now that your web server is serving two distinct sites, you must configure a secure way for different stakeholders to update content without granting full shell access to the server.
 
