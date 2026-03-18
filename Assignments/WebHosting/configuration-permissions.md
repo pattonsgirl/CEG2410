@@ -1,10 +1,16 @@
 ## Task 3 - Permissions Configuration
 
-There is a different between server maintenance and those who need to edit site content, and those who only need to view site content.
+Create some users and groups configure permissions appropriate to those roles. You will only be configuring who can get to web content resources and what they may edit within them.
+
+## What to set up
+
+Create two groups - one that will be allowed to edit your main site, the other that will be allowed to edit your menu site.
+
+Members of one of these group may not sign in with shell access - they may only use `sftp`. In addition, if a member of this group signs in with `sftp`, they are directed to the main or menu web content directory - they do not need to `cd` to that directory.
 
 ## Documentation
 
-Create a folder in your course GitHub repository called `Web-Hosting`.  Create a file named `permissions.md` and insert the following details.
+Create a folder in your course GitHub repository called `web`.  Create a file named `permissions.md` and create a writeup that includes the following details.
 
 - Document the "username" utilized by the apache service
 - Determine and document a permissions structure for server admins and site developers
