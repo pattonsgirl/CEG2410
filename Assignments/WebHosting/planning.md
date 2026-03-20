@@ -32,3 +32,28 @@
         - Will you use FTP, SFTP, or some other method?
         - What permissions will the developers need to have on the server to update the content?
 
+## Planning for HTTPS
+
+**ADD TO `planning.md`**
+
+- Ports:
+    - What ports need open inbound and from what sources?
+    - What ports need open outbound and to what destinations?
+    - What level(s) will you be handling firewall access and what needs to be configured?  
+        - NACL
+        - SG
+        - System (iptables / ufw / nftables...)
+
+- Certificate creation:
+    - How do you create a self-signed certificate?
+    - Where should the certificate be stored, and why does it matter?
+    - What permissions should the private / public certificate files have?
+    - If you were to get a certificate from a CA:
+        - What type of validation would be appropriate for your use case: domain, organization, or extended?
+
+- Configuration:
+    - Does your service need additional configuration changes to enable HTTPS?
+    - What server blocks / virtual hosts need added?
+    - How can you redirect connection attempt on port 80 (using HTTP) to use HTTPS instead?
+
+
