@@ -1,5 +1,7 @@
 ## Data Storage - Planning Phase
 
+Make a folder called `data` in `ceg2140` called `planning-RAID.md`
+
 ### Administrata
 
 1. What's you current budget spent in AWS?
