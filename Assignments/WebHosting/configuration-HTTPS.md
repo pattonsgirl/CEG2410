@@ -64,6 +64,7 @@ In your `web` folder on GitHub, create a new file named `https-config.md`. Your 
 5. Service Logs
 
 * Use `curl -I https://localhost` (the `-I` flag shows headers) and provide the output.
+     * Hint: you may need to use the `-k` flag - find out what it does and explain why it is needed.
 * Show the line in the output that confirms the connection is encrypted (e.g., `HTTP/1.1 200 OK` over the SSL port).
 
 ## Submission
