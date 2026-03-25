@@ -29,3 +29,4 @@ Make a folder called `data` in `ceg2140` called `planning-RAID.md`
 
 6. Create 3 questions you would like to ask before determining how large of a RAID to implement:
 
+
