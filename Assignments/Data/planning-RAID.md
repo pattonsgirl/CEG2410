@@ -1,0 +1,24 @@
+## Data Storage - Planning Phase
+
+### Administrata
+
+1. What's you current budget spent in AWS?
+    - if $40 plus, you may want to setup a new stack in the second AWS pool.
+
+### Research
+
+1. Determine the difference between a hardware and software RAID.
+
+2. Determine which you will be able to setup in AWS - a hardware or software RAID.
+
+3. Make a table of purpose and identifying features of:
+    - RAID 0
+    - RAID 1
+    - RAID 5
+    - RAID 6
+    - RAID 10
+
+4. Create 3 questions you would like to ask before determining the type of RAID to implement:
+
+5. Create 3 questions you would like to ask before determining how large of a RAID to implement:
+
