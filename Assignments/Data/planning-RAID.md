@@ -11,14 +11,19 @@
 
 2. Determine which you will be able to setup in AWS - a hardware or software RAID.
 
-3. Make a table of purpose and identifying features of:
+3. Rank the following storage media in terms of fit for use in a RAID and give a brief statement defending the rank:
+    - HDD
+    - SSD 
+    - NVME
+
+4. Make a table of purpose and identifying features of:
     - RAID 0
     - RAID 1
     - RAID 5
     - RAID 6
     - RAID 10
 
-4. Create 3 questions you would like to ask before determining the type of RAID to implement:
+5. Create 3 questions you would like to ask before determining the type of RAID to implement:
 
-5. Create 3 questions you would like to ask before determining how large of a RAID to implement:
+6. Create 3 questions you would like to ask before determining how large of a RAID to implement:
 
