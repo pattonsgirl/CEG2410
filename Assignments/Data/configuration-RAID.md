@@ -6,14 +6,12 @@ In this assignment, you will move beyond single-volume storage used on your web 
 
 Log into your AWS Console
 
-1. Create a new instance - it is recommended to give a good reference name like `raid-instance`
+Create the necessary EBS volumes. 
+- For **RAID 5**, you need a minimum of **3** volumes.
+- For **RAID 6**, you need a minimum of **4** volumes.
+- **Requirement:** All volumes must be the same size (e.g., 2 GiB or 5 GiB) and located in the **same Availability Zone** as your EC2 instance. 
 
-2. Create the necessary EBS volumes. 
-    - For **RAID 5**, you need a minimum of **3** volumes.
-    - For **RAID 6**, you need a minimum of **4** volumes.
-    - **Requirement:** All volumes must be the same size (e.g., 2 GiB or 5 GiB) and located in the **same Availability Zone** as your EC2 instance. 
-
-Once created, **attach** each volume to your `raid-instance`. Use `lsblk` on your instance to verify the new block devices (e.g., `/dev/xvdf`, `/dev/xvdg`, etc.) are visible.
+Once created, **attach** each volume to your instance. Use `lsblk` on your instance to verify the new block devices (e.g., `/dev/xvdf`, `/dev/xvdg`, etc.) are visible.
 
 ### What to set up:
 
@@ -51,11 +49,11 @@ Create a folder in your GitHub repository called `storage`. Create a file named 
 **2. Storage Math**
 - Provide the math for your usable space. 
 - If you have $n$ disks of size $S$, what is the formula for usable space in RAID 5? What about RAID 6?
-- 
 
 **3. Configuration Snippets**
 - Provide the exact `mdadm --create` command you used.
 - Provide the output of `sudo mdadm --detail /dev/md0` showing the array in a "clean" state.
+- Provide the command used to create an `ext4` filesystem on `/dev/md0`
 
 **4. Persistence Strategy**
 - Show your `/etc/fstab` entry.
