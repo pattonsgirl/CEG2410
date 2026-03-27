@@ -2,15 +2,13 @@ In YOUR `ceg2410-youGHUsername` repository, create a report named `final.md`.
 
 Copy the markdown of the show and tell section into your `final.md` file.  [Link to raw file](https://raw.githubusercontent.com/pattonsgirl/CEG2410/refs/heads/main/Assignments/Reports/ShowandTell.md)
 
-Your final will be to pair out with classmates and discuss your projects.  This will be done 3-5 times, depending on timing.
+Your final will be to pair up with classmates and discuss your projects.  This will be done 3-5 times, depending on timing.
 
 You will complete this document by interviewing a classmate about their project.  
 
-This is broken out into categories because it was going to be a BINGO game.  Therefore each category already has options to consider and see if the apply to your classmate's project.
-
 When filling out the document with interviews, `Last name` refers to the last name of the student you are interviewing.
 
-Try to find 3 other softwares (someone who did your same one is allowed)
+Try to find 3 unique project implementations (someone who did your same implementation is allowed once)
 
 At the end of the exam period, submit the link to this document in your GitHub repository to the Dropbox on Pilot.
 
@@ -47,6 +45,7 @@ Nested bullets should be in form: `* Last name - software version`
 
 * Unraid
 * TrueNAS
+* BeeGFS
 * Proxmox
 * Grafana
 * Homepage
@@ -54,7 +53,6 @@ Nested bullets should be in form: `* Last name - software version`
 * Mealie
 * GitLab
 * ownCloud
-* Minecraft
 
 ---
 
