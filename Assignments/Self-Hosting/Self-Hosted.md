@@ -1,4 +1,4 @@
-# Self-Hosted Service Report
+# Self-Hosted Service
 
 This report will be centered around your implementation of self-hosting one of the below services.  This is not a group project - you must implement networking, hosting and management yourself in addition to writing up the companion report.  That said, you may partner with others who picked the same software to host to help with troubleshooting / advice.  As with all work in this course, cite sources - be them classmates, web resources, or generative AI to note what helped during your implementation.
 
@@ -28,7 +28,11 @@ Utility Applications:
 
 ## Host your Software in an EC2 Instance
 
+> [!IMPORTANT]
+> Build your VPC, subnets, NACLs, SGs and instance(s) using the **second** funding pool. 
+
 After making your software selection, your next task is to work on deploying it to an EC2 instance.  
+
 1. Determine a suitable instance type (specs) to run your software
 2. Determine which OS is best to install and run your software to
 3. Install your software
