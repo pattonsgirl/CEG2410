@@ -6,7 +6,7 @@ Now that you have a functional RAID 5 or RAID 6 array mounted at `/mnt/raid_data
 Ensure your RAID array is automatically mounting via `/etc/fstab`. Create a directory on the RAID specifically for web content (e.g., `/mnt/raid_data/www`).
 
 ### What to set up:
-1.  **Data Migration:** * Use `rsync` or `cp -rp` to move your existing website files from `/var/www/` to the new RAID directory. 
+1.  **Data Migration:** Use `rsync` or `cp -rp` to move your existing website files from `/var/www/` to the new RAID directory. 
     * **Requirement:** You must preserve the permissions and ownership (the `www-data` user must still be able to read these files).
 2.  **Web Server Configuration - Symlinks:**
     * After moving the data, create a **Symbolic Link** from the RAID back to the respective `/var/www/html` folders. 

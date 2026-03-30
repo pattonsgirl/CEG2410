@@ -9,6 +9,7 @@ Create a backup directory on your RAID (e.g., `/mnt/raid_data/backups`).
 1.  **The Backup Script:**
     * Create a Bash script (`backup_web.sh`) that performs the following:
         * Uses `tar` to create a compressed archive of your `/etc/apache2` (or `/etc/nginx`) configuration directory.
+            - `rsync` is not a useful here as we have one server running both our RAID and our web service. If we had two different server, `rsync` would be useful. You should research `rsync` and see if you agree with this conclusion ;)
         * Adds a timestamp to the filename (e.g., `web-config-2026-03-25.tar.gz`).
         * Moves the archive to the backup folder on the RAID.
 2.  **Automation (Cron):**
