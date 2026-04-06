@@ -24,7 +24,8 @@ For this task, you are going to do every admin's favorite thing - install softwa
 3. Add / copy the script to your `dotfiles` repository in `sys-installs`
 4. Add a README.md file to the `sys-installs` folder with a description about what these file do and citations
     - if you used generative AI, you need to cite which was used and what the prompt was
-    - markdown syntax for links is [link descriptor](URL_HERE) - provide a little description of what was used in the article / video
+    - markdown syntax for links is `[link descriptor](URL_HERE)` - provide a little description of what was used in the article / video
+        - if you view raw of [AWS Command Line Interface](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html) you'll see `[AWS Command Line Interface](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)`
 
 
 ## Submission
