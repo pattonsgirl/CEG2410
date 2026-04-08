@@ -8,11 +8,7 @@ In class will be RESEARCH:
 
 * **Infrastructure:** Mention they use a hybrid cloud (AWS + On-prem), use a third-party CI/CD pipeline, and are beginning to experiment with **Agentic AI** for customer support.
 
-
-
 Designing a compliance-oriented assignment for IT infrastructure is a great way to move students past "check-the-box" thinking and into the reality of modern **Governance, Risk, and Compliance (GRC)**. 
-
-To make this effective, I recommend a **Scenario-Based Research Project**. Instead of asking for a list of rules, give them a fictional (but realistic) company and ask them to build its "Compliance Blueprint."
 
 ---
 
