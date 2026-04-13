@@ -68,3 +68,16 @@ Create a folder in your GitHub repository called `storage`. Create a file named 
 ## Submission
 
 Submit a link in Pilot to your course GitHub repository with your `raid-management.md` documentation.
+
+## Rubric
+
+Your `raid-management.md` should include all of the following required elements:
+
+- [ ] RAID level choice explained and justified
+- [ ] Usable storage calculations for the selected RAID level
+- [ ] Exact `mdadm --create` command and `mdadm --detail /dev/md0` output shown
+- [ ] Filesystem creation and mount persistence documented with `/etc/fstab`
+- [ ] RAID configuration saved in `mdadm.conf` for reboot assembly
+- [ ] Failure simulation and degraded-array recovery process documented
+- [ ] Evidence of rebuild progress via `/proc/mdstat` included
+

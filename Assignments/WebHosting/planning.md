@@ -56,4 +56,17 @@
     - What server blocks / virtual hosts need added?
     - How can you redirect connection attempt on port 80 (using HTTP) to use HTTPS instead?
 
+## Rubric
+
+Your `planning.md` should include all of the following required elements:
+
+- [ ] A description of inbound and outbound ports required for the web service
+- [ ] Firewall access levels identified (NACL, SG, system-level) and configuration plans
+- [ ] Web server configuration files and setup approach documented
+- [ ] Virtual host setup for two sites explained, including supporting DNS/hosts changes
+- [ ] File location, permissions, and process user/group for content access defined
+- [ ] Developer content update access method and permissions described
+- [ ] HTTPS planning details included, with certificate creation and storage explained
+- [ ] HTTPS configuration changes and port 80 to HTTPS redirection strategy documented
+
 

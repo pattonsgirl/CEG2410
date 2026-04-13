@@ -49,3 +49,14 @@ Detail your "Ideal State" setup. For each of the three layers, specify:
 ## Submission
 
 Submit a link in Pilot to your GitHub repository with your `personal-backup-analysis.md` documentation.
+
+## Rubric
+
+Your `personal-backup-analysis.md` should include all of the following required elements:
+
+- [ ] Identification of crown jewel data and recovery impact analysis
+- [ ] Evaluation of current backup strategy and sync vs backup risks
+- [ ] A 3-2-1 backup plan with primary, local backup, and offsite backup details
+- [ ] Tools and budget estimates for hardware and recurring costs
+- [ ] A yearly backup test plan and data integrity verification method
+

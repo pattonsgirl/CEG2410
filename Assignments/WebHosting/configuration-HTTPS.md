@@ -71,3 +71,17 @@ In your `web` folder on GitHub, create a new file named `https-config.md`. Your 
 
 Submit a link in Pilot to your course GitHub repository with your HTTPS configuration documentation.
 
+## Rubric
+
+Your `https-config.md` should include all of the following required elements:
+
+- [ ] SSL module enablement and certificate directory creation explained
+- [ ] Private key and self-signed certificate generated for two domains
+- [ ] HTTPS virtual hosts configured for Port 443 with proper certificate directives
+- [ ] HTTP traffic redirected to HTTPS for both sites
+- [ ] Firewall / AWS Security Group updated to allow Port 443
+- [ ] SSL/TLS concepts explained, including private key vs public certificate
+- [ ] Exact `openssl` command shown with flags explained
+- [ ] Redirect logic shown and explained in configuration
+- [ ] Verification screenshots provided for warning and certificate details
+- [ ] `curl -I https://localhost` output shown and explained

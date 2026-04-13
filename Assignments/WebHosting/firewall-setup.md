@@ -21,3 +21,14 @@ Create a folder in your course GitHub repository called `Web-Hosting`.  Create a
 ## Submission
 
 Submit a link in Pilot to your course GitHub repository with your firewall documentation.
+
+## Rubric
+
+Your `firewall.md` should include all of the following required elements:
+
+- [ ] Security Group rules explained with protocols, ports, and source ranges
+- [ ] Network ACL rules explained with protocols, ports, and source ranges
+- [ ] Two SSH rules defined and justified for trusted access
+- [ ] HTTP and HTTPS rules defined and justified for public access
+- [ ] Screenshots of Security Group configuration embedded and explained
+- [ ] Screenshots of Network ACL configuration embedded and explained

@@ -18,3 +18,17 @@ Create a folder in your course GitHub repository called `Web-Hosting`.  Create a
 ## Submission
 
 Submit a link in Pilot to your course GitHub repository with your research documentation.
+
+## Rubric
+
+Your `research.md` should include all of the following required elements:
+
+- [ ] A domain availability site identified and explained
+- [ ] Two recommended domain names with a clear defense of each
+- [ ] A recommendation for which domain the business should buy
+- [ ] An explanation of how DNS will point the domain to the web server public IP
+- [ ] A Certificate Authority selected with a justification for that vendor
+- [ ] A certificate type recommended and defended
+- [ ] A documented sequence of steps needed to obtain a valid certificate for the chosen domain
+
+Partial credit may be awarded if some elements are missing, but a complete submission should address every bullet above.

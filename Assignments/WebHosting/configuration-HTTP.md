@@ -55,3 +55,16 @@ Create a folder in your course GitHub repository called `web`.  Create a file na
 ## Submission
 
 Submit a link in Pilot to your course GitHub repository with your `http-service.md` documentation.
+
+## Rubric
+
+Your `http-service.md` should include all of the following required elements:
+
+- [ ] A title and description of the HTTP service being configured
+- [ ] Explanation of key server block / virtual host configuration lines
+- [ ] Instructions for enabling, disabling, and restarting the web service
+- [ ] Explanation of how `lastname.wsukduncan.com` and `something-menu.com` are configured
+- [ ] Screenshot evidence showing the main site and menu site serving correctly
+- [ ] Discussion of system logs or commands that confirm successful content delivery
+
+

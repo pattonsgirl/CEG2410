@@ -31,6 +31,14 @@ Create a folder in your GitHub repository called `storage`. Create a file named 
 ## Submission
 Submit links to both `s3-static-site.md`
 
+## Rubric
+Your `s3-static-site.md` should include all of the following required elements:
+
+- [ ] The S3 static website endpoint URL is provided
+- [ ] The JSON bucket policy is shown with `Effect`, `Principal`, and `Action` explained
+- [ ] One advantage and one disadvantage of S3 hosting versus Apache EC2 hosting is described
+- [ ] A screenshot is provided showing the site loading via the S3 endpoint
+
 ---
 
 ### Tips:

@@ -31,3 +31,14 @@ Create a folder in your GitHub repository called `storage`. Create a file named 
 ## Submission
 
 Submit a link in Pilot to your course GitHub repository with your `backups.md` documentation.
+
+## Rubric
+
+Your `backups.md` should include all of the following required elements:
+
+- [ ] The full `backup_web.sh` script is included
+- [ ] Cron schedule expression is documented and explained
+- [ ] Evidence of backups on the RAID after at least two runs is provided
+- [ ] Cron log output is shown to verify the script execution
+- [ ] Extra credit: retention logic for deleting backups older than 7 days is documented if implemented
+

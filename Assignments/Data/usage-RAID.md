@@ -27,3 +27,14 @@ Create a folder in your GitHub repository called `storage`. Create a file named 
 ## Submission
 
 Submit a link in Pilot to your course GitHub repository with your `raid-web.md` documentation.
+
+## Rubric
+
+Your `raid-web.md` should include all of the following required elements:
+
+- [ ] Commands used to migrate the website files to `/mnt/raid_data/www`
+- [ ] Permissions and ownership verification for the migrated files
+- [ ] Symbolic link configuration from `/var/www` to the RAID web folders
+- [ ] Screenshot evidence of the website loading from the RAID-backed content
+- [ ] `df -h` output showing the web content served from `/dev/md0`
+

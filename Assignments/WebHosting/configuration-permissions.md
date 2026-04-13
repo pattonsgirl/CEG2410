@@ -92,6 +92,19 @@ The Task:
     - Log in as the owner and create a file.
     - Show a screenshot or command output (ls -la) proving that the file was created with the correct group ownership and write permissions for others in that group.
 
+## Rubric
+
+Your `permissions.md` should include all of the following required elements:
+
+- [ ] A user/group access plan for Business Owner, Tech Help, and Menu Staff
+- [ ] Linux groups and users created with `useradd -M` and `/usr/sbin/nologin`
+- [ ] SSH `Match Group` configuration with `ChrootDirectory` and `ForceCommand internal-sftp`
+- [ ] Directory ownership and permissions configured for secure SFTP access
+- [ ] Evidence of successful SFTP login and denied shell login
+- [ ] Command output showing `ls -la` for web root directories with explanation
+- [ ] Extra credit: SGID bit configured for persistent group ownership
+- [ ] Extra credit: Default ACLs configured to preserve group read/write permissions on new files
+
 ## Submission
 
 Submit a link in Pilot to your course GitHub repository with your permissions documentation.

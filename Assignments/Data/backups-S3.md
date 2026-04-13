@@ -37,3 +37,16 @@ In your GitHub repository, update your `storage` folder by creating a file named
 ## Submission
 
 Submit a link in Pilot to your course GitHub repository with your `cloud_backups.md` documentation.
+
+## Rubric
+
+Your `cloud_backups.md` should include all of the following required elements:
+
+- [ ] The full `backup_to_s3.sh` script with upload and logging logic
+- [ ] Explanation of the choice between `aws s3 cp` and `aws s3 sync`
+- [ ] Discussion of why the backup bucket must remain private
+- [ ] Identification of sensitive configuration data in web server files
+- [ ] Screenshot of S3 upload verification with backup files visible
+- [ ] Screenshot showing the bucket's public access block settings
+- [ ] Link and explanation of expected behavior for the S3 bucket/file endpoint
+

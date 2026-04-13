@@ -29,4 +29,15 @@ Make a folder called `data` in `ceg2140` called `planning-RAID.md`
 
 6. Create 3 questions you would like to ask before determining how large of a RAID to implement:
 
+## Rubric
+
+Your RAID planning notes should include all of the following required elements:
+
+- [ ] The budget status for AWS usage is documented
+- [ ] The difference between hardware and software RAID is explained
+- [ ] The AWS-compatible RAID type is identified and justified
+- [ ] A ranked comparison of HDD, SSD, and NVMe for RAID use is provided
+- [ ] A table summarizing RAID levels 0, 1, 5, 6, and 10 is included
+- [ ] Three questions for choosing RAID type and three questions for choosing RAID size are listed
+
 
