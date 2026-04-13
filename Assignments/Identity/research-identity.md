@@ -50,7 +50,7 @@ Pick method category one from the above. Your research must include:
 ---
 
 ## 3. High-Level Research Themes
-To push students beyond just a list of features, you might suggest these "2026 Trends":
+"2026 Trends":
 
 * **Continuous Verification:** Moving away from "one-and-done" login toward checking identity throughout a session based on behavior.
 * **Non-Human Identities:** How do we manage the "identity" of an AI agent or a Docker container?
