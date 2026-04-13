@@ -1,13 +1,11 @@
 ## Research - Identity & Policy Management
 
-This is a fantastic topic for a 2000-level course. At that level, students are usually transitioning from "how does this work" to "why does a business choose this," and identity management is the perfect bridge.
-
-Since students are looking at both technical implementation and business constraints, here is a breakdown of the key research areas and the most relevant "real-world" pricing metrics for their analysis as of 2026.
+Identity and validation of identity are major sys admin elements. Research the following core topics.
 
 ---
 
 ## 1. Enterprise Identity Providers (IdP)
-These are the "Source of Truth" for an organization. Students should research how these platforms centralize access.
+These are the "Source of Truth" for an organization. 
 
 - Microsoft Entra ID
 - Okta
