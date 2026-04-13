@@ -9,12 +9,10 @@ Since students are looking at both technical implementation and business constra
 ## 1. Enterprise Identity Providers (IdP)
 These are the "Source of Truth" for an organization. Students should research how these platforms centralize access.
 
-| Solution | Core Focus | Research Angle |
-| :--- | :--- | :--- |
-| **Microsoft Entra ID** | Ecosystem integration | How it integrates with on-prem Active Directory and O365. |
-| **Okta** | Neutrality & Workforce | Their "Identity Cloud" and wide application network. |
-| **Ping Identity** | Complex/Legacy Enterprise | Solutions for large-scale or hybrid-cloud environments. |
-| **WorkOS** | Developer-First | How B2B SaaS apps quickly add "Enterprise SSO" features. |
+- Microsoft Entra ID
+- Okta
+- Ping Identity
+- WorkOS
 
 Pick method category one from the above. Your research must include:
 - Platform information
