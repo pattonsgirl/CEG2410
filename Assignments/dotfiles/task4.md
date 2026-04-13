@@ -4,11 +4,11 @@ In your `dotfiles` repository, make sure there is a file named `README.md` in th
 
 ### Polish & Documentation
 
-1. Review you feedback from Tasks 1 - 3.  
+1. Review you feedback from Tasks 1 - 3. This includes Pilot for graded feedback and feedback in GH Issues from the peer review. 
     - Create a GitHub issue for each matter that needs resolving / improving.  
-    - Mark issues as complete as you implement fixes.  
+    - Mark Issues as **Closed** as you implement fixes.  
     - **You should fix a minimum of one issue from prior feedback.**  
-        - If you managed to receive no feedback, make an improvement that is worthwhile - better commenting or documentation or future improvement(s).
+        - If you managed to receive no feedback, make an improvement that is worthwhile - better commenting or documentation or notes regarding future improvement(s).
 2. In the `README.md` file of your `dotfiles` repository, detail and summarize this repository's contents:
     - Useful minimum details:
         - What this `dotfiles` collection contains
