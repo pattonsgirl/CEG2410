@@ -1,18 +1,13 @@
-Got it. For a 2000-level course, we want to peel back the complexity. Instead of worrying about custom schemas or complex command-line flags, let’s focus on the "Phonebook" analogy: **Who are you, what group do you belong to, and can I find you?**
+## The Digital Phonebook (Introduction to LDAP)
 
-Here is a simplified, hands-on version of the Directory Foundation assignment.
+Your small business is tired of resetting passwords on five different computers every time a new employee starts. You are going to build a Centralized Directory—a single "source of truth" where you create a user once, and every other system can "look them up." This assignment introduces LDAP (Lightweight Directory Access Protocol) through practical, hands-on implementation.
 
----
-
-## Assignment 1: The Digital Phonebook (Introduction to LDAP)
-
-### **The Scenario**
-Your small business is tired of resetting passwords on five different computers every time a new employee starts. You are going to build a **Centralized Directory**—a single "source of truth" where you create a user once, and every other system can "look them up."
 
 ### **Learning Objectives**
-* Install the OpenLDAP service.
-* Create a basic company structure (OUs).
-* Add employees to the directory using simple text files (LDIFs).
+- Install and configure the OpenLDAP service
+- Create organizational structure (OUs) for user and group management
+- Manage user accounts using LDIF (LDAP Data Interchange Format) files
+- Query directory information using LDAP search tools
 
 ---
 
