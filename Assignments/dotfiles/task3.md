@@ -31,3 +31,15 @@ For this task, you are going to do every admin's favorite thing - install softwa
 ## Submission
 
 At each task due date, submit your repository link to the folder corresponding to the task number to Dropbox in Pilot.
+
+## Rubric
+
+Your `sys-installs` folder should include all of the following required elements:
+
+- [ ] One selected software package installation target is identified
+- [ ] A script checks for root privileges and apt package manager availability
+- [ ] The script confirms installation intent and handles `y`/`n` responses
+- [ ] The script detects existing command name conflicts before installing
+- [ ] The script performs a non-interactive install and confirms completion
+- [ ] A `README.md` is included describing the files, with citations for external sources or AI use
+

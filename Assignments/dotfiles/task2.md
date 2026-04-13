@@ -47,3 +47,14 @@ If you are making changes on your AWS instance and you break something causing `
 ## Submission
 
 At each task due date, submit your repository link to the folder corresponding to the task number to Dropbox in Pilot.
+
+## Rubric
+
+Your `homefiles` folder documentation should include all of the following required elements:
+
+- [ ] Two bash aliases or functions are chosen and added to a bash customization file
+- [ ] Customizations are verified by sourcing the file or reloading the shell
+- [ ] A script is created to copy or symlink the chosen bash customization file into the home directory
+- [ ] The script prompts the user to reload their environment
+- [ ] A `README.md` is included describing the files, with citations for external sources or AI use
+
