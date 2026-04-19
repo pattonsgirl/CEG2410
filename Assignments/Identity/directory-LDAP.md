@@ -104,7 +104,8 @@ Your submission should include the following:
 Your submission should include all of the following elements:
 
 - [ ] LDAP server successfully installed and verified with `ldapsearch`
-- [ ] `structure.ldif` correctly defines OUs, `users.ldif` places users in OUs and uses attributes
+- [ ] `structure.ldif` correctly defines OUs
+- [ ] `users.ldif` places users in OUs and uses attributes
 - [ ] Both OUs appear in directory search results (Screenshot)
 - [ ] Minimum two user accounts created and searchable (Screenshot)
 - [ ] Written explanation demonstrates understanding of centralized management benefits
