@@ -92,9 +92,10 @@ ldapsearch -x -b "dc=class,dc=local" "(uid=student1)"
 
 Your submission should include the following:
 
-1. **Screenshot 1:** Output of `ldapsearch` showing both OUs (People and Groups) successfully created
-2. **Screenshot 2:** Output of `ldapsearch` showing your own user account successfully added to the directory
-3. **Written Response (1-2 sentences):** Explain the benefit of centralized directory management: *"If I delete a user from this LDAP server, why is that better than deleting them from five individual computers?"*
+1. Link to in repository or copy in `.md` with brief explanation of contents of `structure.ldif` and `users.ldif`
+2. **Screenshot 1:** Output of `ldapsearch` showing both OUs (People and Groups) successfully created
+3. **Screenshot 2:** Output of `ldapsearch` showing your own user account successfully added to the directory
+4. **Written Response (1-2 sentences):** Explain the benefit of centralized directory management: *"If I delete a user from this LDAP server, why is that better than deleting them from five individual computers?"*
 
 ---
 
@@ -103,7 +104,7 @@ Your submission should include the following:
 Your submission should include all of the following elements:
 
 - [ ] LDAP server successfully installed and verified with `ldapsearch`
-- [ ] `structure.ldif` correctly defines People and Groups OUs
-- [ ] Both OUs appear in directory search results (Screenshot 1)
-- [ ] Minimum two user accounts created and searchable (Screenshot 2)
+- [ ] `structure.ldif` correctly defines OUs, `users.ldif` places users in OUs and uses attributes
+- [ ] Both OUs appear in directory search results (Screenshot)
+- [ ] Minimum two user accounts created and searchable (Screenshot)
 - [ ] Written explanation demonstrates understanding of centralized management benefits

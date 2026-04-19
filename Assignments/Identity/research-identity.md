@@ -67,3 +67,18 @@ Pick method category one from the above. Your research must include:
 ## Submission
 
 Create a folder in your course GitHub repository named `identity` with a file named `research-identity.md`. Address requirements from each of the three categories above. Submit the link to your `research-identity.md` to the Dropbox in Pilot.
+
+---
+
+## Rubric
+
+- [ ] Enterprise Identity Provider research: 3 points
+  - Includes platform/vendor info, description, link, and dependencies
+  - Covers pricing model, scalability, and implementation needs
+- [ ] MFA & verification research: 3 points
+  - Describes common platforms/methods, links, and implementation dependencies
+  - Explains cost to implement, including both hardware and software considerations
+- [ ] High-level research themes: 2 points
+  - Identifies category, concern, exploitation status, and response/prevention
+- [ ] Organization and clarity: 2 points
+  - Response is well-structured, uses good markdown formatting

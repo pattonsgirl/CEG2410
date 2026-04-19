@@ -130,6 +130,6 @@ Your submission should include all of the following elements:
 - [ ] LDAP connectivity verified with `ldapsearch` from the client machine
 - [ ] NSS configured to query LDAP (`getent passwd` returns LDAP users)
 - [ ] PAM configured to authenticate against LDAP
-- [ ] Successful login as an LDAP user demonstrated (Screenshot 3)
-- [ ] All required configuration files provided
+- [ ] Successful login as an LDAP user demonstrated (Screenshot)
+- [ ] All required configuration files copied to repository and linked / copied in document
 - [ ] Written explanation includes either troubleshooting steps or explanation of centralized authentication benefits
