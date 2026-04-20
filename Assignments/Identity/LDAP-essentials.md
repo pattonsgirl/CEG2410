@@ -13,21 +13,14 @@ In case of reconfiguration: `sudo dpkg-reconfigure slapd`
 
 The Configuration Menus:
 
-Administrator Password: You will be asked to set a password for the LDAP admin. Do not lose this. This is the password for the cn=admin account used in your ldapadd commands later.
-
-Note: If the installer doesn't ask for details like the domain name, you can force the full menu with: sudo dpkg-reconfigure -plow slapd.
-
-Omit LDAP server configuration? Select No.
-
-DNS Domain Name: Enter class.local. This defines your base as dc=class,dc=local.
-
-Organization Name: You can enter Class or your name.
-
-Database Backend: Select MDB (the modern standard).
-
-Remove database when slapd is purged? Usually No.
-
-Move old database? Select Yes.
+1. Administrator Password: You will be asked to set a password for the LDAP admin. Do not lose this. This is the password for the cn=admin account used in your ldapadd commands later.
+    - Note: If the installer doesn't ask for details like the domain name, you can force the full menu with: sudo dpkg-reconfigure -plow slapd.
+2. Omit LDAP server configuration? Select No.
+3. DNS Domain Name: Enter class.local. This defines your base as dc=class,dc=local.
+4. Organization Name: You can enter Class or your name.
+5. Database Backend: Select MDB (the modern standard).
+6. Remove database when slapd is purged? Usually No.
+7. Move old database? Select Yes.
 
 ## Load it up:
 
@@ -104,17 +97,12 @@ In case of reconfiguration: `sudo dpkg-reconfigure ldap-auth-config`
 
 A series of screens will appear:
 
-LDAP server URI: Change this to ldap://[Your_Server_IP]. Do not use localhost.
-
-Distinguished name of the search base: Enter dc=class,dc=local.
-
-LDAP version: Select 3.
-
-Make local root Database admin: Select Yes.
-
-Does the LDAP database require login? Select No.
-
-LDAP admin account: Leave as is or enter cn=admin,dc=class,dc=local
+1. LDAP server URI: Change this to ldap://[Your_Server_IP]. Do not use localhost.
+2. Distinguished name of the search base: Enter dc=class,dc=local
+3. LDAP version: Select 3.
+4. Make local root Database admin: Select Yes.
+5. Does the LDAP database require login? Select No.
+6. LDAP admin account: Leave as is or enter cn=admin,dc=class,dc=local
 
 ## Checking for communication:
 
