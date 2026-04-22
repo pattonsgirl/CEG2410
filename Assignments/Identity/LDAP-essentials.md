@@ -64,8 +64,8 @@ sn: User
 givenName: Test
 cn: Test User
 uidNumber: 10011
-gidNumber: 10020
-userPassword: {password456}
+gidNumber: 10020 <-- If this GUID does not exist on the client, it will output a warn message--->
+userPassword: {password456} <-- only use special characters if you put them in quotes--->
 homeDirectory: /home/tester
 loginShell: /bin/bash
 ```
@@ -127,4 +127,23 @@ Test for a response: `ldapsearch -x -b "dc=wsukduncan,dc=com" "uid=tester"`
 passwd:         files systemd ldap
 group:          files systemd ldap
 shadow:         files systemd ldap
+```
+
+## Updating PAM
+
+`cat /etc/pam.d/common-auth`
+- Add a line with respect to using ldap for auth.  one of the following:
+- Primary block **add** `auth    [success=1 default=ignore]      pam_ldap.so use_first_pass`
+- Additional block **add** `auth   sufficient                      pam_ldap.so`
+
+
+`sudo pam-auth-update`
+```
+PAM profiles to enable:                                               │
+ │                                                                       │
+ │  [*] Unix authentication                                              │
+ │  [*] LDAP Authentication                                              │
+ │  [*] Register user sessions in the systemd control group ... <--- make sure selected         │
+ │  [*] Create home directory on login                                   │
+ │  [*] Inheritable Capabilities Management 
 ```
