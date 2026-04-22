@@ -147,3 +147,9 @@ PAM profiles to enable:                                               │
  │  [*] Create home directory on login                                   │
  │  [*] Inheritable Capabilities Management 
 ```
+
+## More useful commands
+
+Delete user: `ldapdelete -x -D "cn=admin,dc=wsukduncan,dc=com" -W "uid=gtest,ou=people,dc=wsukduncan,dc=com"`
+Search for a user (assumes ldap connection is configured): `ldapsearch -x -b "dc=wsukduncan,dc=com" "(uid=nana)"`
+Search for a user (`ldap.conf` not yet configured): `ldapsearch -x -H ldap://10.0.1.110 -b "dc=wsukduncan,dc=com" "(uid=tester)"`
