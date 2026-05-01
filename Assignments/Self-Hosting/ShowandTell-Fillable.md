@@ -1,22 +1,7 @@
-In YOUR `ceg2410-youGHUsername` repository, create a report named `final-interviews.md`.
 
-Copy the markdown of the show and tell section into your `final-interviews.md` file.  [Link to raw file](https://raw.githubusercontent.com/pattonsgirl/CEG2410/refs/heads/main/Assignments/Self-Hosting/ShowandTell-Fillable.md)
+### 🎯 Show and Tell Final
 
-Pair up with classmates and discuss your projects.  This will be done 3-5 times, depending on timing.
-
-You will complete the document by interviewing a classmate about their project implementation.
-
-When filling out the document with interviews, use bullet points to organize information. Each section will give some formatting guidance. `Last name` refers to the last name of the student you are interviewing.
-
-You must complete three "rounds". Your are responsible for finding implementers of three unique self-hosted softwares. You may only interview someone else who implemented the same software as you once.
-
-By the end of the exam period, submit the link to this document in your GitHub repository to the Dropbox on Pilot.
-
----
-
-## 🎯 Show and Tell Interviews / Final Exam
-
-### 🌟 Favorite Thing
+#### 🌟 **Favorite Thing**
 
 Add nested item under what their favorite thing is.  If it is not on this list add a new bullet.  
 Nested bullets should be in form: `* Last name`
@@ -26,7 +11,7 @@ Nested bullets should be in form: `* Last name`
 
 ---
 
-### 🖥️ Host OS
+#### 🖥️ **Host OS**
 
 Add nested item under which OS the software is hosted on.  If it is not on this list add a new bullet.  
 Nested bullets should be in form: `* Last name - OS version`
@@ -38,7 +23,7 @@ Nested bullets should be in form: `* Last name - OS version`
 
 ---
 
-### 💾 Software
+#### 💾 **Software**
 
 Add nested item under which software they implemented.  If it is not on this list add a new bullet.  
 Nested bullets should be in form: `* Last name - software version`
@@ -56,7 +41,7 @@ Nested bullets should be in form: `* Last name - software version`
 
 ---
 
-### 🧪 Demo
+#### 🧪 **Demo**
 
 Add nested item how you are interacting with their self-hosted implementation.  If it is not on this list add a new bullet.  
 Nested bullets should be in form: `* Last name - describe what was done to demo`
@@ -65,7 +50,7 @@ Nested bullets should be in form: `* Last name - describe what was done to demo`
 * Joined server
 * Viewed Dashboard
 
-### 💥 Live Troubleshooting
+#### 💥 **Live Troubleshooting**
 
 Add nested item under whether you gave or received help, a new idea, or a suggestion for a fix. 
 Nested bullets should be in form: `* Last name - description`
@@ -77,7 +62,7 @@ Nested bullets should be in form: `* Last name - description`
 
 ---
 
-### 🔐 Security
+#### 🔐 **Security**
 
 Add nested item under each category to evaluate their firewall setup - this is a mix of Network ACLs, Security Groups, and / or system firewalls, per their setup.  
 Nested bullets should be in form: `* Last name - describe your evaluation of POOR or GOOD`
@@ -87,7 +72,7 @@ Nested bullets should be in form: `* Last name - describe your evaluation of POO
 * Firewalls rules reflect POOR requirements around protected ports
 * Firewalls rules reflect POOR requirements around open access ports
 
-### ⚠️ Vulnerability Vectors
+#### ⚠️**Vulnerability Vectors**
 
 Add nested item under each category to evaluate their hosted software for potential vulnerability vectors. If it is not on this list add a new bullet.  
 Nested bullets should be in form: `* Last name - describe how software has this vulnerability`
@@ -99,13 +84,3 @@ Nested bullets should be in form: `* Last name - describe how software has this 
 * Outdated versions of software or dependencies
 
 ---
-
-## Rubric
-
-### Total points: / 5
-
-- [ ] Showed up
-- [ ] Live demonstrated working self-hosted application
-- [ ] Interviews x 3
-- [ ] Good descriptors in host OS, software version, and how software was demo'ed
-- [ ] Good descriptors in Security / vulnerabilities
