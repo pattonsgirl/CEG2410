@@ -1,0 +1,30 @@
+# CEG 2410 – Spring 2026 Course Schedule
+
+*Classes run January 12 – May 1, 2026, per Wright State University's official Spring 2026 academic calendar (first day of classes Jan 12; Spring Break Mar 2–6; final exam period begins Apr 27).*
+
+| Week | Dates | Topics | Assignments Due |
+| --- | --- | --- | --- |
+| 1 | Jan 12–18 | Course overview; roles of the modern sys admin<br>Linux CLI & networking review | **Intro Assignment** — Jan 14<br>**Quiz 0 – Participation Check-In** — Jan 16 |
+| 2 | Jan 19–25<br>*MLK Day observed Jan 19 – no class* | Strategies to develop an IT plan for a small business<br>Physical vs. cloud server management considerations; picking a physical server | **Review Quizzes** — Jan 19 |
+| 3 | Jan 26–Feb 1 | Cloud network design, firewall implementation, virtual machine management | — |
+| 4 | Feb 2–8 | Cloud network design, firewall implementation, virtual machine management (cont.) | **Network Plan** — Feb 2 |
+| 5 | Feb 9–15 | Cloud network design, firewall implementation, virtual machine management (cont.) | **Firewall Categories** — Feb 13 |
+| 6 | Feb 16–22 | SSH & SFTP, Web hosting, HTTPS & TLS, DNS<br>Designing and implementing permission strategies (chroot jails) | **dotfiles – Task 1: vim & Vundle** — Feb 20 |
+| 7 | Feb 23–Mar 1 | SSH & SFTP, Web hosting, HTTPS & TLS, DNS, permission strategies (cont.) | **AWS – Setup & Firewall Config** — Feb 23<br>**Web Site Portfolio** — Feb 27 |
+| — | Mar 2–6 | *Spring Break — No Class* | — |
+| 8 | Mar 9–15 | Data management: implement & manage RAID array, deploy automated backup strategies, data recovery exercises, investigation of data recovery strategies | **Web Hosting – Planning Phase** — Mar 9<br>**HTTP Configuration** — Mar 14 |
+| 9 | Mar 16–22 | Data management (cont.) | **dotfiles – Task 2: bashrc** — Mar 16<br>**Planning Part 2 – HTTPS** — Mar 20<br>**Permission Configuration** — Mar 21 |
+| 10 | Mar 23–29 | Cloud storage; service models and pricing tiers | **HTTPS Configuration** — Mar 25<br>**Planning – RAID** — Mar 27 |
+| 11 | Mar 30–Apr 5 | Compliance, logs, audits, and NIST | **Configuration – RAID** — Mar 30<br>**Integrating RAID Storage with Apache/Nginx** — Mar 31<br>**Automated Backups – RAID** — Apr 2<br>**Personal Backup Strategy** — Apr 3<br>**S3 Static Websites** — Apr 3 |
+| 12 | Apr 6–12 | Scripting toolkits: environment management, package management, and task automation (bash focus; Python & PowerShell exploration) | **dotfiles – Task 3: managing installs** — Apr 10<br>**Backups – S3** — Apr 10 |
+| 13 | Apr 13–19 | Identity management, forms of authentication, implementing & integrating a directory service | **Research – Identity** — Apr 15<br>**dotfiles – Peer Review** — Apr 17 |
+| 14 | Apr 20–26 | Instructor preference (e.g., asset management: cloning, deployment, Ansible) | **LDAP – Setup** — Apr 20<br>**LDAP – Client** — Apr 22<br>**dotfiles – Task 4: polish & documentation** — Apr 24 |
+| 15 | Apr 27–May 1 | Final examination / presentations | **Self-Hosted Application** — Apr 30, 10:00 AM<br>**Final Exam Block (10:15 AM–12:15 PM) – Show and Tell** — May 1, 12:15 PM |
+
+## Notes
+
+- Topics are a loose week-by-week outline and may shift slightly in delivery; assignment due dates above are fixed.
+- Multi-step labs (e.g., Web Hosting, RAID/Data Management, Identity/LDAP) are often due one to two weeks after the topic is first introduced, once build/configuration time is accounted for — due dates reflect this build time, not a change in topic.
+- The dotfiles project (Tasks 1–4 and Peer Review) runs in parallel across the whole semester rather than in a single dedicated week.
+- All assignments are due 11:59 PM on the listed date unless otherwise noted (Self-Hosted Application and the Final Exam block have specific times above).
+
